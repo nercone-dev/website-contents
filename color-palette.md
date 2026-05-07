@@ -7,8 +7,8 @@ description: Nerconeが制作したカラーパレット
 ---
 
 <div class="flex flex-wrap">
-    <img src="/assets/images/color-palette/2001.png" style="max-height: 256px; max-width: 100%; border-radius: 6px;">
-    <img src="/assets/images/color-palette/2011.png" style="max-height: 256px; max-width: 100%; border-radius: 6px;">
+    <img src="/assets/images/palettes/2001.png" style="max-height: 256px; max-width: 100%; border-radius: 6px;">
+    <img src="/assets/images/palettes/2011.png" style="max-height: 256px; max-width: 100%; border-radius: 6px;">
 </div>
 
 ## Nercone's Color Palette
