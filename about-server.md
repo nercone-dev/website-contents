@@ -38,7 +38,7 @@ SSLの全バージョンを含む、TLS 1.1以前のSSL/TLSは無効化してい
 以前までお名前.comを使用していましたが、Cloudflareに移管しました。
 
 ### DNSサーバー
-Cloudflareのレジストラ移管前から、ずっとCloudflareを使用しています。
+ドメイン移管前から、ずっとCloudflareを使用しています。
 
 ### サーバー(物理)
 GCPのCompute Engineを使用しています。マシンタイプはe2-mediumです。
