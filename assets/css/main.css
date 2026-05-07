@@ -124,6 +124,40 @@ code {
     font-style: normal;
 }
 
+/* Table */
+table {
+    background-color: var(--color-bright-dark-grey);
+    border-collapse: collapse;
+    border-radius: 6px;
+    overflow: hidden;
+    width: 100%;
+    margin-bottom: 16px;
+    font-size: smaller;
+}
+thead tr {
+    background-color: var(--color-bright-dark-grey-alt);
+}
+th {
+    color: var(--color-white);
+    font-weight: 600;
+    padding: 8px 12px;
+    text-align: left;
+    border-bottom: 2px solid var(--color-light-grey);
+}
+td {
+    padding: 8px 12px;
+    border-bottom: 1px solid var(--color-bright-dark-grey-alt);
+}
+tbody tr:last-child td {
+    border-bottom: none;
+}
+tbody tr:hover {
+    background-color: var(--color-bright-dark-grey);
+}
+.block table {
+    margin-bottom: 0;
+}
+
 /* Fonts */
 @font-face {
     font-family: "MesloLGS Nerd Font";
