@@ -44,7 +44,7 @@ SSLの全バージョンを含む、TLS 1.1以前のSSL/TLSは無効化してい
 GCPのCompute Engineを使用しています。マシンタイプはe2-mediumです。
 
 リージョンはasia-northeast2 (大阪)です。
-日本なのでレイテンシが低く、かつ東京よりは安いためです。
+日本なのでレイテンシが低く、かつ東京より安いためです。
 
 LinuxディストリビューションはAlmaLinux 10を使用しています。
 AlmaLinux 9.7からELevateでアップグレードしました。
