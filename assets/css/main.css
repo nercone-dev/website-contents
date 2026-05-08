@@ -18,7 +18,7 @@ body {
 }
 
 header {
-    view-transition-name: header;
+    view-transition-name: header-content;
     will-change: transform;
     background-image: transparent;
     backdrop-filter: blur(16px);
@@ -519,6 +519,8 @@ s {
     to   { filter: blur(0px); }
 }
 @media (prefers-reduced-motion: reduce) {
+    ::view-transition-old(header-content),
+    ::view-transition-new(header-content),
     ::view-transition-old(main-content),
     ::view-transition-new(main-content),
     ::view-transition-old(footer-content),
