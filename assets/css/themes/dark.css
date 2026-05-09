@@ -4,7 +4,7 @@
     --color-theme-text: var(--color-bright-light-grey-alt);
     --color-theme-text-alt: var(--color-light-grey-alt);
     --color-theme-text-headline: var(--color-white);
-    --color-theme-text-headline-underline: var(--color-dark-grey-alt);
+    --color-theme-text-headline-underline: var(--color-bright-dark-grey);
 
     --color-theme-background: var(--color-dark-grey);
     --color-theme-background-pre: var(--color-dark-grey-alt);
