@@ -112,6 +112,10 @@ s {
     font-weight: 1000;
 }
 
+.font-number {
+  font-variant-numeric: tabular-nums;
+}
+
 .text-no-decoration {
     text-decoration: none;
 }
