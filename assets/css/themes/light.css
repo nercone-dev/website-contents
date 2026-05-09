@@ -4,11 +4,11 @@
     --color-theme-text: var(--color-dark-grey);
     --color-theme-text-alt: var(--color-light-grey-alt);
     --color-theme-text-headline: var(--color-black);
-    --color-theme-text-headline-underline: var(--color-bright-dark-grey);
+    --color-theme-text-headline-underline: var(--color-bright-light-grey);
 
-    --color-theme-background: var(--color-bright-light-grey-alt);
-    --color-theme-background-pre: var(--color-white);
-    --color-theme-background-alt: var(--color-bright-light-grey);
+    --color-theme-background: var(--color-white);
+    --color-theme-background-pre: color-mix(in srgb, var(--color-black) 12.5%, transparent);
+    --color-theme-background-alt: transparent;
 
     --color-theme-background-table-top: var(--color-light-grey);
     --color-theme-background-table-row: var(--color-light-grey-alt);
@@ -16,6 +16,10 @@
     --color-theme-border-table-top: var(--color-bright-light-grey);
     --color-theme-border-table-row: var(--color-bright-light-grey);
 
-    --color-theme-background-cursor: color-mix(in srgb, var(--color-black) 75%, transparent);
-    --color-theme-background-cursor-on-link: color-mix(in srgb, var(--color-black) 25%, transparent);
+    --color-theme-background-cursor: color-mix(in srgb, var(--color-black) 25%, transparent);
+    --color-theme-background-cursor-on-link: color-mix(in srgb, var(--color-black) 12.5%, transparent);
+}
+
+.block {
+    border: 2px solid color-mix(in srgb, var(--color-black) 12.5%, transparent);
 }
