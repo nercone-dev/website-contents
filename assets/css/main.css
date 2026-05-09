@@ -19,7 +19,7 @@ body {
 
 header {
     will-change: transform;
-    background-image: transparent;
+    background-image: color-mix(in srgb, var(--color-theme-background) 25%, transparent);
     backdrop-filter: blur(16px);
     position: fixed;
     top: 0;
