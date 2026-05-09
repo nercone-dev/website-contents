@@ -8,7 +8,7 @@ description: nercone.devのサーバーの詳細情報
 ---
 
 # nercone.dev ({{ server_version }}+{{ contents_version }})
-nercone.devへのHTTP(S)リクエストは、Python+(Uvicorn+)FastAPIスタックで構築されたWebサーバーによって処理されています。
+nercone.devへのHTTP(S)リクエストは、Python+Uvicorn+FastAPIで構築されたWebサーバーによって処理されています。
 
 TLS対応などの理由で間に噛ませているNginxに関するものや、機密情報などを除いて、全ての箇所がGitHubで公開されています。
 

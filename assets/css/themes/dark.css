@@ -16,6 +16,6 @@
     --color-theme-border-table-top: var(--color-light-grey);
     --color-theme-border-table-row: var(--color-bright-dark-grey-alt);
 
-    --color-theme-background-cursor: color-mix(in srgb, var(--color-bright-light-grey-alt) 75%, transparent);
-    --color-theme-background-cursor-on-link: color-mix(in srgb, var(--color-bright-light-grey-alt) 25%, transparent);
+    --color-theme-background-cursor: color-mix(in srgb, var(--color-white) 75%, transparent);
+    --color-theme-background-cursor-on-link: color-mix(in srgb, var(--color-white) 25%, transparent);
 }
