@@ -19,7 +19,7 @@ body {
 
 header {
     will-change: transform;
-    background-image: color-mix(in srgb, var(--color-theme-background) 75%, transparent);
+    background-color: color-mix(in srgb, var(--color-theme-background) 75%, transparent);
     backdrop-filter: blur(16px);
     position: fixed;
     top: 0;
@@ -33,6 +33,7 @@ header {
 }
 @supports (-webkit-backdrop-filter: blur(1px)) {
     header {
+        background-color: transparent;
         background-image: linear-gradient(to bottom, var(--color-theme-background), transparent);
     }
 }
