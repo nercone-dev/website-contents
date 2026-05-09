@@ -1,0 +1,21 @@
+:root {
+    --color-theme-stark: var(--color-black);
+
+    --color-theme-text: var(--color-dark-grey);
+    --color-theme-text-alt: var(--color-dark-grey-alt);
+    --color-theme-text-headline: var(--color-black);
+    --color-theme-text-headline-underline: var(--color-bright-dark-grey-alt);
+
+    --color-theme-background: var(--color-white);
+    --color-theme-background-pre: var(--color-bright-light-grey-alt);
+    --color-theme-background-alt: var(--color-bright-light-grey);
+
+    --color-theme-background-table-top: var(--color-light-grey);
+    --color-theme-background-table-row: var(--color-light-grey-alt);
+    --color-theme-background-table-row-hover: var(--color-bright-light-grey);
+    --color-theme-border-table-top: var(--color-bright-light-grey);
+    --color-theme-border-table-row: var(--color-bright-light-grey);
+
+    --color-theme-background-cursor: color-mix(in srgb, var(--color-dark-grey) 75%, transparent);
+    --color-theme-background-cursor-on-link: color-mix(in srgb, var(--color-dark-grey) 25%, transparent);
+}

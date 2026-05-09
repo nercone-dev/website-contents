@@ -44,8 +44,18 @@
         <link rel="icon" type="image/svg+xml" href="https://assets.nercone.dev/images/favicon.svg" sizes="1200x1200">
         <!-- Stylesheets / Scripts -->
         <script src="/assets/js/main.js" defer></script>
+        <script src="/assets/js/cursor.js" defer></script>
+        <script src="/assets/js/loading-overlay.js" defer></script>
+        <script src="/assets/js/view-transition.js" defer></script>
+        <script src="/assets/js/class-prefix.js" defer></script>
         <link rel="stylesheet" href="/assets/css/main.css">
-        <link rel="stylesheet" href="/assets/css/google-fonts.css">
+        <link rel="stylesheet" href="/assets/css/colors.css">
+        <link rel="stylesheet" href="/assets/css/cursor.css">
+        <link rel="stylesheet" href="/assets/css/fonts.css">
+        <link rel="stylesheet" href="/assets/css/loading-overlay.css">
+        <link rel="stylesheet" href="/assets/css/responsive.css">
+        <link rel="stylesheet" href="/assets/css/view-transition.css">
+        <link rel="stylesheet" href="/assets/css/themes/dark.css">
         {% block extra_head %}{% endblock %}
     </head>
     {% block custom_body %}
@@ -59,7 +69,7 @@
         {% block custom_header %}
         <header class="flex">
             <div class="flex-1 flex">
-                <a href="/" class="text-no-decoration text-white" style="gap: 8px;" translate="no">{% block title_prefix %}{% endblock %}{% block title_prefix_separator %} {% endblock %}<span class="font-bold">Nercone</span>{% block title_suffix_separator %} {% endblock %}{% block title_suffix %}{% endblock %}</a>
+                <a href="/" class="text-no-decoration text-stark" style="gap: 8px;" translate="no">{% block title_prefix %}{% endblock %}{% block title_prefix_separator %} {% endblock %}<span class="font-bold">Nercone</span>{% block title_suffix_separator %} {% endblock %}{% block title_suffix %}{% endblock %}</a>
                 <p class="hide show-on-medium show-on-large">{% block header_desc %}<a href="/daily-quote/" class="text-no-decoration">{{ get_daily_quote() }}</a>{% endblock %}</p>
             </div>
             <div class="flex">
@@ -70,7 +80,7 @@
         {% endblock %}
         <main>{% block content %}{% endblock %}</main>
         {% block custom_footer %}
-        <footer class="flex text-bright-light-grey">
+        <footer class="flex text-alt">
             <div class="flex-1 flex">
                 <a href="/" class="text-no-decoration hide show-on-medium show-on-large font-bold" translate="no">{% block footer_domain_prefix %}{% endblock %}nercone.dev{% block footer_domain_suffix %}{% endblock %}</a>
                 {% block footer_links %}

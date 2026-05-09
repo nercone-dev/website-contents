@@ -1,0 +1,182 @@
+@import "https://assets.nercone.dev/css/google-fonts.css";
+
+@font-face {
+    font-family: "MesloLGS Nerd Font";
+    font-style: normal;
+    font-weight: 400;
+    src:
+        local("MesloLGS Nerd Font"),
+        url("https://assets.nercone.dev/fonts/MesloLGSNerdFont-Regular.woff2") format("woff2")
+}
+@font-face {
+    font-family: "MesloLGS Nerd Font";
+    font-style: normal;
+    font-weight: 700;
+    src:
+        local("MesloLGS Nerd Font"),
+        url("https://assets.nercone.dev/fonts/MesloLGSNerdFont-Bold.woff2") format("woff2")
+}
+@font-face {
+    font-family: "MesloLGS Nerd Font";
+    font-style: italic;
+    font-weight: 400;
+    src:
+        local("MesloLGS Nerd Font"),
+        url("https://assets.nercone.dev/fonts/MesloLGSNerdFont-Italic.woff2") format("woff2")
+}
+@font-face {
+    font-family: "MesloLGS Nerd Font";
+    font-style: italic;
+    font-weight: 700;
+    src:
+        local("MesloLGS Nerd Font"),
+        url("https://assets.nercone.dev/fonts/MesloLGSNerdFont-BoldItalic.woff2") format("woff2")
+}
+
+a {
+    text-decoration: underline;
+    color: inherit;
+}
+b {
+    font-weight: 700;
+}
+i {
+    font-style: italic;
+}
+u {
+    text-decoration: underline;
+}
+s {
+    text-decoration: line-through;
+}
+
+.font-thin {
+    font-weight: 100;
+}
+.font-extralight {
+    font-weight: 200;
+}
+.font-light {
+    font-weight: 300;
+}
+.font-regular {
+    font-weight: 400;
+}
+.font-medium {
+    font-weight: 500;
+}
+.font-semibold {
+    font-weight: 600;
+}
+.font-bold {
+    font-weight: 700;
+}
+.font-extrabold {
+    font-weight: 800;
+}
+.font-black {
+    font-weight: 900;
+}
+.font-extrablack {
+    font-weight: 1000;
+}
+
+.font-weight-100 {
+    font-weight: 100;
+}
+.font-weight-200 {
+    font-weight: 200;
+}
+.font-weight-300 {
+    font-weight: 300;
+}
+.font-weight-400 {
+    font-weight: 400;
+}
+.font-weight-500 {
+    font-weight: 500;
+}
+.font-weight-600 {
+    font-weight: 600;
+}
+.font-weight-700 {
+    font-weight: 700;
+}
+.font-weight-800 {
+    font-weight: 800;
+}
+.font-weight-900 {
+    font-weight: 900;
+}
+.font-weight-1000 {
+    font-weight: 1000;
+}
+
+.text-no-decoration {
+    text-decoration: none;
+}
+.text-italic {
+    font-style: italic;
+}
+.text-underline {
+    text-decoration: underline;
+}
+.text-overline {
+    text-decoration: overline;
+}
+.text-line-through {
+    text-decoration: line-through;
+}
+
+.font-xx-small {
+    font-size: xx-small;
+}
+.font-x-small {
+    font-size: x-small;
+}
+.font-small {
+    font-size: small;
+}
+.font-medium {
+    font-size: medium;
+}
+.font-large {
+    font-size: large;
+}
+.font-x-large {
+    font-size: x-large;
+}
+.font-xx-large {
+    font-size: xx-large;
+}
+.font-xxx-large {
+    font-size: xxx-large;
+}
+.font-smaller {
+    font-size: smaller;
+}
+.font-larger {
+    font-size: larger;
+}
+
+.font-inter {
+    font-family: "Inter";
+}
+.font-bizud {
+    font-family: "BIZ UDGothic";
+}
+.font-nsajp {
+    font-family: "Noto Sans JP";
+}
+.font-nsatc {
+    font-family: "Noto Sans TC";
+}
+.font-nsasc {
+    font-family: "Noto Sans SC";
+}
+.font-nsakr {
+    font-family: "Noto Sans KR";
+}
+.font-meslo {
+    font-family: "MesloLGS Nerd Font";
+}
