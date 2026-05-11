@@ -34,7 +34,8 @@ SSLの全バージョンを含む、TLS 1.1以前のSSL/TLSは無効化してい
 
 ### コンテンツ ([github.com:nercone-dev/website-contents](https://github.com/nercone-dev/website-contents/)@[{{ contents_version }}]({{ "https://github.com/nercone-dev/website-contents/commit/" + contents_version }}))
 `2026-05-07T11:20:07Z`に作成したコミット`5d34750f671af4a2e2682d20affa0e94af8b664e`から、このWebサイトのページやアセットなどのほとんどのコンテンツはこちらで管理しています。
-以前はコンテンツをサーバーの`/public`にそのまま配置していましたが、現在は`git submodule`を使用してリポジトリを分離しています。
+
+以前はサーバーの`/public`にそのまま配置していましたが、現在は`git submodule`を使用してリポジトリを分離しています。
 
 ## その他の情報
 
