@@ -209,11 +209,9 @@
             <p>少し待ってから、ページを再読み込みしてください。<br class="br-mobile">HTTP レスポンスステータスコードは <span id="js-status">502</span> です。</p>
         </div>
         <script>
-            const p = new URLSearchParams(location.search);
-            const host = p.get('host');
-            const status = p.get('status');
-            if (host) document.getElementById('js-host').textContent = host;
-            if (status) document.getElementById('js-status').textContent = status;
+            document.getElementById('js-host').textContent = location.hostname;
+            const nav = performance.getEntriesByType('navigation')[0];
+            if (nav?.responseStatus) document.getElementById('js-status').textContent = nav.responseStatus;
         </script>
     </body>
 </html>
