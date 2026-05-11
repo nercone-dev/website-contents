@@ -15,7 +15,7 @@ description: nercone.devのMarkdownファイル処理のテストページです
 
 ###### H6
 
-**太字** *斜体(イタリック)*
+**太字** *斜体* ~~取り消し線~~
 
 インラインコード`markdown.code(.inline)`のテスト
 

@@ -29,7 +29,7 @@ SSLの全バージョンを含む、TLS 1.1以前のSSL/TLSは無効化してい
 ## リポジトリ
 
 ### サーバー ([github.com:nercone-dev/website](https://github.com/nercone-dev/website/)@[{{ server_version }}]({{ "https://github.com/nercone-dev/website/commit/" + server_version }}))
-途中でGiteaに移動したり戻したり<s>ラジバンダリ</s>しましたが、現時点でサーバーのソースコードはここで管理しています。
+途中でGiteaに移動したり戻したり~~ラジバンダリ~~しましたが、現時点でサーバーのソースコードはここで管理しています。
 やっぱりGitHubが一番落ち着くんです。
 
 ### コンテンツ ([github.com:nercone-dev/website-contents](https://github.com/nercone-dev/website-contents/)@[{{ contents_version }}]({{ "https://github.com/nercone-dev/website-contents/commit/" + contents_version }}))
@@ -57,7 +57,7 @@ AlmaLinux 9.7からELevateでアップグレードしました。
 アップグレード後にいくつか問題は発生しましたが、いろいろ試していたら直りました。
 とりあえず問題はなさそうですが、不安定になったらすぐ作り直そうと思います。
 
-<s>本当は気持ち悪いのですぐにでも作り直したいけれどいろいろと面倒なので後回しにしているだけです</s>
+~~本当は気持ち悪いのですぐにでも作り直したいけれどいろいろと面倒なので後回しにしているだけです~~
 
 ### メールサーバー
 GCPだと上りの25/tcpポートがスパム対策かなんかでブロックされるので、メールだけ別で用意したXServerのVPSで処理させています。
