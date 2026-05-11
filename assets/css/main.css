@@ -102,6 +102,13 @@ section {
     flex-wrap: wrap;
 }
 
+.no-top-margin {
+    margin-top: 0px;
+}
+.no-bottom-margin {
+    margin-bottom: 0px;
+}
+
 .hide {
     display: none;
 }

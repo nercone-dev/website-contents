@@ -4,11 +4,12 @@ title_suffix: "'s Color Palette"
 title_suffix_separator: ""
 header_desc: ただのカラーパレット
 description: Nerconeが制作したカラーパレット
+extra_head: <link rel="stylesheet" href="/assets/css/pages/color-palette.css">
 ---
 
 <div class="flex flex-wrap">
-    <img src="/assets/images/palettes/2001.png" style="max-height: 256px; max-width: 100%; border-radius: 6px;">
-    <img src="/assets/images/palettes/2011.png" style="max-height: 256px; max-width: 100%; border-radius: 6px;">
+    <img src="/assets/images/palettes/2001.png">
+    <img src="/assets/images/palettes/2011.png">
 </div>
 
 ## Nercone's Color Palette
