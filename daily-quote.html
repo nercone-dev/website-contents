@@ -6,12 +6,8 @@
         <link rel="stylesheet" href="/assets/css/pages/big-text.css">
 {% endblock %}
 {% block main %}
-            <div class="flex-1 flex flex-vertical">
-                <div class="flex-1">
-                    <p class="text-stark big-text"><span class="text-alt unselectable" translate="no">"</span>{{ get_daily_quote() }}<span class="text-alt unselectable" translate="no">"</span></p>
-                </div>
-                <div class="block">
-                    <p>日替わり迷言集です。毎日0:00 UTCに更新されます。</p>
-                </div>
+            <p class="text-stark big-text"><span class="text-alt unselectable" translate="no">"</span>{{ get_daily_quote() }}<span class="text-alt unselectable" translate="no">"</span></p>
+            <div class="block">
+                <p>日替わり迷言集です。毎日0:00 UTCに更新されます。</p>
             </div>
 {% endblock %}
