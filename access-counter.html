@@ -7,7 +7,9 @@
 {% endblock %}
 {% block main %}
             <div class="flex flex-vertical">
-                <p class="flex-1 text-stark big-text"><span class="text-alt unselectable" translate="no">#</span>{{ get_access_count() }}</p>
+                <div class="flex-1">
+                    <p class="text-stark big-text"><span class="text-alt unselectable" translate="no">#</span>{{ get_access_count() }}</p>
+                </div>
                 <div class="block">
                     <p>ただのアクセスカウンターです。</p>
                     <p>誰かがこのサイトのページへのアクセスに成功した場合に自動的に1増えます</p>
