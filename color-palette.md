@@ -20,9 +20,11 @@ Nerconeが制作したカラーパレットです。
 当たり前ですが色は誰のものでもないので、カラーパレットのそれぞれの色について著作権表記は不要です。
 
 ### 2001 / 2011
-RGBからCMYKへの変換にはPillowを使用していて、内蔵のsRGBプロファイルと、Japan Color様により配布されているICCプロファイルを使用しています。
+RGBからCMYKへの変換にはPillowを使用しました。
 
-それぞれ、Nercone's Color Palette (2001)は**Japan Color 2001 Coated**、Nercone's Color Palette (2011)は**Japan Color 2011 Coated**を使用しています。
+`ImageCms.createProfile("sRGB")`で取得できる内蔵のsRGBプロファイルと、Japan Color様により配布されているCMYKプロファイルを使用しています。
+
+それぞれ、Nercone's Color Palette (2001)はCMYKプロファイルとして**Japan Color 2001 Coated**、Nercone's Color Palette (2011)は**Japan Color 2011 Coated**を使用しています。
 
 現在は2011の方が主流らしいです。
 

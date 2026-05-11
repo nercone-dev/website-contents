@@ -3,13 +3,7 @@
 {% block title_suffix %}QR Code{% endblock %}
 {% block header_desc %}このサイトのトップページのQRコードです{% endblock %}
 {% block extra_head %}
-        <style>
-            main {
-                display: flex;
-                justify-content: center;
-                align-items: center;
-            }
-        </style>
+        <link rel="stylesheet" href="/assets/css/pages/qr-code.css">
 {% endblock %}
 {% block main %}
             <img src="/assets/images/qr_code.svg" width="256" height="256">
