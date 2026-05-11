@@ -5,7 +5,6 @@
   "bluesky": {"type": "redirect", "content": "https://bsky.app/profile/nercone.dev/"},
   "youtube": {"type": "redirect", "content": "https://youtube.com/@nercone-ch/"},
   "nicovideo": {"type": "redirect", "content": "https://nicovideo.jp/user/132818887/"},
-  "gitea": {"type": "redirect", "content": "https://gitea.nercone.dev/nercone-dev/"},
   "qiita": {"type": "redirect", "content": "https://qiita.com/DiamondGotCat/"},
   "zenn": {"type": "redirect", "content": "https://zenn.dev/techcat56/"},
   "orcid": {"type": "redirect", "content": "https://orcid.org/0009-0001-3615-0962/"},
