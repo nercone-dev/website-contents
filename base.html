@@ -53,7 +53,6 @@
         <link rel="stylesheet" href="/assets/css/cursor.css">
         <link rel="stylesheet" href="/assets/css/fonts.css">
         <link rel="stylesheet" href="/assets/css/loading-overlay.css">
-        <link rel="stylesheet" href="/assets/css/responsive.css">
         <link rel="stylesheet" href="/assets/css/view-transition.css">
         <link rel="stylesheet" href="/assets/css/themes/dark.css">
         {% block extra_head %}{% endblock %}
@@ -70,11 +69,11 @@
         <header class="flex">
             <div class="flex-1 flex">
                 <a href="/" class="text-no-decoration text-stark" style="gap: 8px;" translate="no">{% block title_prefix %}{% endblock %}{% block title_prefix_separator %} {% endblock %}<span class="font-bold">Nercone</span>{% block title_suffix_separator %} {% endblock %}{% block title_suffix %}{% endblock %}</a>
-                <p class="hide show-on-medium show-on-large">{% block header_desc %}<a href="/daily-quote/" class="text-no-decoration">{{ get_daily_quote() }}</a>{% endblock %}</p>
+                <p class="hide medium:show large:show">{% block header_desc %}<a href="/daily-quote/" class="text-no-decoration">{{ get_daily_quote() }}</a>{% endblock %}</p>
             </div>
             <div class="flex">
-                <a href="/access-counter/" class="text-no-decoration hide show-on-small bold-on-small">#{{ get_access_count() }}</a>
-                <a href="/access-counter/" class="text-no-decoration hide show-on-medium show-on-large">あなたは{{ get_access_count() }}番目の訪問者です。</a>
+                <a href="/access-counter/" class="text-no-decoration hide small:show small:font-bold">#{{ get_access_count() }}</a>
+                <a href="/access-counter/" class="text-no-decoration hide medium:show large:show">あなたは{{ get_access_count() }}番目の訪問者です。</a>
             </div>
         </header>
         {% endblock %}
@@ -82,15 +81,15 @@
         {% block footer %}
         <footer class="flex text-alt">
             <div class="flex-1 flex">
-                <a href="/" class="text-no-decoration hide show-on-medium show-on-large font-bold" translate="no">{% block footer_domain_prefix %}{% endblock %}nercone.dev{% block footer_domain_suffix %}{% endblock %}</a>
+                <a href="/" class="text-no-decoration hide medium:show large:show font-bold" translate="no">{% block footer_domain_prefix %}{% endblock %}nercone.dev{% block footer_domain_suffix %}{% endblock %}</a>
                 {% block footer_links %}
-                <a href="/about/" class="text-no-decoration bold-on-small">about</a>
-                <a href="/links/" class="text-no-decoration bold-on-small">links</a>
-                <a href="/projects/" class="text-no-decoration bold-on-small">projects</a>
-                <a href="{{ onion_site_url }}" class="text-no-decoration hide show-on-large">onion</a>
-                <a href="mailto:nercone@nercone.dev" class="text-no-decoration hide show-on-large">email</a>
-                <a href="/public-key/" class="text-no-decoration hide show-on-large">public-key</a>
-                <a href="/vulnerability-reporters/" class="text-no-decoration hide show-on-large">vulnerability-reporters</a>
+                <a href="/about/" class="text-no-decoration small:font-bold">about</a>
+                <a href="/links/" class="text-no-decoration small:font-bold">links</a>
+                <a href="/projects/" class="text-no-decoration small:font-bold">projects</a>
+                <a href="{{ onion_site_url }}" class="text-no-decoration hide large:show">onion</a>
+                <a href="mailto:nercone@nercone.dev" class="text-no-decoration hide large:show">email</a>
+                <a href="/public-key/" class="text-no-decoration hide large:show">public-key</a>
+                <a href="/vulnerability-reporters/" class="text-no-decoration hide large:show">vulnerability-reporters</a>
                 {% block extra_footer_links %}{% endblock %}
                 {% endblock %}
             </div>
@@ -101,7 +100,7 @@
                 <a href="https://nercone.dev/qiita/"><img alt="qiita" src="/assets/images/icons/social/qiita.svg" class="small-icon"></a>
                 <a href="https://nercone.dev/zenn/"><img alt="zenn" src="/assets/images/icons/social/zenn.svg" class="small-icon"></a>
                 <!--                         qiita            kotonai -->
-                <a href="/about-server/" class="font-bold text-no-decoration hide show-on-medium show-on-large" translate="no">{{ contents_version }}</a>
+                <a href="/about-server/" class="font-bold text-no-decoration hide medium:show large:show" translate="no">{{ contents_version }}</a>
             </div>
         </footer>
         {% endblock %}

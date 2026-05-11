@@ -102,6 +102,13 @@ section {
     flex-wrap: wrap;
 }
 
+.hide {
+    display: none;
+}
+.show {
+    display: block;
+}
+
 /* Code */
 pre {
     background-color: var(--color-theme-background-pre);
