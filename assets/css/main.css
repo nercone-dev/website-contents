@@ -120,6 +120,7 @@ pre {
 }
 
 code {
+    padding: 2px;
     font-family: "MesloLGS Nerd Font", "BIZ UDGothic", monospace;
     font-optical-sizing: auto;
     font-style: normal;
