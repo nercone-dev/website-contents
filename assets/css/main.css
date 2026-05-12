@@ -41,7 +41,6 @@ header {
 main {
     padding: 24px;
     padding-top: 60px;
-    padding-bottom: 0px;
     flex: 1;
 }
 main > *:first-child {
