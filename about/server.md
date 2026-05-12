@@ -1,8 +1,8 @@
 ---
 title: サーバーについて - Nercone
-title_prefix: About
-title_suffix: "'s Web Server"
-title_suffix_separator: ""
+header_title_prefix: About
+header_title_suffix: "'s Web Server"
+header_title_suffix_separator: ""
 header_desc: このサーバーの詳細情報
 description: nercone.devのサーバーの詳細情報
 ---

@@ -68,7 +68,7 @@
         {% block header %}
         <header class="flex">
             <div class="flex-1 flex">
-                <a href="/" class="text-no-decoration text-stark" translate="no">{% block title_prefix %}{% endblock %}{% block title_prefix_separator %} {% endblock %}<span class="font-bold">Nercone</span>{% block title_suffix_separator %} {% endblock %}{% block title_suffix %}{% endblock %}</a>
+                <a href="/" class="text-no-decoration text-stark" translate="no">{% block header_title_prefix %}{% endblock %}{% block header_title_prefix_separator %} {% endblock %}<span class="font-bold">{% block header_title_infix %}Nercone{% endblock %}</span>{% block header_title_suffix_separator %} {% endblock %}{% block header_title_suffix %}{% endblock %}</a>
                 <p class="hide medium:show large:show">{% block header_desc %}<a href="/daily-quote/" class="text-no-decoration">{{ get_daily_quote() }}</a>{% endblock %}</p>
             </div>
             <div class="flex">

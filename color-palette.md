@@ -1,7 +1,7 @@
 ---
 title: Nercone's Color Palette
-title_suffix: "'s Color Palette"
-title_suffix_separator: ""
+header_title_suffix: "'s Color Palette"
+header_title_suffix_separator: ""
 header_desc: ただのカラーパレット
 description: Nerconeが制作したカラーパレット
 extra_head: <link rel="stylesheet" href="/assets/css/pages/color-palette.css">
