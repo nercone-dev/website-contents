@@ -9,7 +9,7 @@
     width: 220px;
     flex-shrink: 0;
     background-color: var(--color-theme-background-alt);
-    padding: 16px;
+    padding: 8px;
     position: sticky;
     top: 80px;
     max-height: calc(100vh - 80px);
