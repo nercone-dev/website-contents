@@ -27,7 +27,6 @@
     background: var(--color-theme-background-cursor);
 }
 #cursor.on-link {
-    border-radius: 6px;
     background: var(--color-theme-background-cursor-on-link);
     transform: translate(0, 0);
 }
