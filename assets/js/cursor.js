@@ -1,5 +1,5 @@
 (() => {
-    const textSelectors = 'p, h1, h2, h3, h4, h5, h6, span, li, label, td, th, pre, .code';
+    const textSelectors = 'p, b, h1, h2, h3, h4, h5, h6, span, li, label, td, th, pre, .code';
     const linkSelectors = 'a, button, [role="button"], input[type="submit"], input[type="button"]';
     const padding = 6;
 
