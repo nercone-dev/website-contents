@@ -75,7 +75,7 @@ section {
 blockquote {
     border-left: solid 4px var(--color-theme-background-alt);
     padding: 16px 16px;
-    margin-bottom: 16px;
+    margin: 0 0 16px 0;
 }
 
 .block {
