@@ -164,6 +164,9 @@ pre {
     font-style: normal;
 }
 .block pre {
+    background-color: var(--color-theme-background);
+}
+.block > pre:last-child {
     margin-bottom: 20px;
 }
 
