@@ -1,0 +1,53 @@
+{% extends "/base.html" %}
+{% block title %}Sidebar Test - Nercone{% endblock %}
+{% block description %}nercone.devのサイドバーレイアウトのテストページです。{% endblock %}
+{% block main %}
+            <h1>サイドバーレイアウトのテスト</h1>
+
+            <div class="sidebar-layout">
+                <aside class="sidebar">
+                    <p class="sidebar-title">このページ内</p>
+                    <nav>
+                        <a href="#lorem-ipsum">Lorem ipsum</a>
+                        <a href="#alerts">アラート</a>
+                    </nav>
+                </aside>
+
+                <div class="sidebar-content">
+                    <div class="block block-note">
+                        <b>Note</b>
+                        <p>サイドバーレイアウトのテストページです。</p>
+                    </div>
+                    <section id="lorem-ipsum">
+                        <h2>Lorem ipsum</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </section>
+                    <section id="alerts">
+                        <h2>アラート</h2>
+                        <div class="block">
+                            <p>Hello, World!</p>
+                        </div>
+                        <div class="block block-note">
+                            <b>Note</b>
+                            <p>Useful information that users should know, even when skimming content.</p>
+                        </div>
+                        <div class="block block-tip">
+                            <b>Tip</b>
+                            <p>Helpful advice for doing things better or more easily.</p>
+                        </div>
+                        <div class="block block-important">
+                            <b>Important</b>
+                            <p>Key information users need to know to achieve their goal.</p>
+                        </div>
+                        <div class="block block-warning">
+                            <b>Warning</b>
+                            <p>Urgent info that needs immediate user attention to avoid problems.</p>
+                        </div>
+                        <div class="block block-caution">
+                            <b>Caution</b>
+                            <p>Advises about risks or negative outcomes of certain actions.</p>
+                        </div>
+                    </section>
+                </div>
+            </div>
+{% endblock %}

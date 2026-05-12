@@ -49,6 +49,7 @@ main > *:first-child {
 }
 
 footer {
+    background-color: var(--color-theme-background);
     padding: 24px;
     padding-top: 0px;
     display: flex;
@@ -82,6 +83,37 @@ section {
 }
 .block > *:last-child {
     margin-bottom: 0;
+}
+
+.block-note {
+    border: solid 2px var(--color-bright-blue);
+}
+.block-note > b:first-child {
+    color: var(--color-bright-blue);
+}
+.block-tip {
+    border: solid 2px var(--color-bright-green);
+}
+.block-tip > b:first-child {
+    color: var(--color-bright-green);
+}
+.block-important {
+    border: solid 2px var(--color-bright-purple);
+}
+.block-important > b:first-child {
+    color: var(--color-bright-purple);
+}
+.block-warning {
+    border: solid 2px var(--color-bright-yellow);
+}
+.block-warning > b:first-child {
+    color: var(--color-bright-yellow);
+}
+.block-caution {
+    border: solid 2px var(--color-bright-red);
+}
+.block-caution > b:first-child {
+    color: var(--color-bright-red);
 }
 
 .flex {
@@ -172,6 +204,38 @@ tbody tr:hover {
 }
 .block table {
     margin-bottom: 0;
+}
+
+/* Border */
+.border-thin {
+    border: solid 0.25px;
+}
+.border-extralight {
+    border: solid 0.5px;
+}
+.border-light {
+    border: solid 0.75px;
+}
+.border-regular {
+    border: solid 1px;
+}
+.border-medium {
+    border: solid 1.25px;
+}
+.border-semibold {
+    border: solid 1.5px;
+}
+.border-bold {
+    border: solid 1.75px;
+}
+.border-extrabold {
+    border: solid 2px;
+}
+.border-black {
+    border: solid 2.25px;
+}
+.border-extrablack {
+    border: solid 2.5px;
 }
 
 /* Miscellaneous */
