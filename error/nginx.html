@@ -28,69 +28,69 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=BIZ+UDGothic:wght@400;700&display=swap" rel="stylesheet">
         <style>
-        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+            *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
-        html, body { height: 100%; }
+            html, body { height: 100%; }
 
-        body {
-            background-color: #1a1a1a;
-            color: #fff;
-            font-family: 'Inter', 'BIZ UDGothic', sans-serif;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            min-height: 100vh;
-            text-align: center;
-            padding: 24px;
-        }
+            body {
+                background-color: #1a1a1a;
+                color: #fff;
+                font-family: 'Inter', 'BIZ UDGothic', sans-serif;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                min-height: 100vh;
+                text-align: center;
+                padding: 24px;
+            }
 
-        .container {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-        }
+            .container {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
 
-        .icon-wrapper {
-            position: relative;
-            width: 128px;
-            height: 128px;
-            margin-bottom: clamp(20px, 3vw, 32px);
-        }
+            .icon-wrapper {
+                position: relative;
+                width: 128px;
+                height: 128px;
+                margin-bottom: clamp(20px, 3vw, 32px);
+            }
 
-        .icon-wrapper svg.app-icon {
-            width: 128px;
-            height: 128px;
-            display: block;
-        }
+            .icon-wrapper svg.app-icon {
+                width: 128px;
+                height: 128px;
+                display: block;
+            }
 
-        h1 {
-            font-family: 'Inter', 'BIZ UDGothic', sans-serif;
-            font-size: clamp(20px, 3.5vw, 32px);
-            font-weight: 400;
-            color: #fff;
-            letter-spacing: -0.02em;
-            margin-bottom: clamp(10px, 1.5vw, 16px);
-            line-height: 1.3;
-        }
+            h1 {
+                font-family: 'Inter', 'BIZ UDGothic', sans-serif;
+                font-size: clamp(20px, 3.5vw, 32px);
+                font-weight: 400;
+                color: #fff;
+                letter-spacing: -0.02em;
+                margin-bottom: clamp(10px, 1.5vw, 16px);
+                line-height: 1.3;
+            }
 
-        p {
-            font-family: 'Inter', 'BIZ UDGothic', sans-serif;
-            font-size: clamp(16px, 2vw, 18px);
-            font-weight: 400;
-            color: rgba(255, 255, 255, 0.75);
-            line-height: 1.6;
-            max-width: 90vw;
-            word-break: keep-all;
-        }
+            p {
+                font-family: 'Inter', 'BIZ UDGothic', sans-serif;
+                font-size: clamp(16px, 2vw, 18px);
+                font-weight: 400;
+                color: rgba(255, 255, 255, 0.75);
+                line-height: 1.6;
+                max-width: 90vw;
+                word-break: keep-all;
+            }
 
-        .br-mobile { display: none; }
+            .br-mobile { display: none; }
 
-        @media (max-width: 480px) {
-            .icon-wrapper { width: 96px; height: 96px; }
-            .icon-wrapper svg.app-icon { width: 96px; height: 96px; }
-            .br-mobile { display: block; }
-        }
+            @media (max-width: 480px) {
+                .icon-wrapper { width: 96px; height: 96px; }
+                .icon-wrapper svg.app-icon { width: 96px; height: 96px; }
+                .br-mobile { display: block; }
+            }
         </style>
     </head>
     <body>
@@ -204,7 +204,7 @@
                     </g>
                 </svg>
             </div>
-            <h1><span id="js-host">nercone.dev</span>への接続に失敗しました</h1>
+            <h1><span id="js-host">nercone.dev</span> への接続に失敗しました</h1>
             <p>少し待ってから、ページを再読み込みしてください。<br class="br-mobile">HTTP レスポンスステータスコードは <span id="js-status">502</span> です。</p>
         </div>
         <script>
