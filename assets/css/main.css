@@ -166,9 +166,6 @@ pre {
 .block pre {
     background-color: var(--color-theme-background);
 }
-.block > pre:last-child {
-    margin-bottom: 20px;
-}
 
 code {
     padding: 2px;
