@@ -1,9 +1,28 @@
 (() => {
-    let observer = null;
+    let ac = null;
+
+    function getActiveSection(sections) {
+        const threshold = 96;
+        let active = sections[0] ?? null;
+        for (const section of sections) {
+            if (section.getBoundingClientRect().top <= threshold) {
+                active = section;
+            }
+        }
+        return active;
+    }
+
+    function update(sections, navLinks) {
+        const active = getActiveSection(sections);
+        navLinks.forEach(a => {
+            const id = a.getAttribute('href').slice(1);
+            a.classList.toggle('is-active', active?.id === id);
+        });
+    }
 
     function init() {
-        observer?.disconnect();
-        observer = null;
+        ac?.abort();
+        ac = new AbortController();
 
         const navLinks = [...document.querySelectorAll('.sidebar nav a[href^="#"]')];
         if (!navLinks.length) return;
@@ -11,25 +30,17 @@
         const sections = navLinks
             .map(a => document.getElementById(a.getAttribute('href').slice(1)))
             .filter(Boolean);
+        if (!sections.length) return;
 
-        const intersecting = new Set();
+        update(sections, navLinks);
 
-        observer = new IntersectionObserver((entries) => {
-            entries.forEach(e => {
-                e.isIntersecting ? intersecting.add(e.target) : intersecting.delete(e.target);
-            });
-
-            const active = sections.find(s => intersecting.has(s)) ?? null;
-            navLinks.forEach(a => {
-                const id = a.getAttribute('href').slice(1);
-                a.classList.toggle('is-active', active?.id === id);
-            });
-        }, { rootMargin: '-80px 0px -50% 0px' });
-
-        sections.forEach(s => observer.observe(s));
+        window.addEventListener('scroll', () => update(sections, navLinks), {
+            passive: true,
+            signal: ac.signal
+        });
     }
 
-    window.__sidebarCleanup = () => { observer?.disconnect(); observer = null; };
+    window.__sidebarCleanup = () => { ac?.abort(); ac = null; };
     window.__sidebarReinit  = init;
 
     if (document.readyState === 'loading') {
