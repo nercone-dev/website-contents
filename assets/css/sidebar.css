@@ -9,7 +9,6 @@
     width: 220px;
     flex-shrink: 0;
     background-color: var(--color-theme-background-alt);
-    border-radius: 8px;
     padding: 16px;
     position: sticky;
     top: 80px;
@@ -42,7 +41,6 @@
 .sidebar nav a {
     display: block;
     padding: 6px 8px;
-    border-radius: 4px;
     font-size: smaller;
     text-decoration: none;
     color: var(--color-theme-text);

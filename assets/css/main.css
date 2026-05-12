@@ -72,9 +72,14 @@ section {
     padding-bottom: 4px;
 }
 
+blockquote {
+    border-left: solid 4px var(--color-theme-background-alt);
+    padding: 16px 16px;
+    margin-bottom: 16px;
+}
+
 .block {
     background-color: var(--color-theme-background-alt);
-    border-radius: 8px;
     padding: 16px 16px;
     margin-bottom: 16px;
 }
@@ -86,31 +91,31 @@ section {
 }
 
 .block-note {
-    border: solid 2px var(--color-bright-blue);
+    border-left: solid 4px var(--color-bright-blue);
 }
 .block-note > b:first-child {
     color: var(--color-bright-blue);
 }
 .block-tip {
-    border: solid 2px var(--color-bright-green);
+    border-left: solid 4px var(--color-bright-green);
 }
 .block-tip > b:first-child {
     color: var(--color-bright-green);
 }
 .block-important {
-    border: solid 2px var(--color-bright-purple);
+    border-left: solid 4px var(--color-bright-purple);
 }
 .block-important > b:first-child {
     color: var(--color-bright-purple);
 }
 .block-warning {
-    border: solid 2px var(--color-bright-yellow);
+    border-left: solid 4px var(--color-bright-yellow);
 }
 .block-warning > b:first-child {
     color: var(--color-bright-yellow);
 }
 .block-caution {
-    border: solid 2px var(--color-bright-red);
+    border-left: solid 4px var(--color-bright-red);
 }
 .block-caution > b:first-child {
     color: var(--color-bright-red);
@@ -151,7 +156,6 @@ section {
 /* Code */
 pre {
     background-color: var(--color-theme-background-pre);
-    border-radius: 4px;
     padding: 8px;
     overflow-x: auto;
     white-space: pre;
@@ -176,7 +180,6 @@ code {
 table {
     background-color: var(--color-theme-background-table-row);
     border-collapse: collapse;
-    border-radius: 8px;
     overflow: hidden;
     width: 100%;
     margin-bottom: 16px;
@@ -251,7 +254,6 @@ tbody tr:hover {
 .banner {
     height: 50px;
     width: auto;
-    border-radius: 6px;
 }
 
 .small-icon {
