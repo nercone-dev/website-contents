@@ -106,6 +106,7 @@
             if (typeof window.__cursorCleanup === 'function') {
                 window.__cursorCleanup();
             }
+            window.__sidebarCleanup?.();
 
             await preloadAssets(doc);
             updateHead(doc);
@@ -130,6 +131,7 @@
             if (typeof window.__cursorReinit === 'function') {
                 window.__cursorReinit();
             }
+            window.__sidebarReinit?.();
         });
     }
 

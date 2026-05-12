@@ -49,7 +49,8 @@
     color: var(--color-theme-text);
     transition: background-color 0.15s, color 0.15s;
 }
-.sidebar nav a:target-current {
+.sidebar nav a:target-current,
+.sidebar nav a.is-active {
     background-color: var(--color-theme-background-pre);
     color: var(--color-theme-stark);
     font-weight: 600;
