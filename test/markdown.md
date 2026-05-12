@@ -24,6 +24,8 @@ import requests
 print(requests.get("https://nercone.dev/welcome").text)
 ```
 
+> 引用
+
 [リンク](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
 
 **HTML埋め込み(`<img>`タグ):**
