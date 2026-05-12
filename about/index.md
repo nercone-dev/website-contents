@@ -16,10 +16,10 @@ description: Nerconeについて
 <span translate="no">nercone</span>、<span translate="no">nerc1</span> (leet表記?<!-- ちょっと違う気もするけどいい呼び方がわからない -->)、<span translate="no">nenaicone</span> (サブ垢)、<span translate="no">diamondgotcat</span> (古いやつ)
 
 ### 今の目標
-<!-- てとらさんと結婚することと、-->カーネルレベルからOSを作ることと、Linuxディストリビューションを作ることと、会社建てるかAppleに入ること。
+<p><!-- てとらさんと結婚することと、-->カーネルレベルからOSを作ることと、Linuxディストリビューションを作ることと、会社建てるかAppleに入ること。</p>
 
 ### 興味
-<!-- てとらさん, -->低レイヤ, ハードウェア, OSINT, 機械学習, ゼロ知識証明 など
+<p><!-- てとらさん, -->低レイヤ, ハードウェア, OSINT, 機械学習, ゼロ知識証明 など</p>
 
 <!-- ### その他 -->
 <!-- **好きな人:** てとらさん -->
