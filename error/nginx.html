@@ -1,26 +1,26 @@
+<!--
+    $ curl https://nercone.dev/error/nginx/
+    ■   ■ ■■■■■ ■■■■   ■■■■  ■■■  ■   ■ ■■■■■
+    ■■  ■ ■     ■   ■ ■     ■   ■ ■■  ■ ■
+    ■■  ■ ■     ■   ■ ■     ■   ■ ■■  ■ ■
+    ■ ■ ■ ■■■■  ■■■■  ■     ■   ■ ■ ■ ■ ■■■■
+    ■  ■■ ■     ■ ■   ■     ■   ■ ■  ■■ ■
+    ■  ■■ ■     ■  ■  ■     ■   ■ ■  ■■ ■
+    ■   ■ ■■■■■ ■   ■  ■■■■  ■■■  ■   ■ ■■■■■
+
+    このページは、リバースプロキシとして使用しているNginxが、バックエンドのWebサーバーへの接続に失敗した際に表示されます。
+    バックエンドのWebサーバーはUvicorn + FastAPIで動作しており、サブドメインのルーティングとTLSへの対応のためにNginxを間に噛ませています。
+    Webサーバーの再起動には約10秒かかります。もし2分以上アクセスできない場合、何かしらの問題が発生しているか、Nerconeが環境を作り直している可能性があります。
+    どちらにしても、すぐにはアクセスできないので、コーヒーか何かを飲んで待つか、Nerconeを叩き起こして修正させる必要があります。
+    さて、このメッセージを見ているということは...おそらく技術者でしょう？良ければネッ友になりませんか？
+
+    P.S. 暇つぶしにソースコードでもいかがです？
+            https://github.com/nercone-dev/website/
+            https://github.com/nercone-dev/website-contents/
+-->
 <!DOCTYPE html>
 <html lang="ja">
     <head>
-        <!--
-            $ curl https://nercone.dev/error/nginx/
-            ■   ■ ■■■■■ ■■■■   ■■■■  ■■■  ■   ■ ■■■■■
-            ■■  ■ ■     ■   ■ ■     ■   ■ ■■  ■ ■
-            ■■  ■ ■     ■   ■ ■     ■   ■ ■■  ■ ■
-            ■ ■ ■ ■■■■  ■■■■  ■     ■   ■ ■ ■ ■ ■■■■
-            ■  ■■ ■     ■ ■   ■     ■   ■ ■  ■■ ■
-            ■  ■■ ■     ■  ■  ■     ■   ■ ■  ■■ ■
-            ■   ■ ■■■■■ ■   ■  ■■■■  ■■■  ■   ■ ■■■■■
-
-            このページは、リバースプロキシとして使用しているNginxが、バックエンドのWebサーバーへの接続に失敗した際に表示されます。
-            バックエンドのWebサーバーはUvicorn + FastAPIで動作しており、サブドメインのルーティングとTLSへの対応のためにNginxを間に噛ませています。
-            Webサーバーの再起動には約10秒かかります。もし2分以上アクセスできない場合、何かしらの問題が発生しているか、Nerconeが環境を作り直している可能性があります。
-            どちらにしても、すぐにはアクセスできないので、コーヒーか何かを飲んで待つか、Nerconeを叩き起こして修正させる必要があります。
-            さて、このメッセージを見ているということは...おそらく技術者でしょう？良ければネッ友になりませんか？
-
-            P.S. 暇つぶしにソースコードでもいかがです？
-                 https://github.com/nercone-dev/website/
-                 https://github.com/nercone-dev/website-contents/
-        -->
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>バックエンドへの接続に失敗しました</title>
@@ -208,6 +208,7 @@
             <p>少し待ってから、ページを再読み込みしてください。<br class="br-mobile">HTTP レスポンスステータスコードは <span id="js-status">502</span> です。</p>
         </div>
         <script>
+            console.log("このページは、リバースプロキシとして使用しているNginxが、バックエンドのWebサーバーへの接続に失敗した際に表示されます。\nバックエンドのWebサーバーはUvicorn + FastAPIで動作しており、サブドメインのルーティングとTLSへの対応のためにNginxを間に噛ませています。\nWebサーバーの再起動には約10秒かかります。もし2分以上アクセスできない場合、何かしらの問題が発生しているか、Nerconeが環境を作り直している可能性があります。\nどちらにしても、すぐにはアクセスできないので、コーヒーか何かを飲んで待つか、Nerconeを叩き起こして修正させる必要があります。\nさて、このメッセージを見ているということは...おそらく技術者でしょう？良ければネッ友になりませんか？\n\nP.S. 暇つぶしにソースコードでもいかがです？\n        https://github.com/nercone-dev/website/\n        https://github.com/nercone-dev/website-contents/")
             document.getElementById('js-host').textContent = location.hostname;
             const nav = performance.getEntriesByType('navigation')[0];
             if (nav?.responseStatus) document.getElementById('js-status').textContent = nav.responseStatus;
