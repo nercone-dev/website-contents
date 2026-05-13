@@ -4,6 +4,7 @@
     font-family: "Inter BIZUD";
     font-style: normal;
     font-weight: 400;
+    font-display: swap;
     src:
         local("Inter BIZUD"),
         url("https://assets.nercone.dev/fonts/InterBIZUD-Regular.woff2") format("woff2")
@@ -12,6 +13,7 @@
     font-family: "Inter BIZUD";
     font-style: italic;
     font-weight: 400;
+    font-display: swap;
     src:
         local("Inter BIZUD"),
         url("https://assets.nercone.dev/fonts/InterBIZUD-Italic.woff2") format("woff2")
@@ -20,6 +22,7 @@
     font-family: "Inter BIZUD";
     font-style: normal;
     font-weight: 700;
+    font-display: swap;
     src:
         local("Inter BIZUD"),
         url("https://assets.nercone.dev/fonts/InterBIZUD-Bold.woff2") format("woff2")
@@ -28,6 +31,7 @@
     font-family: "Inter BIZUD";
     font-style: italic;
     font-weight: 700;
+    font-display: swap;
     src:
         local("Inter BIZUD"),
         url("https://assets.nercone.dev/fonts/InterBIZUD-BoldItalic.woff2") format("woff2")
@@ -37,6 +41,7 @@
     font-family: "Meslo BIZUD";
     font-style: normal;
     font-weight: 400;
+    font-display: swap;
     src:
         local("Meslo BIZUD"),
         url("https://assets.nercone.dev/fonts/MesloBIZUD-Regular.woff2") format("woff2")
@@ -45,6 +50,7 @@
     font-family: "Meslo BIZUD";
     font-style: italic;
     font-weight: 400;
+    font-display: swap;
     src:
         local("Meslo BIZUD"),
         url("https://assets.nercone.dev/fonts/MesloBIZUD-Italic.woff2") format("woff2")
@@ -53,6 +59,7 @@
     font-family: "Meslo BIZUD";
     font-style: normal;
     font-weight: 700;
+    font-display: swap;
     src:
         local("Meslo BIZUD"),
         url("https://assets.nercone.dev/fonts/MesloBIZUD-Bold.woff2") format("woff2")
@@ -61,6 +68,7 @@
     font-family: "Meslo BIZUD";
     font-style: italic;
     font-weight: 700;
+    font-display: swap;
     src:
         local("Meslo BIZUD"),
         url("https://assets.nercone.dev/fonts/MesloBIZUD-BoldItalic.woff2") format("woff2")
