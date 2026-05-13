@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_レイヤー_1" data-name="レイヤー 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 640">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #939393;
+      }
+
+      .cls-2 {
+        opacity: .5;
+      }
+
+      .cls-2, .cls-3, .cls-4, .cls-5, .cls-6 {
+        fill: #fff;
+      }
+
+      .cls-7 {
+        fill: #c3c3c3;
+      }
+
+      .cls-3 {
+        font-family: InterBIZUD-Regular, 'Inter BIZUD';
+        font-size: 32px;
+      }
+
+      .cls-5 {
+        font-family: MesloBIZUD-Regular, 'Meslo BIZUD';
+        font-size: 24px;
+        opacity: .25;
+      }
+
+      .cls-6 {
+        font-family: InterBIZUD-Bold, 'Inter BIZUD';
+        font-size: 96px;
+        font-weight: 700;
+      }
+
+      .cls-8 {
+        fill: #a8a8a8;
+      }
+
+      .cls-9 {
+        fill: #1a1a1a;
+      }
+
+      .cls-10 {
+        fill: #00c878;
+      }
+    </style>
+  </defs>
+  <rect class="cls-9" width="1280" height="640"/>
+  <g>
+    <g id="_輪郭" data-name="輪郭">
+      <rect class="cls-4" x="908" y="634" width="6" height="6"/>
+      <rect class="cls-4" x="902" y="628" width="6" height="6"/>
+      <rect class="cls-4" x="896" y="604" width="6" height="24"/>
+      <rect class="cls-4" x="890" y="586" width="6" height="18"/>
+      <rect class="cls-4" x="884" y="478" width="6" height="108"/>
+      <rect class="cls-4" x="890" y="460" width="6" height="18"/>
+      <rect class="cls-4" x="896" y="442" width="6" height="18"/>
+      <rect class="cls-4" x="902" y="424" width="6" height="18"/>
+      <rect class="cls-4" x="908" y="418" width="6" height="6"/>
+      <rect class="cls-4" x="914" y="412" width="6" height="6"/>
+      <rect class="cls-4" x="920" y="406" width="6" height="6"/>
+      <rect class="cls-4" x="926" y="412" width="6" height="6"/>
+      <rect class="cls-4" x="932" y="418" width="6" height="6"/>
+      <rect class="cls-4" x="938" y="424" width="6" height="6"/>
+      <rect class="cls-4" x="944" y="430" width="6" height="24"/>
+      <rect class="cls-4" x="950" y="454" width="6" height="18"/>
+      <rect class="cls-4" x="956" y="484" width="6" height="6"/>
+      <rect class="cls-4" x="962" y="478" width="12" height="6"/>
+      <rect class="cls-4" x="974" y="472" width="12" height="6"/>
+      <rect class="cls-4" x="986" y="466" width="24" height="6"/>
+      <rect class="cls-4" x="1010" y="460" width="24" height="6"/>
+      <rect class="cls-4" x="1034" y="454" width="24" height="6"/>
+      <rect class="cls-4" x="1058" y="448" width="60" height="6"/>
+      <rect class="cls-4" x="1118" y="454" width="42" height="6"/>
+      <rect class="cls-4" x="1160" y="460" width="6" height="6"/>
+      <rect class="cls-4" x="1142" y="442" width="6" height="6"/>
+      <rect class="cls-4" x="1148" y="436" width="6" height="6"/>
+      <rect class="cls-4" x="1154" y="430" width="6" height="6"/>
+      <rect class="cls-4" x="1160" y="424" width="6" height="6"/>
+      <rect class="cls-4" x="1166" y="418" width="6" height="6"/>
+      <rect class="cls-4" x="1172" y="412" width="6" height="6"/>
+      <rect class="cls-4" x="1178" y="406" width="6" height="6"/>
+      <rect class="cls-4" x="1184" y="412" width="6" height="12"/>
+      <rect class="cls-4" x="1190" y="424" width="6" height="24"/>
+      <rect class="cls-4" x="1196" y="448" width="6" height="12"/>
+      <rect class="cls-4" x="1202" y="460" width="6" height="18"/>
+      <rect class="cls-4" x="1208" y="478" width="6" height="18"/>
+      <rect class="cls-4" x="1214" y="496" width="6" height="18"/>
+      <rect class="cls-4" x="1220" y="514" width="6" height="24"/>
+      <rect class="cls-4" x="1226" y="538" width="6" height="48"/>
+      <rect class="cls-4" x="1232" y="586" width="6" height="48"/>
+      <rect class="cls-4" x="1226" y="634" width="6" height="6"/>
+    </g>
+    <g id="_毛" data-name="毛">
+      <path class="cls-1" d="M1226,586v-48h-6v-24h-6v-18h-6v-18h-6v-18h-6v-12h-6v-24h-6v-12h-6v6h-6v6h-6v6h-6v6h-6v6h-6v12h12v6h6v6h-6v-6h-42v-6h-60v6h-24v6h-24v6h-24v6h-12v6h-12v6h-6v-12h-6v-24h-6v-24h-6v-6h-6v-6h-6v-6h-6v6h-6v6h-6v18h-6v18h-6v18h-6v108h6v18h6v24h6v6h6v6h312v-6h6v-48h-6ZM1190.01,472v6h-.01v-6h.01Z"/>
+      <polygon class="cls-8" points="1088 454 1088 460 1082 460 1082 466 1070 466 1070 472 1052 472 1052 478 1028 478 1028 484 1004 484 1004 490 992 490 992 496 974 496 974 502 968 502 968 508 956 508 956 514 932 514 932 520 908 520 908 526 896 526 896 520 890 520 890 478 896 478 896 460 902 460 902 442 908 442 908 424 914 424 914 418 920 418 920 412 926 412 926 418 932 418 932 424 938 424 938 430 944 430 944 454 950 454 950 478 956 478 956 490 962 490 962 484 974 484 974 478 986 478 986 472 1010 472 1010 466 1034 466 1034 460 1058 460 1058 454 1088 454"/>
+      <polygon class="cls-7" points="950 454 950 460 944 460 944 466 926 466 926 472 914 472 914 478 908 478 908 484 896 484 896 490 890 490 890 478 896 478 896 460 902 460 902 442 908 442 908 424 914 424 914 418 920 418 920 412 926 412 926 418 932 418 932 424 938 424 938 430 944 430 944 454 950 454"/>
+      <path class="cls-8" d="M1202,478v-18h-6v-12h-6v-24h-6v-12h-6v6h-6v6h-6v6h-6v6h-6v6h-6v12h12v6h6v6h-6v-6h-24v6h6v6h6v6h18v6h12v6h12v6h18v-18h-6ZM1190,472h.01v6h-.01v-6Z"/>
+      <polygon class="cls-7" points="1202 460 1202 478 1190.01 478 1190.01 472 1172 472 1172 466 1166 466 1166 460 1160 460 1160 454 1148 454 1148 442 1154 442 1154 436 1160 436 1160 430 1166 430 1166 424 1172 424 1172 418 1178 418 1178 412 1184 412 1184 424 1190 424 1190 448 1196 448 1196 460 1202 460"/>
+    </g>
+    <g id="_ひげ" data-name="ひげ">
+      <rect class="cls-4" x="956" y="508" width="12" height="6"/>
+      <rect class="cls-4" x="920" y="502" width="42" height="6"/>
+      <rect class="cls-4" x="908" y="496" width="12" height="6"/>
+      <rect class="cls-4" x="878" y="490" width="30" height="6"/>
+      <rect class="cls-4" x="854" y="484" width="24" height="6"/>
+      <rect class="cls-4" x="842" y="490" width="12" height="6"/>
+      <rect class="cls-4" x="830" y="496" width="12" height="6"/>
+      <rect class="cls-4" x="830" y="502" width="6" height="6"/>
+      <rect class="cls-4" x="938" y="532" width="30" height="6"/>
+      <rect class="cls-4" x="908" y="526" width="30" height="6"/>
+      <rect class="cls-4" x="854" y="520" width="54" height="6"/>
+      <rect class="cls-4" x="836" y="526" width="18" height="6"/>
+      <rect class="cls-4" x="830" y="532" width="6" height="6"/>
+      <rect class="cls-4" x="932" y="556" width="30" height="6"/>
+      <rect class="cls-4" x="860" y="550" width="72" height="6"/>
+      <rect class="cls-4" x="842" y="556" width="18" height="6"/>
+      <rect class="cls-4" x="824" y="562" width="18" height="6"/>
+      <rect class="cls-4" x="1160" y="502" width="6" height="6"/>
+      <rect class="cls-4" x="1160" y="496" width="12" height="6"/>
+      <rect class="cls-4" x="1171.99" y="490" width="18.03" height="6"/>
+      <rect class="cls-4" x="1190" y="484" width="24" height="6"/>
+      <rect class="cls-4" x="1214" y="478" width="60" height="6"/>
+      <rect class="cls-4" x="1178" y="526" width="6" height="6"/>
+      <rect class="cls-4" x="1178" y="520" width="18" height="6"/>
+      <rect class="cls-4" x="1196" y="514" width="36" height="6"/>
+      <rect class="cls-4" x="1232" y="508" width="36" height="6"/>
+      <rect class="cls-4" x="1184" y="550" width="18" height="6"/>
+      <rect class="cls-4" x="1202" y="544" width="6" height="6"/>
+      <rect class="cls-4" x="1208" y="538" width="36" height="6"/>
+      <rect class="cls-4" x="1262" y="514" width="6" height="6"/>
+      <rect class="cls-4" x="1244" y="532" width="18" height="6"/>
+      <rect class="cls-4" x="1262" y="538" width="18" height="6"/>
+      <rect class="cls-4" x="1274" y="484" width="6" height="6"/>
+    </g>
+    <g id="_目" data-name="目">
+      <rect class="cls-4" x="1028" y="490" width="6" height="30"/>
+      <rect class="cls-4" x="1088" y="496" width="6" height="6"/>
+      <rect class="cls-4" x="1094" y="490" width="6" height="6"/>
+      <rect class="cls-4" x="1094" y="502" width="6" height="6"/>
+      <rect class="cls-4" x="1100" y="484" width="6" height="6"/>
+      <rect class="cls-4" x="1100" y="508" width="6" height="6"/>
+    </g>
+    <g id="_口" data-name="口">
+      <rect class="cls-4" x="1052" y="544" width="6" height="6"/>
+      <rect class="cls-4" x="1058" y="550" width="18" height="6"/>
+      <rect class="cls-4" x="1076" y="544" width="6" height="6"/>
+    </g>
+    <g id="_髪飾り_Fedora_" data-name="髪飾り (Fedora)">
+      <rect class="cls-4" x="1124" y="424" width="54" height="6"/>
+      <rect class="cls-4" x="1118" y="430" width="6" height="54"/>
+      <rect class="cls-4" x="1124" y="484" width="54" height="6"/>
+      <rect class="cls-4" x="1178" y="430" width="6" height="54"/>
+      <rect class="cls-10" x="1124" y="430" width="54" height="54"/>
+      <rect class="cls-4" x="1136" y="472" width="30" height="6"/>
+      <rect class="cls-4" x="1130.01" y="460" width="6" height="12"/>
+      <rect class="cls-4" x="1135.99" y="454" width="6" height="6"/>
+      <rect class="cls-4" x="1142" y="442" width="6" height="12"/>
+      <rect class="cls-4" x="1135.99" y="436" width="6" height="6"/>
+      <rect class="cls-4" x="1166" y="460" width="6" height="12" transform="translate(2337.99 932) rotate(180)"/>
+      <rect class="cls-4" x="1160.01" y="454" width="6" height="6" transform="translate(2326.02 914) rotate(180)"/>
+      <rect class="cls-4" x="1154" y="442" width="6" height="12" transform="translate(2314.01 896) rotate(180)"/>
+      <rect class="cls-4" x="1160" y="436" width="6" height="6"/>
+      <polygon class="cls-2" points="1166 460 1166 472 1136 472 1136 460 1142 460 1142 454 1160 454 1160 460 1166 460"/>
+    </g>
+  </g>
+  <g>
+    <text class="cls-6" transform="translate(123.98 329.97)"><tspan x="0" y="0">rfcex-rs</tspan></text>
+    <text class="cls-3" transform="translate(127.81 382.64)"><tspan x="0" y="0">Really Fast Compression and EXtract</tspan></text>
+  </g>
+  <text class="cls-5" transform="translate(128.3 506.88)"><tspan x="0" y="0">Nercone Labs</tspan></text>
+</svg>

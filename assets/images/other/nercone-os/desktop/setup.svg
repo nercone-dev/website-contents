@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_レイヤー_1" data-name="レイヤー 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 20px;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7 {
+        fill: #fff;
+      }
+
+      .cls-1, .cls-4 {
+        font-family: InterBIZUD-Bold, 'Inter BIZUD';
+        font-weight: 700;
+      }
+
+      .cls-8 {
+        fill: #4060c8;
+      }
+
+      .cls-9 {
+        fill: #e0e0e0;
+        font-size: 24px;
+      }
+
+      .cls-9, .cls-10, .cls-11, .cls-3, .cls-12 {
+        font-family: InterBIZUD-Regular, 'Inter BIZUD';
+      }
+
+      .cls-10, .cls-4, .cls-6, .cls-7 {
+        font-size: 12px;
+      }
+
+      .cls-10, .cls-13 {
+        opacity: .75;
+      }
+
+      .cls-2, .cls-14, .cls-15 {
+        opacity: .25;
+      }
+
+      .cls-11 {
+        fill: gray;
+        font-size: 14px;
+      }
+
+      .cls-16 {
+        letter-spacing: .25em;
+      }
+
+      .cls-3 {
+        font-size: 48px;
+      }
+
+      .cls-17 {
+        fill: #f0f0f0;
+      }
+
+      .cls-18, .cls-15 {
+        fill: none;
+        stroke: #fff;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 4px;
+      }
+
+      .cls-6, .cls-7 {
+        font-family: NotoSansJP-Regular, 'Noto Sans JP';
+        font-variation-settings: 'wght' 400;
+      }
+
+      .cls-19 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-7 {
+        opacity: .5;
+      }
+
+      .cls-12 {
+        font-size: 18px;
+      }
+    </style>
+  </defs>
+  <g>
+    <rect width="1920" height="1080"/>
+    <g class="cls-14">
+      <line class="cls-15" x1="1920" y1="540" y2="540"/>
+      <polyline class="cls-15" points="720 540 840 405 1080 675 1200 540"/>
+      <polyline class="cls-15" points="720 540 840 675 1080 405 1200 540"/>
+      <polyline class="cls-18" points="0 540 720 540 840 405 960 540 1080 405"/>
+    </g>
+  </g>
+  <g>
+    <text class="cls-3" transform="translate(150.82 495.2)"><tspan x="0" y="0">Ne</tspan><tspan class="cls-19" x="64.15" y="0">r</tspan><tspan x="81.42" y="0">coneOSへようこそ！</tspan></text>
+    <text class="cls-9" transform="translate(154.04 530.61)"><tspan x="0" y="0">使い始める前に、いくつかの設定を終わらせませんか？</tspan></text>
+    <text class="cls-11" transform="translate(155.04 582.26)"><tspan x="0" y="0">時間がない場合は、「後でセットアップ」を押して一時的にゲストユーザーを使用することもできます。</tspan><tspan x="0" y="16">次回の起動時、またはゲストユーザーのデスクトップにあるショートカットからいつでもセットアップに戻ることができます。</tspan><tspan x="0" y="32">ゲストユーザー内で行ったほとんどの変更は次回の起動時にリセットされます。重要なデータを取り扱う場合は先にセットアップを済ませることをおすすめします。</tspan></text>
+  </g>
+  <g>
+    <g>
+      <rect class="cls-2" y="1076" width="1920" height="4"/>
+      <rect class="cls-5" y="1076" width="128" height="4"/>
+    </g>
+    <text class="cls-6" transform="translate(40 1067.91)"><tspan x="0" y="0">ようこそ</tspan></text>
+    <text class="cls-7" transform="translate(141 1067.06)"><tspan class="cls-16" x="0" y="0">次</tspan><tspan x="15" y="0">: ネットワークの設定</tspan></text>
+  </g>
+  <g>
+    <rect class="cls-17" x="1372" y="970" width="256" height="56"/>
+    <text class="cls-12" transform="translate(1391.69 1005)"><tspan x="0" y="0">後でセットアップ</tspan></text>
+    <text class="cls-10" transform="translate(1576.16 1002.46)"><tspan x="0" y="0">ESC</tspan></text>
+    <g class="cls-13">
+      <path d="M1611,987v22h-46v-22h46M1612,986h-48v24h48v-24h0Z"/>
+    </g>
+  </g>
+  <g>
+    <rect class="cls-8" x="1682" y="970" width="184" height="56"/>
+    <text class="cls-1" transform="translate(1719.32 1005)"><tspan x="0" y="0">次へ</tspan></text>
+    <text class="cls-4" transform="translate(1802.19 1002.46)"><tspan x="0" y="0">ENTER</tspan></text>
+    <path class="cls-5" d="M1848,988v20h-52v-20h52M1850,986h-56v24h56v-24h0Z"/>
+  </g>
+</svg>
