@@ -45,6 +45,8 @@
         return Date.now() - lastTouchTime < TOUCH_MOUSE_GUARD_MS;
     }
 
+    const TEXT_GAP_PX = 4;
+
     function isOverRenderedText(x, y) {
         let node, offset;
         if (document.caretPositionFromPoint) {
@@ -62,18 +64,18 @@
         }
 
         const range = document.createRange();
-        if (offset < node.length) {
-            range.setStart(node, offset);
-            range.setEnd(node, offset + 1);
-        } else if (offset > 0) {
-            range.setStart(node, offset - 1);
-            range.setEnd(node, offset);
-        } else {
-            return false;
-        }
+        const candidates = [];
+        if (offset < node.length) candidates.push([offset, offset + 1]);
+        if (offset > 0)           candidates.push([offset - 1, offset]);
+        if (candidates.length === 0) return false;
 
-        for (const rect of range.getClientRects()) {
-            if (x >= rect.left && x <= rect.right && y >= rect.top && y <= rect.bottom) return true;
+        for (const [s, e] of candidates) {
+            range.setStart(node, s);
+            range.setEnd(node, e);
+            for (const rect of range.getClientRects()) {
+                if (x >= rect.left - TEXT_GAP_PX && x <= rect.right  + TEXT_GAP_PX &&
+                    y >= rect.top  - TEXT_GAP_PX && y <= rect.bottom + TEXT_GAP_PX) return true;
+            }
         }
         return false;
     }
