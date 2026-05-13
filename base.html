@@ -45,23 +45,15 @@
         <link rel="icon" type="image/svg+xml" href="https://assets.nercone.dev/images/dotcat/icon-rounded.svg" sizes="1200x1200">
         <!-- Stylesheets / Scripts -->
         <script src="/assets/js/main.js" defer></script>
-        <script src="/assets/js/cursor.js" defer></script>
         <script src="/assets/js/loading-overlay.js" defer></script>
-        <script src="/assets/js/view-transition.js" defer></script>
-        <script src="/assets/js/class-prefix.js" defer></script>
-        <script src="/assets/js/sidebar.js" defer></script>
         <link rel="stylesheet" href="/assets/css/main.css">
         <link rel="stylesheet" href="/assets/css/colors.css">
-        <link rel="stylesheet" href="/assets/css/cursor.css">
-        <link rel="stylesheet" href="/assets/css/fonts.css">
-        <link rel="stylesheet" href="/assets/css/sidebar.css">
-        <link rel="stylesheet" href="/assets/css/loading-overlay.css">
-        <link rel="stylesheet" href="/assets/css/view-transition.css">
         <link rel="stylesheet" href="/assets/css/themes/dark.css">
+        <link rel="stylesheet" href="/assets/css/loading-overlay.css">
         {% block extra_head %}{% endblock %}
     </head>
-    {% block body %}
     <body>
+        {% block body %}
         <div id="cursor"></div>
         <div id="loading-overlay" aria-hidden="true">
             <svg viewBox="96 256 832 512" xmlns="http://www.w3.org/2000/svg">
@@ -107,6 +99,17 @@
             </div>
         </footer>
         {% endblock %}
+        {% endblock %}
+        <!-- Stylesheets / Scripts -->
+        <script src="/assets/js/cursor.js" defer></script>
+        <script src="/assets/js/sidebar.js" defer></script>
+        <script src="/assets/js/class-prefix.js" defer></script>
+        <script src="/assets/js/view-transition.js" defer></script>
+        <link rel="stylesheet" href="/assets/css/fonts.css">
+        <link rel="stylesheet" href="/assets/css/cursor.css">
+        <link rel="stylesheet" href="/assets/css/layout.css">
+        <link rel="stylesheet" href="/assets/css/sidebar.css">
+        <link rel="stylesheet" href="/assets/css/view-transition.css">
+        <link rel="stylesheet" href="/assets/css/miscellaneous.css">
     </body>
-    {% endblock %}
 </html>
