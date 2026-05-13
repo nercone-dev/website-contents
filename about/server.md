@@ -51,7 +51,7 @@ GCPのCompute Engineを使用しています。マシンタイプはe2-mediumで
 リージョンはasia-northeast2 (大阪)です。
 日本なのでレイテンシが低く、かつ東京より安いためです。
 
-LinuxディストリビューションはAlmaLinux 10を使用しています。
+LinuxディストリビューションはAlmaLinux 10.1を使用しています。
 AlmaLinux 9.7からELevateでアップグレードしました。
 
 アップグレード後にいくつか問題は発生しましたが、いろいろ試していたら直りました。
