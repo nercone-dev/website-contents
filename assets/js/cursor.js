@@ -1,5 +1,4 @@
 (() => {
-    const textSelectors = 'p, b, h1, h2, h3, h4, h5, h6, span, li, label, td, th, pre, .code';
     const linkSelectors = 'a, button, [role="button"], input[type="submit"], input[type="button"]';
     const padding = 6;
 
@@ -44,6 +43,39 @@
 
     function isSyntheticMouse() {
         return Date.now() - lastTouchTime < TOUCH_MOUSE_GUARD_MS;
+    }
+
+    function isOverRenderedText(x, y) {
+        let node, offset;
+        if (document.caretPositionFromPoint) {
+            const pos = document.caretPositionFromPoint(x, y);
+            if (!pos || pos.offsetNode.nodeType !== Node.TEXT_NODE) return false;
+            node = pos.offsetNode;
+            offset = pos.offset;
+        } else if (document.caretRangeFromPoint) {
+            const r = document.caretRangeFromPoint(x, y);
+            if (!r || r.startContainer.nodeType !== Node.TEXT_NODE) return false;
+            node = r.startContainer;
+            offset = r.startOffset;
+        } else {
+            return false;
+        }
+
+        const range = document.createRange();
+        if (offset < node.length) {
+            range.setStart(node, offset);
+            range.setEnd(node, offset + 1);
+        } else if (offset > 0) {
+            range.setStart(node, offset - 1);
+            range.setEnd(node, offset);
+        } else {
+            return false;
+        }
+
+        for (const rect of range.getClientRects()) {
+            if (x >= rect.left && x <= rect.right && y >= rect.top && y <= rect.bottom) return true;
+        }
+        return false;
     }
 
     function updateCursorForLink(el) {
@@ -146,7 +178,7 @@
                 cursor.style.width = '';
                 cursor.style.height = '';
 
-                if (el && el.closest(textSelectors)) {
+                if (isOverRenderedText(mouseX, mouseY)) {
                     cursor.classList.add('on-text');
                 } else {
                     cursor.classList.remove('on-text');
@@ -187,7 +219,7 @@
         if (newLinkEl) {
             currentLinkEl = newLinkEl;
             rafId = requestAnimationFrame(trackLink);
-        } else if (el && el.closest(textSelectors)) {
+        } else if (isOverRenderedText(mouseX, mouseY)) {
             cursor.classList.add('on-text');
         }
 
@@ -195,7 +227,7 @@
     }
 
     window.__cursorReinit = reinit;
-    window.__cursorGetState = () => ({ mouseX, mouseY, currentLinkEl, rafId, trackLink, linkSelectors, textSelectors });
+    window.__cursorGetState = () => ({ mouseX, mouseY, currentLinkEl, rafId, trackLink, linkSelectors });
 
     if (document.readyState === 'loading') {
         document.addEventListener('DOMContentLoaded', init, { once: true });
