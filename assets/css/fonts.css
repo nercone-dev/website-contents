@@ -1,36 +1,69 @@
 @import "https://assets.nercone.dev/css/google-fonts.css";
 
 @font-face {
-    font-family: "MesloLGS Nerd Font";
+    font-family: "Inter BIZUD";
     font-style: normal;
     font-weight: 400;
     src:
-        local("MesloLGS Nerd Font"),
-        url("https://assets.nercone.dev/fonts/MesloLGSNerdFont-Regular.woff2") format("woff2")
+        local("Inter BIZUD"),
+        url("https://assets.nercone.dev/fonts/InterBIZUD-Regular.woff2") format("woff2")
 }
 @font-face {
-    font-family: "MesloLGS Nerd Font";
-    font-style: normal;
-    font-weight: 700;
-    src:
-        local("MesloLGS Nerd Font"),
-        url("https://assets.nercone.dev/fonts/MesloLGSNerdFont-Bold.woff2") format("woff2")
-}
-@font-face {
-    font-family: "MesloLGS Nerd Font";
+    font-family: "Inter BIZUD";
     font-style: italic;
     font-weight: 400;
     src:
-        local("MesloLGS Nerd Font"),
-        url("https://assets.nercone.dev/fonts/MesloLGSNerdFont-Italic.woff2") format("woff2")
+        local("Inter BIZUD"),
+        url("https://assets.nercone.dev/fonts/InterBIZUD-Italic.woff2") format("woff2")
 }
 @font-face {
-    font-family: "MesloLGS Nerd Font";
+    font-family: "Inter BIZUD";
+    font-style: normal;
+    font-weight: 700;
+    src:
+        local("Inter BIZUD"),
+        url("https://assets.nercone.dev/fonts/InterBIZUD-Bold.woff2") format("woff2")
+}
+@font-face {
+    font-family: "Inter BIZUD";
     font-style: italic;
     font-weight: 700;
     src:
-        local("MesloLGS Nerd Font"),
-        url("https://assets.nercone.dev/fonts/MesloLGSNerdFont-BoldItalic.woff2") format("woff2")
+        local("Inter BIZUD"),
+        url("https://assets.nercone.dev/fonts/InterBIZUD-BoldItalic.woff2") format("woff2")
+}
+
+@font-face {
+    font-family: "Meslo BIZUD";
+    font-style: normal;
+    font-weight: 400;
+    src:
+        local("Meslo BIZUD"),
+        url("https://assets.nercone.dev/fonts/MesloBIZUD-Regular.woff2") format("woff2")
+}
+@font-face {
+    font-family: "Meslo BIZUD";
+    font-style: italic;
+    font-weight: 400;
+    src:
+        local("Meslo BIZUD"),
+        url("https://assets.nercone.dev/fonts/MesloBIZUD-Italic.woff2") format("woff2")
+}
+@font-face {
+    font-family: "Meslo BIZUD";
+    font-style: normal;
+    font-weight: 700;
+    src:
+        local("Meslo BIZUD"),
+        url("https://assets.nercone.dev/fonts/MesloBIZUD-Bold.woff2") format("woff2")
+}
+@font-face {
+    font-family: "Meslo BIZUD";
+    font-style: italic;
+    font-weight: 700;
+    src:
+        local("Meslo BIZUD"),
+        url("https://assets.nercone.dev/fonts/MesloBIZUD-BoldItalic.woff2") format("woff2")
 }
 
 a {
@@ -164,10 +197,10 @@ s {
 }
 
 .font-inter {
-    font-family: "Inter";
+    font-family: "Inter BIZUD";
 }
-.font-bizud {
-    font-family: "BIZ UDGothic";
+.font-meslo {
+    font-family: "Meslo BIZUD";
 }
 .font-nsajp {
     font-family: "Noto Sans JP";
@@ -180,7 +213,4 @@ s {
 }
 .font-nsakr {
     font-family: "Noto Sans KR";
-}
-.font-meslo {
-    font-family: "MesloLGS Nerd Font";
 }
