@@ -3,10 +3,10 @@
 {% block header_title_suffix %}Daily Quote{% endblock %}
 {% block header_desc %}日替わり迷言集{% endblock %}
 {% block extra_head %}
-        <link rel="stylesheet" href="https://assets.nercone.dev/css/pages/big-text.css">
+        <link rel="stylesheet" href="https://assets.nercone.dev/css/pages/daily-quote.css">
 {% endblock %}
 {% block main %}
-            <p class="text-stark big-text"><span class="text-alt unselectable" translate="no">"</span>{{ get_daily_quote() }}<span class="text-alt unselectable" translate="no">"</span></p>
+            <p id="quote" class="text-stark"><span class="text-alt unselectable" translate="no">"</span>{{ get_daily_quote() }}<span class="text-alt unselectable" translate="no">"</span></p>
             <div class="block">
                 <p>日替わり迷言集です。毎日0:00 UTCに更新されます。</p>
             </div>
