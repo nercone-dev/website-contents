@@ -67,8 +67,7 @@
                 <p class="hide medium:show large:show">{% block header_desc %}<a href="/daily-quote/" class="text-no-decoration">{{ get_daily_quote() }}</a>{% endblock %}</p>
             </div>
             <div class="flex">
-                <a href="/access-counter/" class="text-no-decoration hide small:show small:font-bold">#{{ get_access_count() }}</a>
-                <a href="/access-counter/" class="text-no-decoration hide medium:show large:show">あなたは{{ get_access_count() }}番目の訪問者です。</a>
+                <a href="/access-counter/" class="text-no-decoration small:font-bold">#{{ get_access_count() }}</a>
             </div>
         </header>
         {% endblock %}

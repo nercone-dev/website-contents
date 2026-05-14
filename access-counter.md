@@ -4,7 +4,7 @@ header_title_suffix: Access Counter
 header_desc: ただのアクセスカウンタ
 ---
 
-# <span class="text-stark"><span class="text-alt unselectable" translate="no">#</span>{{ get_access_count() }}</span>
+# あなたは<span class="text-alt">#</span>{{ get_access_count() }}番目の訪問者です。
 
 ただのアクセスカウンターです。
 
