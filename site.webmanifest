@@ -9,12 +9,12 @@
         {
             "src": "https://assets.nercone.dev/images/dotgirl/icon-rounded.png",
             "type": "image/png",
-            "sizes": "1200x1200"
+            "sizes": "1024x1024"
         },
         {
             "src": "https://assets.nercone.dev/images/dotgirl/icon-rounded.svg",
             "type": "image/svg+xml",
-            "sizes": "1200x1200"
+            "sizes": "1024x1024"
         }
     ],
     "shortcuts": [
