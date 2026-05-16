@@ -6,8 +6,8 @@
     --color-theme-text-headline: var(--color-black);
     --color-theme-text-headline-underline: var(--color-bright-light-grey);
 
-    --color-theme-background: var(--color-white);
-    --color-theme-background-pre: color-mix(in srgb, var(--color-black) 12.5%, transparent);
+    --color-theme-background: #F0F0F0;
+    --color-theme-background-pre: var(--color-white);
     --color-theme-background-alt: transparent;
 
     --color-theme-background-table-top: var(--color-light-grey);
@@ -18,8 +18,4 @@
 
     --color-theme-background-cursor: color-mix(in srgb, var(--color-black) 25%, transparent);
     --color-theme-background-cursor-on-link: color-mix(in srgb, var(--color-black) 12.5%, transparent);
-}
-
-.block {
-    border: 2px solid color-mix(in srgb, var(--color-black) 12.5%, transparent);
 }
