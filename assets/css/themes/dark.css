@@ -1,5 +1,6 @@
 :root {
     --color-theme-stark: var(--color-white);
+    --color-theme-loading-overlay-logo: var(--color-white);
 
     --color-theme-text: var(--color-bright-light-grey-alt);
     --color-theme-text-alt: var(--color-light-grey-alt);

@@ -13,6 +13,7 @@
     opacity: 1;
 }
 #loading-overlay svg {
+    color: var(--color-theme-loading-overlay-logo);
     --size: clamp(340px, 28vmin, 380px);
     width: var(--size);
     height: calc(var(--size) * 512 / 832);
