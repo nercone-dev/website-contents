@@ -1,22 +1,22 @@
 :root {
-    --color-theme-stark: var(--color-white);
-    --color-theme-loading-overlay-logo: var(--color-white);
+    --theme-color-stark: var(--color-white);
+    --theme-color-loading-overlay-logo: var(--color-white);
 
-    --color-theme-text: var(--color-bright-light-grey-alt);
-    --color-theme-text-alt: var(--color-light-grey-alt);
-    --color-theme-text-headline: var(--color-white);
-    --color-theme-text-headline-underline: var(--color-bright-dark-grey);
+    --theme-color-text: var(--color-bright-light-grey-alt);
+    --theme-color-text-alt: var(--color-light-grey-alt);
+    --theme-color-text-headline: var(--color-white);
+    --theme-color-text-headline-underline: var(--color-bright-dark-grey);
 
-    --color-theme-background: var(--color-dark-grey);
-    --color-theme-background-pre: var(--color-dark-grey-alt);
-    --color-theme-background-alt: var(--color-bright-dark-grey);
+    --theme-color-background: var(--color-dark-grey);
+    --theme-color-background-pre: var(--color-dark-grey-alt);
+    --theme-color-background-alt: var(--color-bright-dark-grey);
 
-    --color-theme-background-table-top: var(--color-bright-dark-grey-alt);
-    --color-theme-background-table-row: var(--color-bright-dark-grey);
-    --color-theme-background-table-row-hover: var(--color-bright-dark-grey);
-    --color-theme-border-table-top: var(--color-light-grey);
-    --color-theme-border-table-row: var(--color-bright-dark-grey-alt);
+    --theme-color-background-table-top: var(--color-bright-dark-grey-alt);
+    --theme-color-background-table-row: var(--color-bright-dark-grey);
+    --theme-color-background-table-row-hover: var(--color-bright-dark-grey);
+    --theme-color-border-table-top: var(--color-light-grey);
+    --theme-color-border-table-row: var(--color-bright-dark-grey-alt);
 
-    --color-theme-background-cursor: color-mix(in srgb, var(--color-white) 75%, transparent);
-    --color-theme-background-cursor-on-link: color-mix(in srgb, var(--color-white) 25%, transparent);
+    --theme-color-background-cursor: color-mix(in srgb, var(--color-white) 75%, transparent);
+    --theme-color-background-cursor-on-link: color-mix(in srgb, var(--color-white) 25%, transparent);
 }

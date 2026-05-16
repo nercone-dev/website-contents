@@ -16,15 +16,16 @@ header_desc: このウェブサイトの設定
 nercone.devの動作を変更できます。
 これらの設定はCookieを使用してブラウザ上に保存されます。
 
-## 外観
-
-<div class="flex">
-    <b>テーマ</b>
-    <div class="dropdown">
-        <button class="dropdown-item">{{ useroptions.get('dev.nercone.useroptions.apperance.theme') }} ▾</button>
-        <div class="dropdown-menu">
-            <a class="dropdown-item{% if useroptions.get('dev.nercone.useroptions.apperance.theme') == 'dark' %} is-active{% endif %}" href="?dev.nercone.useroptions.apperance.theme=dark">dark</a>
-            <a class="dropdown-item{% if useroptions.get('dev.nercone.useroptions.apperance.theme') == 'light' %} is-active{% endif %}" href="?dev.nercone.useroptions.apperance.theme=light">light</a>
+<section id="apperance">
+    <h2>外観</h2>
+    <div class="flex">
+        <b>テーマ</b>
+        <div class="dropdown">
+            <button class="dropdown-item">{{ useroptions.get('dev.nercone.useroptions.apperance.theme') }} ▾</button>
+            <div class="dropdown-menu">
+                <a class="dropdown-item{% if useroptions.get('dev.nercone.useroptions.apperance.theme') == 'dark' %} is-active{% endif %}" href="?dev.nercone.useroptions.apperance.theme=dark">dark</a>
+                <a class="dropdown-item{% if useroptions.get('dev.nercone.useroptions.apperance.theme') == 'light' %} is-active{% endif %}" href="?dev.nercone.useroptions.apperance.theme=light">light</a>
+            </div>
         </div>
     </div>
-</div>
+</section>

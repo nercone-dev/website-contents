@@ -1,6 +1,6 @@
 html {
-    color: var(--color-theme-text);
-    background-color: var(--color-theme-background);
+    color: var(--theme-color-text);
+    background-color: var(--theme-color-background);
     margin: 0;
     padding: 0;
     font-family: "Inter BIZUD", "Noto Sans JP", "Noto Sans TC", "Noto Sans SC", sans-serif;
@@ -19,8 +19,8 @@ body {
 
 header {
     will-change: transform;
-    background-color: color-mix(in srgb, var(--color-theme-background) 75%, transparent);
-    backdrop-filter: blur(16px);
+    background-color: color-mix(in srgb, var(--theme-color-background) 60%, transparent);
+    backdrop-filter: blur(14px);
     position: fixed;
     top: 0;
     left: 0;
@@ -30,12 +30,6 @@ header {
     align-items: center;
     gap: 16px;
     z-index: 10;
-}
-@supports (-webkit-backdrop-filter: blur(1px)) {
-    header {
-        background-color: transparent;
-        background-image: linear-gradient(to bottom, var(--color-theme-background), transparent);
-    }
 }
 
 main {
@@ -48,7 +42,7 @@ main > *:first-child {
 }
 
 footer {
-    background-color: var(--color-theme-background);
+    background-color: var(--theme-color-background);
     padding: 24px;
     padding-top: 0px;
     display: flex;
@@ -58,16 +52,16 @@ footer {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    color: var(--color-theme-text-headline);
+    color: var(--theme-color-text-headline);
 }
 h1, h2 {
     padding-bottom: 0.3em;
-    border-bottom: 1px solid var(--color-theme-text-headline-underline);
+    border-bottom: 1px solid var(--theme-color-text-headline-underline);
 }
 
 /* Code */
 pre {
-    background-color: var(--color-theme-background-pre);
+    background-color: var(--theme-color-background-pre);
     padding: 8px;
     overflow-x: auto;
     white-space: pre;
@@ -77,7 +71,7 @@ pre {
     font-style: normal;
 }
 .block pre {
-    background-color: var(--color-theme-background);
+    background-color: var(--theme-color-background);
 }
 
 code {
@@ -90,7 +84,7 @@ code {
 
 /* Table */
 table {
-    background-color: var(--color-theme-background-table-row);
+    background-color: var(--theme-color-background-table-row);
     border-collapse: collapse;
     overflow: hidden;
     width: 100%;
@@ -98,24 +92,24 @@ table {
     font-size: smaller;
 }
 thead tr {
-    background-color: var(--color-theme-background-table-top);
+    background-color: var(--theme-color-background-table-top);
 }
 th {
-    color: var(--color-theme-stark);
+    color: var(--theme-color-stark);
     font-weight: 600;
     padding: 8px 12px;
     text-align: left;
-    border-bottom: 2px solid var(--color-theme-border-table-top);
+    border-bottom: 2px solid var(--theme-color-border-table-top);
 }
 td {
     padding: 8px 12px;
-    border-bottom: 1px solid var(--color-theme-border-table-row);
+    border-bottom: 1px solid var(--theme-color-border-table-row);
 }
 tbody tr:last-child td {
     border-bottom: none;
 }
 tbody tr:hover {
-    background-color: var(--color-theme-background-table-row-hover);
+    background-color: var(--theme-color-background-table-row-hover);
 }
 .block table {
     margin-bottom: 0;

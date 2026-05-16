@@ -6,7 +6,7 @@
     width: 25px;
     height: 25px;
     border-radius: 50%;
-    background: var(--color-theme-background-cursor);
+    background: var(--theme-color-background-cursor);
     pointer-events: none;
     transform: translate(-50%, -50%);
     opacity: 0;
@@ -24,9 +24,9 @@
 #cursor.on-text {
     width: 3px;
     border-radius: 1.5px;
-    background: var(--color-theme-background-cursor);
+    background: var(--theme-color-background-cursor);
 }
 #cursor.on-link {
-    background: var(--color-theme-background-cursor-on-link);
+    background: var(--theme-color-background-cursor-on-link);
     transform: translate(0, 0);
 }

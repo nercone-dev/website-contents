@@ -6,14 +6,14 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: var(--color-theme-background);
+    background-color: var(--theme-color-background);
     backdrop-filter: blur(40px);
     -webkit-backdrop-filter: blur(40px);
     pointer-events: none;
     opacity: 1;
 }
 #loading-overlay svg {
-    color: var(--color-theme-loading-overlay-logo);
+    color: var(--theme-color-loading-overlay-logo);
     --size: clamp(340px, 28vmin, 380px);
     width: var(--size);
     height: calc(var(--size) * 512 / 832);

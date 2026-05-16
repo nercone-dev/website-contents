@@ -8,9 +8,9 @@
     font-family: inherit;
     font-size: smaller;
     font-weight: 400;
-    color: var(--color-theme-text);
+    color: var(--theme-color-text);
     background-color: transparent;
-    border: 1px solid var(--color-theme-text-headline-underline);
+    border: 1px solid var(--theme-color-text-headline-underline);
     text-decoration: none;
     transition: background-color 0.15s, color 0.15s, border-color 0.15s;
     white-space: nowrap;
@@ -18,17 +18,17 @@
     box-sizing: border-box;
 }
 .button:hover {
-    background-color: color-mix(in srgb, var(--color-theme-stark) 8%, transparent);
-    color: var(--color-theme-stark);
-    border-color: var(--color-theme-text-alt);
+    background-color: color-mix(in srgb, var(--theme-color-stark) 8%, transparent);
+    color: var(--theme-color-stark);
+    border-color: var(--theme-color-text-alt);
 }
 .button:active {
-    background-color: color-mix(in srgb, var(--color-theme-stark) 16%, transparent);
+    background-color: color-mix(in srgb, var(--theme-color-stark) 16%, transparent);
 }
 .button.is-active {
-    background-color: var(--color-theme-background-pre);
-    color: var(--color-theme-stark);
-    border-color: var(--color-theme-text-alt);
+    background-color: var(--theme-color-background-pre);
+    color: var(--theme-color-stark);
+    border-color: var(--theme-color-text-alt);
     font-weight: 600;
 }
 .button:disabled,
@@ -38,18 +38,18 @@
 }
 
 .button-primary {
-    color: var(--color-theme-background);
-    background-color: var(--color-theme-stark);
-    border-color: var(--color-theme-stark);
+    color: var(--theme-color-background);
+    background-color: var(--theme-color-stark);
+    border-color: var(--theme-color-stark);
 }
 .button-primary:hover {
-    background-color: var(--color-theme-text);
-    border-color: var(--color-theme-text);
-    color: var(--color-theme-background);
+    background-color: var(--theme-color-text);
+    border-color: var(--theme-color-text);
+    color: var(--theme-color-background);
 }
 .button-primary:active {
-    background-color: var(--color-theme-text-alt);
-    border-color: var(--color-theme-text-alt);
+    background-color: var(--theme-color-text-alt);
+    border-color: var(--theme-color-text-alt);
 }
 
 .button-ghost {
@@ -81,7 +81,7 @@
 /* Dropdown */
 
 .dropdown {
-    background-color: var(--color-theme-text-headline-underline);
+    background-color: var(--theme-color-text-headline-underline);
     position: relative;
     display: inline-block;
 }
@@ -92,8 +92,8 @@
     top: 100%;
     left: 0;
     min-width: 100%;
-    background-color: var(--color-theme-background);
-    border: 1px solid var(--color-theme-text-headline-underline);
+    background-color: var(--theme-color-background);
+    border: 1px solid var(--theme-color-text-headline-underline);
     margin-top: 2px;
     z-index: 100;
 }
@@ -107,7 +107,7 @@
     font-size: smaller;
     font-family: inherit;
     font-weight: 400;
-    color: var(--color-theme-text);
+    color: var(--theme-color-text);
     background: none;
     border: none;
     width: 100%;
@@ -118,18 +118,18 @@
     transition: background-color 0.15s, color 0.15s;
 }
 .dropdown-item:hover {
-    background-color: color-mix(in srgb, var(--color-theme-stark) 8%, transparent);
-    color: var(--color-theme-stark);
+    background-color: color-mix(in srgb, var(--theme-color-stark) 8%, transparent);
+    color: var(--theme-color-stark);
 }
 .dropdown-item.is-active {
-    background-color: var(--color-theme-background-pre);
-    color: var(--color-theme-stark);
+    background-color: var(--theme-color-background-pre);
+    color: var(--theme-color-stark);
     font-weight: 600;
 }
 
 .dropdown-separator {
     border: none;
-    border-top: 1px solid var(--color-theme-text-headline-underline);
+    border-top: 1px solid var(--theme-color-text-headline-underline);
     margin: 4px 0;
 }
 
@@ -144,7 +144,7 @@
 .sidebar {
     width: 220px;
     flex-shrink: 0;
-    background-color: var(--color-theme-background-alt);
+    background-color: var(--theme-color-background-alt);
     padding: 12px;
     position: sticky;
     top: 80px;
@@ -161,13 +161,13 @@
 .sidebar-title {
     font-size: smaller;
     font-weight: 600;
-    color: var(--color-theme-text-alt);
+    color: var(--theme-color-text-alt);
     text-transform: uppercase;
     letter-spacing: 0.05em;
     margin: 0 0 8px 0;
     padding-top: 3px;
     padding-bottom: 6px;
-    border-bottom: 1px solid var(--color-theme-text-headline-underline);
+    border-bottom: 1px solid var(--theme-color-text-headline-underline);
 }
 
 .sidebar nav {
@@ -180,19 +180,19 @@
     padding: 6px 8px;
     font-size: smaller;
     text-decoration: none;
-    color: var(--color-theme-text);
+    color: var(--theme-color-text);
     transition: background-color 0.15s, color 0.15s;
 }
 .sidebar nav a.is-active {
-    background-color: var(--color-theme-background-pre);
-    color: var(--color-theme-stark);
+    background-color: var(--theme-color-background-pre);
+    color: var(--theme-color-stark);
     font-weight: 600;
 }
 
 .sidebar-section {
     margin-top: 12px;
     padding-top: 12px;
-    border-top: 1px solid var(--color-theme-text-headline-underline);
+    border-top: 1px solid var(--theme-color-text-headline-underline);
 }
 .sidebar-section:first-of-type {
     margin-top: 0;
