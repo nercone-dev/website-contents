@@ -24,10 +24,11 @@
     </style>
   </defs>
   <rect class="cls-1" x="0" y="0" width="1024" height="1024"/>
+  <polygon class="cls-5" points="640 352 640 480 896 480 896 736 576 736 576 672 832 672 832 544 576 544 576 288 896 288 896 352 640 352"/>
   <g>
-    <rect class="cls-4" x="64" y="64" width="64" height="832"/>
-    <rect class="cls-5" x="128" y="64" width="832" height="64"/>
-    <rect class="cls-3" x="64" y="896" width="832" height="64"/>
-    <rect class="cls-2" x="896" y="128" width="64" height="832"/>
+    <rect class="cls-5" x="192" y="288" width="256" height="64"/>
+    <rect class="cls-4" x="128" y="288" width="64" height="384"/>
+    <rect class="cls-3" x="128" y="672" width="256" height="64"/>
+    <rect class="cls-2" x="384" y="352" width="64" height="384"/>
   </g>
 </svg>
