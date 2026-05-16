@@ -2,7 +2,7 @@
     --color-theme-stark: var(--color-black);
 
     --color-theme-text: var(--color-dark-grey);
-    --color-theme-text-alt: var(--color-light-grey-alt);
+    --color-theme-text-alt: var(--color-bright-dark-grey-alt);
     --color-theme-text-headline: var(--color-black);
     --color-theme-text-headline-underline: var(--color-bright-light-grey);
 
