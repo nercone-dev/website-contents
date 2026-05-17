@@ -2,7 +2,6 @@
   "email": {"type": "redirect", "content": "mailto:nercone@nercone.dev"},
   "github": {"type": "redirect", "content": "https://github.com/nercone-dev/"},
   "twitter": {"type": "redirect", "content": "https://twitter.com/nercone_x/"},
-  "bluesky": {"type": "redirect", "content": "https://bsky.app/profile/nercone.dev/"},
   "youtube": {"type": "redirect", "content": "https://youtube.com/channel/UCBG9Y8fWvVyoIgDwdr_BUFw/"},
   "nicovideo": {"type": "redirect", "content": "https://nicovideo.jp/user/132818887/"},
   "qiita": {"type": "redirect", "content": "https://qiita.com/DiamondGotCat/"},
