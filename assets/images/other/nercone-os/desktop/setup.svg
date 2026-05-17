@@ -3,120 +3,121 @@
   <defs>
     <style>
       .cls-1 {
-        font-size: 20px;
+        fill: none;
+        stroke: #fff;
+        stroke-width: 12px;
       }
 
-      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7 {
+      .cls-1, .cls-2 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-3 {
+        fill: #939393;
+        font-family: InterBIZUD-Regular, 'Inter BIZUD';
+        font-size: 12px;
+      }
+
+      .cls-4 {
+        fill: #272727;
+      }
+
+      .cls-5 {
         fill: #fff;
+        font-size: 24px;
       }
 
-      .cls-1, .cls-4 {
+      .cls-5, .cls-6 {
         font-family: InterBIZUD-Bold, 'Inter BIZUD';
         font-weight: 700;
       }
 
+      .cls-7 {
+        letter-spacing: -.06em;
+      }
+
       .cls-8 {
-        fill: #4060c8;
+        letter-spacing: -.06em;
       }
 
       .cls-9 {
-        fill: #e0e0e0;
-        font-size: 24px;
-      }
-
-      .cls-9, .cls-10, .cls-11, .cls-3, .cls-12 {
-        font-family: InterBIZUD-Regular, 'Inter BIZUD';
-      }
-
-      .cls-10, .cls-4, .cls-6, .cls-7 {
-        font-size: 12px;
-      }
-
-      .cls-10, .cls-13 {
-        opacity: .75;
-      }
-
-      .cls-2, .cls-14, .cls-15 {
-        opacity: .25;
-      }
-
-      .cls-11 {
-        fill: gray;
-        font-size: 14px;
-      }
-
-      .cls-16 {
-        letter-spacing: .25em;
-      }
-
-      .cls-3 {
-        font-size: 48px;
-      }
-
-      .cls-17 {
-        fill: #f0f0f0;
-      }
-
-      .cls-18, .cls-15 {
-        fill: none;
-        stroke: #fff;
-        stroke-linecap: round;
-        stroke-linejoin: round;
-        stroke-width: 4px;
-      }
-
-      .cls-6, .cls-7 {
-        font-family: NotoSansJP-Regular, 'Noto Sans JP';
-        font-variation-settings: 'wght' 400;
-      }
-
-      .cls-19 {
         letter-spacing: -.02em;
       }
 
-      .cls-7 {
-        opacity: .5;
+      .cls-10 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-11 {
+        letter-spacing: -.02em;
       }
 
       .cls-12 {
-        font-size: 18px;
+        letter-spacing: -.02em;
+      }
+
+      .cls-13 {
+        letter-spacing: -.01em;
+      }
+
+      .cls-14 {
+        letter-spacing: -.05em;
+      }
+
+      .cls-15 {
+        letter-spacing: -.05em;
+      }
+
+      .cls-16 {
+        letter-spacing: -.03em;
+      }
+
+      .cls-17 {
+        letter-spacing: 0em;
+      }
+
+      .cls-2 {
+        stroke: #303030;
+        stroke-width: 2px;
+      }
+
+      .cls-2, .cls-18 {
+        fill: #1a1a1a;
+      }
+
+      .cls-19 {
+        letter-spacing: -.01em;
+      }
+
+      .cls-20 {
+        letter-spacing: 0em;
+      }
+
+      .cls-6 {
+        fill: #999;
+        font-size: 16px;
+      }
+
+      .cls-21 {
+        letter-spacing: .01em;
+      }
+
+      .cls-22 {
+        letter-spacing: .02em;
+      }
+
+      .cls-23 {
+        letter-spacing: 0em;
       }
     </style>
   </defs>
+  <rect class="cls-18" width="1920" height="1080"/>
+  <rect class="cls-2" x="384" y="156" width="1152" height="768"/>
+  <text class="cls-3" transform="translate(584.03 902.94)"><tspan x="0" y="0" xml:space="preserve">EULA  Shu</tspan><tspan class="cls-20" x="59.85" y="0">t</tspan><tspan x="63.66" y="0">d</tspan><tspan class="cls-9" x="71" y="0">o</tspan><tspan x="77.98" y="0" xml:space="preserve">wn  </tspan><tspan class="cls-13" x="101.64" y="0">R</tspan><tspan x="109.19" y="0">eboot </tspan><tspan class="cls-20" x="145.22" y="0">t</tspan><tspan x="149.03" y="0">o open Fi</tspan><tspan class="cls-22" x="201.6" y="0">r</tspan><tspan x="206.3" y="0">mwa</tspan><tspan class="cls-12" x="233.37" y="0">r</tspan><tspan x="237.69" y="0" xml:space="preserve">e Settings  Upda</tspan><tspan class="cls-20" x="331.41" y="0">t</tspan><tspan x="335.22" y="0" xml:space="preserve">e Setup  Swi</tspan><tspan class="cls-20" x="405.83" y="0">t</tspan><tspan x="409.64" y="0">ch </tspan><tspan class="cls-20" x="426.97" y="0">t</tspan><tspan x="430.78" y="0">o A</tspan><tspan class="cls-23" x="449.62" y="0">d</tspan><tspan class="cls-17" x="457.03" y="0">v</tspan><tspan x="463.72" y="0">anced Ins</tspan><tspan class="cls-23" x="518.77" y="0">t</tspan><tspan x="522.75" y="0" xml:space="preserve">aller  </tspan><tspan class="cls-13" x="553.56" y="0">R</tspan><tspan x="561.11" y="0">escu</tspan><tspan class="cls-12" x="588.39" y="0">r</tspan><tspan x="592.71" y="0" xml:space="preserve">e Mode  Open </tspan><tspan class="cls-15" x="676.2" y="0">W</tspan><tspan x="687.41" y="0">eb B</tspan><tspan class="cls-12" x="712.98" y="0">r</tspan><tspan class="cls-9" x="717.3" y="0">o</tspan><tspan x="724.28" y="0">wser</tspan></text>
   <g>
-    <rect width="1920" height="1080"/>
-    <g class="cls-14">
-      <line class="cls-15" x1="1920" y1="540" y2="540"/>
-      <polyline class="cls-15" points="720 540 840 405 1080 675 1200 540"/>
-      <polyline class="cls-15" points="720 540 840 675 1080 405 1200 540"/>
-      <polyline class="cls-18" points="0 540 720 540 840 405 960 540 1080 405"/>
-    </g>
+    <rect class="cls-4" x="1422" y="874" width="96" height="32"/>
+    <text class="cls-6" transform="translate(1451.61 895.76)"><tspan x="0" y="0">N</tspan><tspan class="cls-10" x="12.2" y="0">e</tspan><tspan class="cls-21" x="21.41" y="0">x</tspan><tspan x="30.91" y="0">t</tspan></text>
   </g>
-  <g>
-    <text class="cls-3" transform="translate(150.82 495.2)"><tspan x="0" y="0">Ne</tspan><tspan class="cls-19" x="64.15" y="0">r</tspan><tspan x="81.42" y="0">coneOSへようこそ！</tspan></text>
-    <text class="cls-9" transform="translate(154.04 530.61)"><tspan x="0" y="0">使い始める前に、いくつかの設定を終わらせませんか？</tspan></text>
-    <text class="cls-11" transform="translate(155.04 582.26)"><tspan x="0" y="0">時間がない場合は、「後でセットアップ」を押して一時的にゲストユーザーを使用することもできます。</tspan><tspan x="0" y="16">次回の起動時、またはゲストユーザーのデスクトップにあるショートカットからいつでもセットアップに戻ることができます。</tspan><tspan x="0" y="32">ゲストユーザー内で行ったほとんどの変更は次回の起動時にリセットされます。重要なデータを取り扱う場合は先にセットアップを済ませることをおすすめします。</tspan></text>
-  </g>
-  <g>
-    <g>
-      <rect class="cls-2" y="1076" width="1920" height="4"/>
-      <rect class="cls-5" y="1076" width="128" height="4"/>
-    </g>
-    <text class="cls-6" transform="translate(40 1067.91)"><tspan x="0" y="0">ようこそ</tspan></text>
-    <text class="cls-7" transform="translate(141 1067.06)"><tspan class="cls-16" x="0" y="0">次</tspan><tspan x="15" y="0">: ネットワークの設定</tspan></text>
-  </g>
-  <g>
-    <rect class="cls-17" x="1372" y="970" width="256" height="56"/>
-    <text class="cls-12" transform="translate(1391.69 1005)"><tspan x="0" y="0">後でセットアップ</tspan></text>
-    <text class="cls-10" transform="translate(1576.16 1002.46)"><tspan x="0" y="0">ESC</tspan></text>
-    <g class="cls-13">
-      <path d="M1611,987v22h-46v-22h46M1612,986h-48v24h48v-24h0Z"/>
-    </g>
-  </g>
-  <g>
-    <rect class="cls-8" x="1682" y="970" width="184" height="56"/>
-    <text class="cls-1" transform="translate(1719.32 1005)"><tspan x="0" y="0">次へ</tspan></text>
-    <text class="cls-4" transform="translate(1802.19 1002.46)"><tspan x="0" y="0">ENTER</tspan></text>
-    <path class="cls-5" d="M1848,988v20h-52v-20h52M1850,986h-56v24h56v-24h0Z"/>
-  </g>
+  <polyline class="cls-1" points="1050 527.19 870 467 870 557 960 557 1050 467 1050 557 1003.12 557"/>
+  <text class="cls-5" transform="translate(699.07 646.35)"><tspan class="cls-7" x="0" y="0">T</tspan><tspan class="cls-19" x="14.66" y="0">r</tspan><tspan class="cls-11" x="24.11" y="0">a</tspan><tspan class="cls-9" x="37.63" y="0">v</tspan><tspan x="51.59" y="0">ele</tspan><tspan class="cls-8" x="86.68" y="0">r</tspan><tspan class="cls-16" x="94.96" y="0">,</tspan><tspan x="102.23" y="0"> </tspan><tspan class="cls-14" x="107.92" y="0">W</tspan><tspan x="131.62" y="0">elcome once again </tspan><tspan class="cls-20" x="357.07" y="0">t</tspan><tspan x="365.62" y="0">o N</tspan><tspan class="cls-19" x="404.32" y="0">e</tspan><tspan x="418.29" y="0">w </tspan><tspan class="cls-14" x="444.38" y="0">W</tspan><tspan x="468.08" y="0">o</tspan><tspan class="cls-22" x="482.8" y="0">r</tspan><tspan x="492.95" y="0">ld</tspan><tspan class="cls-16" x="514.58" y="0">.</tspan></text>
 </svg>

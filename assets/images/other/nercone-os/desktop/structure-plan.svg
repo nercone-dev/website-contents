@@ -132,11 +132,11 @@
       }
 
       .cls-34 {
-        letter-spacing: .07em;
+        letter-spacing: .08em;
       }
 
       .cls-35 {
-        letter-spacing: .06em;
+        letter-spacing: .07em;
       }
 
       .cls-36 {
@@ -148,11 +148,11 @@
       }
 
       .cls-38 {
-        fill: #1a1a1a;
+        letter-spacing: .06em;
       }
 
       .cls-39 {
-        letter-spacing: .02em;
+        fill: #1a1a1a;
       }
 
       .cls-40 {
@@ -168,7 +168,7 @@
       }
 
       .cls-43 {
-        letter-spacing: .05em;
+        letter-spacing: .02em;
       }
 
       .cls-44 {
@@ -180,7 +180,7 @@
       }
 
       .cls-46 {
-        letter-spacing: .04em;
+        letter-spacing: .05em;
       }
 
       .cls-47 {
@@ -192,21 +192,25 @@
       }
 
       .cls-49 {
+        letter-spacing: .04em;
+      }
+
+      .cls-50 {
         letter-spacing: 0em;
       }
     </style>
   </defs>
-  <rect class="cls-38" width="1920" height="1080"/>
+  <rect class="cls-39" width="1920" height="1080"/>
   <g>
     <g>
       <rect class="cls-32" x="285" y="1000" width="1350" height="80"/>
-      <text class="cls-14" transform="translate(308.51 1052.98)"><tspan x="0" y="0">Ne</tspan><tspan class="cls-42" x="43.43" y="0">r</tspan><tspan class="cls-30" x="56.18" y="0">K</tspan><tspan class="cls-1" x="76.73" y="0">e</tspan><tspan class="cls-41" x="95.67" y="0">r</tspan><tspan class="cls-1" x="108.42" y="0">nel </tspan><tspan class="cls-23" x="163.58" y="0">メインモジュール</tspan></text>
-      <text class="cls-6" transform="translate(867.24 1049.23)"><tspan x="0" y="0">スケジューラ、サブモジュール/カーネル機能拡張の読み込みなど</tspan></text>
+      <text class="cls-14" transform="translate(308.51 1052.98)"><tspan x="0" y="0">Ne</tspan><tspan class="cls-43" x="43.43" y="0">r</tspan><tspan class="cls-30" x="56.18" y="0">K</tspan><tspan class="cls-1" x="76.73" y="0">e</tspan><tspan class="cls-42" x="95.67" y="0">r</tspan><tspan class="cls-1" x="108.42" y="0">nel </tspan><tspan class="cls-23" x="163.58" y="0">メインモジュール</tspan></text>
+      <text class="cls-6" transform="translate(901.25 1049.23)"><tspan x="0" y="0">機能拡張の読み込みやスケジューラなどの基本的な機能を担当</tspan></text>
     </g>
     <g>
       <rect class="cls-13" x="285" y="825" width="1350" height="175"/>
-      <text class="cls-14" transform="translate(314.44 882.78)"><tspan x="0" y="0">Ne</tspan><tspan class="cls-42" x="43.43" y="0">r</tspan><tspan class="cls-30" x="56.18" y="0">K</tspan><tspan class="cls-1" x="76.73" y="0">e</tspan><tspan class="cls-41" x="95.67" y="0">r</tspan><tspan class="cls-1" x="108.42" y="0">nel </tspan><tspan class="cls-23" x="163.58" y="0">サブモジュール / 機能拡張</tspan></text>
-      <text class="cls-6" transform="translate(314.66 930.08)"><tspan class="cls-36" x="0" y="0">fi</tspan><tspan class="cls-33" x="18.28" y="0">r</tspan><tspan class="cls-37" x="29.56" y="0">mwa</tspan><tspan class="cls-47" x="90.42" y="0">r</tspan><tspan class="cls-36" x="100.9" y="0">e memo</tspan><tspan class="cls-33" x="204.78" y="0">r</tspan><tspan class="cls-37" x="216.07" y="0">y p</tspan><tspan class="cls-48" x="256.91" y="0">ow</tspan><tspan class="cls-37" x="294.43" y="0">er gpio ne</tspan><tspan class="cls-34" x="428.36" y="0">t</tspan><tspan class="cls-48" x="438.39" y="0">w</tspan><tspan class="cls-36" x="459.88" y="0">o</tspan><tspan class="cls-33" x="476.35" y="0">r</tspan><tspan class="cls-37" x="487.64" y="0">k icmp </tspan><tspan class="cls-43" x="583.36" y="0">t</tspan><tspan class="cls-37" x="592.78" y="0">cp udp c</tspan><tspan class="cls-33" x="708" y="0">r</tspan><tspan class="cls-36" x="719.28" y="0">yp</tspan><tspan class="cls-44" x="751.61" y="0">t</tspan><tspan class="cls-37" x="761.03" y="0">ograp</tspan><tspan class="cls-46" x="837.54" y="0">h</tspan><tspan class="cls-35" x="853.44" y="0">y ethenet wlan blue</tspan><tspan class="cls-45" x="1112.48" y="0">t</tspan><tspan class="cls-37" x="1121.9" y="0">ooth hdm</tspan><tspan x="1245.74" y="0">i </tspan><tspan x="0" y="30">displ</tspan><tspan class="cls-28" x="55.92" y="30">a</tspan><tspan x="69.59" y="30">ypo</tspan><tspan class="cls-42" x="113.94" y="30">r</tspan><tspan x="123.74" y="30">t graphic </tspan><tspan class="cls-31" x="235.19" y="30">f</tspan><tspan x="243.71" y="30">ont s</tspan><tspan class="cls-11" x="301.88" y="30">t</tspan><tspan x="309.81" y="30">orage mbr gpt scsi sa</tspan><tspan class="cls-49" x="565.69" y="30">t</tspan><tspan x="573.99" y="30">a </tspan><tspan class="cls-28" x="595.06" y="30">n</tspan><tspan x="609.46" y="30">vme ne</tspan><tspan class="cls-25" x="696.36" y="30">f</tspan><tspan x="705.05" y="30">s nd</tspan><tspan class="cls-25" x="755.36" y="30">f</tspan><tspan x="764.05" y="30">s </tspan><tspan class="cls-25" x="784.28" y="30">e</tspan><tspan class="cls-39" x="798.29" y="30">x</tspan><tspan class="cls-29" x="812.43" y="30">t</tspan><tspan class="cls-19" x="820.25" y="30">4 </tspan><tspan class="cls-40" x="843.43" y="30">x</tspan><tspan class="cls-25" x="857.57" y="30">f</tspan><tspan x="866.26" y="30">s z</tspan><tspan class="cls-25" x="900.29" y="30">f</tspan><tspan class="cls-19" x="908.98" y="30">s bt</tspan><tspan class="cls-42" x="952.7" y="30">r</tspan><tspan class="cls-25" x="962.5" y="30">f</tspan><tspan class="cls-16" x="971.19" y="30">s ...</tspan></text>
+      <text class="cls-14" transform="translate(307.44 882.78)"><tspan x="0" y="0">Ne</tspan><tspan class="cls-43" x="43.43" y="0">r</tspan><tspan class="cls-30" x="56.18" y="0">K</tspan><tspan class="cls-1" x="76.73" y="0">e</tspan><tspan class="cls-42" x="95.67" y="0">r</tspan><tspan class="cls-1" x="108.42" y="0">nel </tspan><tspan class="cls-23" x="163.58" y="0">サブモジュール / 機能拡張</tspan></text>
+      <text class="cls-6" transform="translate(310.66 930.08)"><tspan class="cls-37" x="0" y="0">fi</tspan><tspan class="cls-33" x="18.28" y="0">r</tspan><tspan class="cls-37" x="29.56" y="0">mwa</tspan><tspan class="cls-48" x="90.42" y="0">r</tspan><tspan class="cls-38" x="100.9" y="0">e memo</tspan><tspan class="cls-33" x="204.78" y="0">r</tspan><tspan class="cls-37" x="216.07" y="0">y p</tspan><tspan class="cls-49" x="256.91" y="0">ow</tspan><tspan class="cls-37" x="294.43" y="0">er gpio ne</tspan><tspan class="cls-35" x="428.36" y="0">t</tspan><tspan class="cls-49" x="438.39" y="0">w</tspan><tspan class="cls-37" x="459.88" y="0">o</tspan><tspan class="cls-34" x="476.35" y="0">r</tspan><tspan class="cls-37" x="487.64" y="0">k icmp </tspan><tspan class="cls-44" x="583.36" y="0">t</tspan><tspan class="cls-37" x="592.78" y="0">cp udp c</tspan><tspan class="cls-33" x="708" y="0">r</tspan><tspan class="cls-37" x="719.28" y="0">yp</tspan><tspan class="cls-45" x="751.61" y="0">t</tspan><tspan class="cls-38" x="761.03" y="0">ograp</tspan><tspan class="cls-47" x="837.54" y="0">h</tspan><tspan class="cls-38" x="853.44" y="0">y ethenet wlan blue</tspan><tspan class="cls-46" x="1112.48" y="0">t</tspan><tspan class="cls-36" x="1121.9" y="0">ooth hdm</tspan><tspan x="1245.74" y="0">i </tspan><tspan x="0" y="30">displ</tspan><tspan class="cls-28" x="55.92" y="30">a</tspan><tspan x="69.59" y="30">ypo</tspan><tspan class="cls-43" x="113.94" y="30">r</tspan><tspan x="123.74" y="30">t graphic </tspan><tspan class="cls-31" x="235.19" y="30">f</tspan><tspan x="243.71" y="30">ont s</tspan><tspan class="cls-11" x="301.88" y="30">t</tspan><tspan x="309.81" y="30">orage mbr gpt scsi sa</tspan><tspan class="cls-50" x="565.69" y="30">t</tspan><tspan x="573.99" y="30">a </tspan><tspan class="cls-28" x="595.06" y="30">n</tspan><tspan x="609.46" y="30">vme ne</tspan><tspan class="cls-25" x="696.36" y="30">f</tspan><tspan x="705.05" y="30">s nd</tspan><tspan class="cls-25" x="755.36" y="30">f</tspan><tspan x="764.05" y="30">s </tspan><tspan class="cls-25" x="784.28" y="30">e</tspan><tspan class="cls-40" x="798.29" y="30">x</tspan><tspan class="cls-29" x="812.43" y="30">t</tspan><tspan class="cls-19" x="820.25" y="30">4 </tspan><tspan class="cls-41" x="843.43" y="30">x</tspan><tspan class="cls-25" x="857.57" y="30">f</tspan><tspan x="866.26" y="30">s z</tspan><tspan class="cls-25" x="900.29" y="30">f</tspan><tspan class="cls-19" x="908.98" y="30">s bt</tspan><tspan class="cls-43" x="952.7" y="30">r</tspan><tspan class="cls-25" x="962.5" y="30">f</tspan><tspan class="cls-16" x="971.19" y="30">s ...</tspan></text>
     </g>
     <g>
       <rect class="cls-20" x="285" y="745" width="1350" height="80"/>

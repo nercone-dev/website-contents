@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #fff;
+        stroke-width: 12px;
+      }
+
+      .cls-1, .cls-2 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-3 {
+        fill: #939393;
+        font-family: InterBIZUD-Regular, 'Inter BIZUD';
+        font-size: 12px;
+      }
+
+      .cls-4 {
+        fill: #272727;
+      }
+
+      .cls-5 {
+        fill: #fff;
+        font-size: 24px;
+      }
+
+      .cls-5, .cls-6 {
+        font-family: InterBIZUD-Bold, 'Inter BIZUD';
+        font-weight: 700;
+      }
+
+      .cls-7 {
+        letter-spacing: -.06em;
+      }
+
+      .cls-8 {
+        letter-spacing: -.06em;
+      }
+
+      .cls-9 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-10 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-11 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-12 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-13 {
+        letter-spacing: -.01em;
+      }
+
+      .cls-14 {
+        letter-spacing: -.05em;
+      }
+
+      .cls-15 {
+        letter-spacing: -.05em;
+      }
+
+      .cls-16 {
+        letter-spacing: -.03em;
+      }
+
+      .cls-17 {
+        letter-spacing: 0em;
+      }
+
+      .cls-2 {
+        stroke: #303030;
+        stroke-width: 2px;
+      }
+
+      .cls-2, .cls-18 {
+        fill: #1a1a1a;
+      }
+
+      .cls-19 {
+        letter-spacing: -.01em;
+      }
+
+      .cls-20 {
+        letter-spacing: 0em;
+      }
+
+      .cls-6 {
+        fill: #999;
+        font-size: 16px;
+      }
+
+      .cls-21 {
+        letter-spacing: .01em;
+      }
+
+      .cls-22 {
+        letter-spacing: .02em;
+      }
+
+      .cls-23 {
+        letter-spacing: 0em;
+      }
+    </style>
+  </defs>
+  <rect class="cls-18" width="1920" height="1080"/>
+  <rect class="cls-2" x="384" y="156" width="1152" height="768"/>
+  <text class="cls-3" transform="translate(578.21 902.94)"><tspan x="0" y="0" xml:space="preserve">EULA  Shu</tspan><tspan class="cls-20" x="59.85" y="0">t</tspan><tspan x="63.66" y="0">d</tspan><tspan class="cls-9" x="71" y="0">o</tspan><tspan x="77.98" y="0" xml:space="preserve">wn  </tspan><tspan class="cls-13" x="101.64" y="0">R</tspan><tspan x="109.19" y="0">eboot </tspan><tspan class="cls-20" x="145.22" y="0">t</tspan><tspan x="149.03" y="0">o open Fi</tspan><tspan class="cls-22" x="201.6" y="0">r</tspan><tspan x="206.3" y="0">mwa</tspan><tspan class="cls-12" x="233.37" y="0">r</tspan><tspan x="237.69" y="0" xml:space="preserve">e Settings  Upda</tspan><tspan class="cls-20" x="331.41" y="0">t</tspan><tspan x="335.22" y="0">e Ins</tspan><tspan class="cls-23" x="362.24" y="0">t</tspan><tspan x="366.22" y="0" xml:space="preserve">aller  Swi</tspan><tspan class="cls-20" x="417.46" y="0">t</tspan><tspan x="421.27" y="0">ch </tspan><tspan class="cls-20" x="438.6" y="0">t</tspan><tspan x="442.41" y="0">o A</tspan><tspan class="cls-23" x="461.26" y="0">d</tspan><tspan class="cls-17" x="468.66" y="0">v</tspan><tspan x="475.35" y="0">anced Ins</tspan><tspan class="cls-23" x="530.4" y="0">t</tspan><tspan x="534.38" y="0" xml:space="preserve">aller  </tspan><tspan class="cls-13" x="565.2" y="0">R</tspan><tspan x="572.74" y="0">escu</tspan><tspan class="cls-12" x="600.02" y="0">r</tspan><tspan x="604.34" y="0" xml:space="preserve">e Mode  Open </tspan><tspan class="cls-15" x="687.83" y="0">W</tspan><tspan x="699.04" y="0">eb B</tspan><tspan class="cls-12" x="724.61" y="0">r</tspan><tspan class="cls-9" x="728.93" y="0">o</tspan><tspan x="735.91" y="0">wser</tspan></text>
+  <g>
+    <rect class="cls-4" x="1422" y="874" width="96" height="32"/>
+    <text class="cls-6" transform="translate(1451.61 895.76)"><tspan x="0" y="0">N</tspan><tspan class="cls-10" x="12.2" y="0">e</tspan><tspan class="cls-21" x="21.41" y="0">x</tspan><tspan x="30.91" y="0">t</tspan></text>
+  </g>
+  <polyline class="cls-1" points="1050 527.19 870 467 870 557 960 557 1050 467 1050 557 1003.12 557"/>
+  <text class="cls-5" transform="translate(766.03 646.35)"><tspan class="cls-7" x="0" y="0">T</tspan><tspan class="cls-19" x="14.66" y="0">r</tspan><tspan class="cls-11" x="24.11" y="0">a</tspan><tspan class="cls-9" x="37.63" y="0">v</tspan><tspan x="51.59" y="0">ele</tspan><tspan class="cls-8" x="86.68" y="0">r</tspan><tspan class="cls-16" x="94.96" y="0">,</tspan><tspan x="102.23" y="0"> </tspan><tspan class="cls-14" x="107.92" y="0">W</tspan><tspan x="131.62" y="0">elcome </tspan><tspan class="cls-20" x="223.15" y="0">t</tspan><tspan x="231.7" y="0">o N</tspan><tspan class="cls-19" x="270.4" y="0">e</tspan><tspan x="284.37" y="0">w </tspan><tspan class="cls-14" x="310.45" y="0">W</tspan><tspan x="334.16" y="0">o</tspan><tspan class="cls-22" x="348.88" y="0">r</tspan><tspan x="359.03" y="0">ld</tspan><tspan class="cls-16" x="380.66" y="0">.</tspan></text>
+</svg>

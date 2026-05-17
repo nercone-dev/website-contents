@@ -54,7 +54,7 @@
         font-family: InterBIZUD-Regular, 'Inter BIZUD';
       }
 
-      .cls-44, .cls-38, .cls-52, .cls-41, .cls-53, .cls-43 {
+      .cls-44, .cls-38, .cls-52, .cls-41, .cls-53, .cls-42 {
         font-size: 8px;
       }
 
@@ -134,11 +134,11 @@
         stroke-miterlimit: 10;
       }
 
-      .cls-22, .cls-30, .cls-35, .cls-69, .cls-42, .cls-47 {
+      .cls-22, .cls-30, .cls-35, .cls-69, .cls-43, .cls-47 {
         font-size: 16px;
       }
 
-      .cls-22, .cls-31, .cls-38, .cls-41, .cls-42, .cls-53, .cls-70 {
+      .cls-22, .cls-31, .cls-38, .cls-41, .cls-53, .cls-43, .cls-70 {
         font-weight: 700;
       }
 
@@ -146,7 +146,7 @@
         font-family: InterBIZUD-Bold, 'Inter BIZUD';
       }
 
-      .cls-24, .cls-52, .cls-53, .cls-8, .cls-43 {
+      .cls-24, .cls-52, .cls-53, .cls-8, .cls-42 {
         opacity: .5;
       }
 
@@ -170,7 +170,7 @@
         opacity: .75;
       }
 
-      .cls-30, .cls-52, .cls-69, .cls-43 {
+      .cls-30, .cls-52, .cls-69, .cls-42 {
         font-family: MesloBIZUD-Regular, 'Meslo BIZUD';
       }
 
@@ -326,6 +326,10 @@
       }
 
       .cls-99 {
+        letter-spacing: 0em;
+      }
+
+      .cls-100 {
         fill: #0081c5;
       }
 
@@ -333,21 +337,12 @@
         fill: #efefef;
       }
 
-      .cls-42 {
-        font-family: NotoSansSC-Bold, 'NotoSansSC Bold';
-        font-variation-settings: ';
-      }
-
-      .cls-100 {
+      .cls-101 {
         fill: #007cd1;
       }
 
       .cls-55 {
         mix-blend-mode: overlay;
-      }
-
-      .cls-101 {
-        letter-spacing: -.5em;
       }
 
       .cls-102 {
@@ -375,18 +370,39 @@
       }
 
       .cls-108 {
-        letter-spacing: -.03em;
+        letter-spacing: -.02em;
       }
 
       .cls-109 {
-        letter-spacing: -.04em;
+        letter-spacing: -.02em;
       }
 
       .cls-110 {
-        letter-spacing: -.03em;
+        letter-spacing: -.02em;
       }
 
       .cls-111 {
+        letter-spacing: -.01em;
+      }
+
+      .cls-112 {
+        letter-spacing: -.03em;
+      }
+
+      .cls-113 {
+        letter-spacing: -.04em;
+      }
+
+      .cls-114 {
+        letter-spacing: -.03em;
+      }
+
+      .cls-43 {
+        font-family: NotoSansSC-Bold, 'Noto Sans SC';
+        font-variation-settings: 'wght' 700;
+      }
+
+      .cls-115 {
         fill: #333;
       }
 
@@ -398,7 +414,7 @@
         font-size: 24px;
       }
 
-      .cls-112 {
+      .cls-116 {
         fill: #1a1a1a;
       }
 
@@ -406,11 +422,11 @@
         fill: url(#_名称未設定グラデーション_38);
       }
 
-      .cls-113 {
+      .cls-117 {
         letter-spacing: .02em;
       }
 
-      .cls-114 {
+      .cls-118 {
         letter-spacing: .02em;
       }
 
@@ -418,27 +434,27 @@
         stroke: #929292;
       }
 
-      .cls-115 {
+      .cls-119 {
         fill: url(#_名称未設定グラデーション_14);
       }
 
-      .cls-116 {
+      .cls-120 {
         fill: url(#_名称未設定グラデーション_12);
       }
 
-      .cls-117 {
+      .cls-121 {
         fill: url(#_名称未設定グラデーション_13);
       }
 
-      .cls-118 {
+      .cls-122 {
         fill: url(#_名称未設定グラデーション_11);
       }
 
-      .cls-119 {
+      .cls-123 {
         fill: url(#_名称未設定グラデーション_15);
       }
 
-      .cls-120 {
+      .cls-124 {
         fill: url(#_名称未設定グラデーション_10);
       }
     </style>
@@ -563,387 +579,388 @@
   <g class="cls-72">
     <g id="_レイヤー_1" data-name="レイヤー 1">
       <g>
-        <g>
-          <rect width="3840" height="2160"/>
-          <line class="cls-6" x1="3840" y1="1080" y2="1080"/>
-          <polyline class="cls-6" points="1440 1080 1680 840 2160 1320 2400 1080"/>
-          <polyline class="cls-6" points="1440 1080 1680 1320 2160 840 2400 1080"/>
-          <polyline class="cls-4" points="0 1080 1440 1080 1680 840 1920 1080 2160 840"/>
-        </g>
-        <g>
-          <image class="cls-54" width="780" height="532" transform="translate(2036 820) scale(2)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAwwAAAIUCAYAAAC3jas5AAAACXBIWXMAAAWJAAAFiQFtaJ36AAANMUlEQVR4nO3dT4scxwGH4d/akmUUm5A/B+Pkku//vYwPsYgiW9iSrc2hZ7Sj3X1FAiEwyvNAsbtd3bDHeqmumZu1m4/MAQAAn5bbxy4+FgU3F9dv4h4AAODTcLu7WLj8fduHMXD+/bNHxv17AQCA63YOg3ePjPfzT+499Nnp2tOL8WSiAQAAPiWXsfDrtrcX49fdRcP7YLjZXSw82/Z82+9O49nuokEwAADA9bvdXSz8su2n03h9mj9Hw+39YHi6Ixb+uO1Pp59f74iGz+dMAwAAXLvzOYXfdsTCq20vtv1wmj+/lnS7UzBcnl14uu2rbX/e9tdt3+6IhuenufOrSQAAwPV6t+P1o9c7YuG7HV3wZkdEvN0RFDcf22H4dtvftn2zY5fhi3ktCQAArt35daQ3O3YXvj9df73tH9v+ubt1/4NXks5nGL7aEQ3fbPvLtt9v+3KCAQAArt05GH7e9vJ07eWOBnhwfrk+Jel88PnrHbHwh314jgEAALhOl+cXtmNH4fk+jIX3LoPhfKD5sx1h8HTHa0jPTuPLCQYAALh252DYjnX+FzvW/p/vbmfh/Zr//g7DdhcNl/FwOQQDAABcr/N3MJzX95dr/wdr/ceC4ezmIwMAALhe//Ya38ekAgAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAOnJR+ZuYwAAANfrP1rnPxYMt9veXfz87WJs281/8Z8FAAD+t2734Rr/cu3/IBye3HvwMhLebnuz7ZfT2LbPJxgAAOCanYPhvM5/s2PtfxkP78Ph/g7Du22/nh58ve3VtpenuS93nHkQDAAAcL3OmwQ/71jrv9qx9v9lRwu8u7z5yb2HzrHw47YX274/zf9z2xcTDAAAcO3Oa/83O2Lh+x1r/x/3YTTcbg+D4e2Ounix7bvT3Mttz7c9nU9VAgCAT8Fja/8Xp7/f7l4w3O7YNTg/9OO2v5+u/7Tt623Pdnd+wQ4DAABcr/MZhfM5hlc7YuGHHS1wDoZtu60dhp0efrkjFp7M60gAAPCpuH8k4afTeLDDcBkANzui4MmO14/O4xwL9+8HAACu0/lTkM7R8PZifHCG4X4wbEcc3B/37wUAAK7bZTTcH+/nH4uAy3MKziwAAMCn7fJ7Fx586/PHYkAoAADA/48H3/K8bf8ChU/hKxMoEi4AAAAASUVORK5CYII="/>
-          <g>
-            <g>
-              <rect class="cls-112" x="2050" y="834" width="1532" height="1036"/>
-              <path class="cls-77" d="M3580,836v1032h-1528V836h1528M3584,832h-1536v1040h1536V832h0Z"/>
-            </g>
-            <rect class="cls-77" x="2048" y="832" width="1536" height="48"/>
-            <text class="cls-48" transform="translate(2064.51 863.45)"><tspan x="0" y="0">LRFN インストーラー</tspan></text>
-            <g>
-              <rect class="cls-77" x="2112" y="944" width="192" height="192"/>
-              <g class="cls-11">
-                <g>
-                  <path class="cls-85" d="M2261.17,995.16l-23.56-11.35c-2.73-1.31-5.99-.76-8.13,1.38l-77.14,70.34c-2.07,1.89-2.07,5.16,0,7.05l6.3,5.73c1.7,1.54,4.26,1.66,6.09.27l92.9-70.47c3.12-2.36,7.59-.14,7.59,3.77v-.27c0-2.75-1.57-5.25-4.05-6.44Z"/>
-                  <path class="cls-100" d="M2261.17,1084.84l-23.56,11.35c-2.73,1.31-5.99.76-8.13-1.38l-77.14-70.34c-2.07-1.89-2.07-5.16,0-7.05l6.3-5.73c1.7-1.54,4.26-1.66,6.09-.27l92.9,70.47c3.12,2.36,7.59.14,7.59-3.77v.27c0,2.75-1.57,5.25-4.05,6.44Z"/>
-                  <path class="cls-68" d="M2237.61,1096.18c-2.73,1.31-5.99.76-8.13-1.38,2.64,2.64,7.15.77,7.15-2.96v-103.68c0-3.73-4.51-5.6-7.15-2.96,2.14-2.14,5.4-2.7,8.13-1.38l23.56,11.33c2.48,1.19,4.05,3.69,4.05,6.44v76.82c0,2.75-1.57,5.25-4.05,6.44l-23.56,11.33Z"/>
-                  <g class="cls-55">
-                    <path class="cls-20" d="M2231.88,1096.4c1.8.7,3.86.66,5.67-.22l23.55-11.33c2.47-1.19,4.05-3.69,4.05-6.44v-76.82c0-2.75-1.57-5.25-4.05-6.44l-23.55-11.33c-2.39-1.15-5.18-.87-7.27.66-.3.22-.58.46-.85.73l-45.08,41.12-19.63-14.9c-1.83-1.39-4.38-1.27-6.08.27l-6.3,5.73c-2.08,1.89-2.08,5.16,0,7.05l17.03,15.53-17.03,15.53c-2.07,1.89-2.07,5.16,0,7.05l6.3,5.73c1.7,1.54,4.25,1.66,6.08.27l19.63-14.9,45.08,41.12c.71.71,1.55,1.25,2.45,1.6ZM2236.57,1014.04l-34.2,25.96,34.2,25.96v-51.93Z"/>
-                  </g>
-                </g>
-              </g>
-            </g>
-            <text class="cls-33" transform="translate(2359.28 1040)"><tspan x="0" y="0">Visual Studio Code</tspan></text>
-            <text class="cls-50" transform="translate(2360.9 1087.34)"><tspan x="0" y="0">Mic</tspan><tspan class="cls-107" x="54.94" y="0">r</tspan><tspan x="66.45" y="0">oso</tspan><tspan class="cls-108" x="121.72" y="0">f</tspan><tspan x="132.47" y="0">t Co</tspan><tspan class="cls-114" x="194.5" y="0">r</tspan><tspan x="207.05" y="0">poration</tspan></text>
-            <rect class="cls-77" x="2112" y="1200" width="1408" height="576"/>
-            <text class="cls-69" transform="translate(2131.91 1232.8)"><tspan x="0" y="0">LRFN Installer v4.3</tspan><tspan x="0" y="28">Checking System Information...</tspan><tspan x="0" y="56">Downloading LRFN Catalog for NerconeOS Executable Format 1</tspan><tspan x="0" y="84">Found: LRFN v19.3.2 for NerconeOS &quot;First Step&quot;</tspan><tspan x="0" y="112">Downloading CRP (Compatibility Runtime Package) File</tspan><tspan x="0" y="140">-&gt; https://dl.nercone.dev/os/lrfn/19.3.2/lrfn-19.3.2-nef1.tar.xz (100%)</tspan><tspan x="0" y="168">-&gt; Extracting (100%)</tspan><tspan x="0" y="196">Installing lrfn-19.3.2-nef1.crp</tspan><tspan x="0" y="224">Waiting for NeRunE Permission Manager...</tspan></text>
-            <text class="cls-49" transform="translate(2112 1828.12)"><tspan x="0" y="0">LRFN (Linux Runtime </tspan><tspan class="cls-110" x="243.62" y="0">f</tspan><tspan x="251.8" y="0">or Ne</tspan><tspan class="cls-107" x="314.05" y="0">r</tspan><tspan x="322.69" y="0">coneOS</tspan><tspan class="cls-76" x="412.71" y="0">)</tspan><tspan x="427.46" y="0">をインストールしていま</tspan><tspan class="cls-76" x="691.46" y="0">す</tspan><tspan x="721.46" y="0">...</tspan></text>
-            <rect class="cls-71" x="3512" y="832" width="72" height="48"/>
-          </g>
-        </g>
-        <g>
-          <image class="cls-54" width="492" height="368" transform="translate(2324 1004) scale(2)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAewAAAFwCAYAAAB6jkhYAAAACXBIWXMAAAWJAAAFiQFtaJ36AAAIdUlEQVR4nO3cy24cxxmA0Z8SdYFiIchlYTjZ5P3fy9AiFiLrAouUOVl0N9kcXpCAYwMffA5QINnVDXD3oap65mwedvbIHADw2zjcd/G+KJ/trp89cA8AcFqHuYn1/veZuR3j7fdn94zjewGA09jCfHXPuJ4/P3ro2XrtxW6cj2gDwG9hH+tvM3O5G9/mJtrXwT6bm1i/mpk3M/Ondbyam2gLNgCczmFuYv11Zj6v48s6v0X7cBzsF7PE+q8z87f159tZov18nGkDwKls59S/zhLrjzPzfmZ+Wue3bfHDrMHen12/mJnvZubvM/PPmflhlmi/Wee2rXEA4OmuZtn+/jJLrH+cpcsXs0T8cpagnz22wv5hZv41M9/Pssp+ObbFAeBUtu3wi1lW1+/W619m5j8z8/PcdPfOlvh2hv3dLNH+fmb+MTN/npnXI9gAcCpbsH+ZmQ/rtQ+zNPjO+2MPvSW+vXj2dpZY/2Vun2MDAE+zP7+eWVbUb+Z2rK/tg729UPZsljC/mGUb/NU6Xo9gA8CpbMGeWTr7cpb2Pp+blfV1c49X2DM30d7Hez8EGwCebvsM9tbXfXvvtPa+YG/OHhkAwNP9z431MS0ACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACDh/ZO7wwAAAnu7/6ux9wT7MzNXu56+7MTNzdsJ/FgD+qA5zu7H79t4J9/nRg/tIX87Mxcx8XcfMzPMRbAA4hS3YW2cvZmnvPt7X4T5eYV/NzLf1wS8z83FmPqxzr2c58xZsAHi6bZH8yyyt/ThLe7/O0uKr/c3nRw9tsf40M+9n5t06//PMvBzBBoBT2dp7MUus383S3k9zO9qHmbvBvpyl7u9n5sd17sPMvJmZF+OtcgA4pfva+379+3KOgn2YZdW8PfRpZv69Xv88M29n5tXcnF9bYQPA021n1Ns59sdZYv3TLC3egj0zc3hohT3rwx9mifX52A4HgFM7PpL+vI47K+x9gM9mifL5LNvf29hifXw/APA021vgW7Qvd+PWGfZxsGeWOB+P43sBgNPYR/t4XM/fF+H9ObUzawD4few/d33nW88ei7FQA8Dv796vJ/0v1i3f43F5qhgAAAAASUVORK5CYII="/>
-          <g>
-            <g>
-              <rect class="cls-112" x="2338" y="1018" width="956" height="708"/>
-              <path class="cls-71" d="M3292,1020v704h-952v-704h952M3296,1016h-960v712h960v-712h0Z"/>
-            </g>
-            <rect class="cls-71" x="2336" y="1016" width="960" height="32"/>
-            <text class="cls-30" transform="translate(2345.42 1037.91)"><tspan x="0" y="0">権限マネージャー</tspan></text>
-            <g>
-              <rect class="cls-77" x="2368" y="1072" width="96" height="96"/>
-              <g>
-                <rect class="cls-111" x="2393.37" y="1097.37" width="45.25" height="45.25" transform="translate(-84.33 2036.41) rotate(-45)"/>
-                <g>
-                  <polygon class="cls-14" points="2422.4 1128.53 2422.4 1130.67 2405.33 1130.67 2405.33 1109.33 2407.47 1109.33 2407.47 1128.53 2422.4 1128.53"/>
-                  <rect class="cls-14" x="2424.53" y="1109.33" width="2.13" height="21.33"/>
-                </g>
-              </g>
-            </g>
-            <text class="cls-37" transform="translate(2491.05 1115.7)"><tspan x="0" y="0">LRF</tspan><tspan class="cls-76" x="57.58" y="0">N</tspan><tspan x="89.69" y="0">インストーラー</tspan></text>
-            <text class="cls-47" transform="translate(2491.86 1147.15)"><tspan x="0" y="0">このソフトウェアは、次の権限を要求しています</tspan><tspan class="cls-101" x="352" y="0">。</tspan></text>
-            <rect class="cls-77" x="2352" y="1200" width="928" height="468"/>
-            <g>
-              <rect class="cls-71" x="3152" y="1680" width="128" height="32"/>
-              <text class="cls-22" transform="translate(3200 1702.35)"><tspan x="0" y="0">許可</tspan></text>
-            </g>
-            <g>
-              <rect class="cls-77" x="3012" y="1680" width="128" height="32"/>
-              <text class="cls-35" transform="translate(3060 1702.35)"><tspan x="0" y="0">拒否</tspan></text>
-            </g>
-            <g>
-              <rect class="cls-83" x="2356" y="1204" width="920" height="20"/>
-              <text class="cls-36" transform="translate(2362.09 1217.71)"><tspan x="0" y="0">Ne</tspan><tspan class="cls-114" x="13.36" y="0">r</tspan><tspan class="cls-109" x="17.29" y="0">K</tspan><tspan x="23.61" y="0">e</tspan><tspan class="cls-114" x="29.44" y="0">r</tspan><tspan x="33.36" y="0">nel (8)</tspan></text>
-            </g>
-            <g>
-              <rect class="cls-83" x="2420" y="1252" width="856" height="20"/>
-              <text class="cls-39" transform="translate(2425.59 1265.71) scale(1.04 1)"><tspan class="cls-51" x="0" y="0">カーネル機能拡張のインストール</tspan><tspan class="cls-52" x="150" y="-.72" xml:space="preserve"> (dev.nercone.os.nerkernel.nkext.install)</tspan></text>
-            </g>
-            <g>
-              <rect class="cls-83" x="2420" y="1276" width="856" height="20"/>
-              <text class="cls-39" transform="translate(2420.38 1289.71)"><tspan class="cls-51" x="0" y="0">「LRFN インストーラー」によりインストールされたカーネル機能拡張の削除</tspan><tspan class="cls-52" x="348.34" y="-.72" xml:space="preserve"> (dev.nercone.os.nerkernel.nkext.remove.installed-by-same-software)</tspan></text>
-            </g>
-            <g>
-              <rect class="cls-83" x="2388" y="1228" width="888" height="20"/>
-              <text class="cls-36" transform="translate(2392.64 1241.71)"><tspan x="0" y="0">NKE</tspan><tspan class="cls-113" x="20.26" y="0">x</tspan><tspan x="25.92" y="0">t</tspan></text>
-              <text class="cls-44" transform="translate(2770 1241)"><tspan x="0" y="0">機能拡張はこのコンピューターへの無制限のアクセスが許可されます。ソフトウェアが少しでも信頼できない場合、必ず拒否してください</tspan><tspan class="cls-101" x="496" y="0">。</tspan></text>
-            </g>
-            <g>
-              <rect class="cls-83" x="2388" y="1300" width="888" height="20"/>
-              <text class="cls-36" transform="translate(2392.64 1313.71)"><tspan x="0" y="0">NeRunE</tspan></text>
-            </g>
-            <g>
-              <rect class="cls-83" x="2420" y="1324" width="856" height="20"/>
-              <text class="cls-39" transform="translate(2425.59 1337.71) scale(1.04 1)"><tspan class="cls-51" x="0" y="0">ソフトウェアのインストール</tspan><tspan class="cls-52" x="130" y="-.72" xml:space="preserve"> (dev.nercone.os.nerune.software.install)</tspan></text>
-            </g>
-            <g>
-              <rect class="cls-83" x="2420" y="1348" width="856" height="20"/>
-              <text class="cls-39" transform="translate(2420.38 1361.71)"><tspan class="cls-51" x="0" y="0">「LRFN インストーラー」によりインストールされたソフトウェアの削除</tspan><tspan class="cls-52" x="328.34" y="-.72" xml:space="preserve"> (dev.nercone.os.nerune.software.remove.installed-by-same-software)</tspan></text>
-            </g>
-            <g>
-              <rect class="cls-83" x="2420" y="1372" width="856" height="20"/>
-              <text class="cls-36" transform="translate(2425.38 1385.71)"><tspan x="0" y="0">互換性</tspan></text>
-            </g>
-            <g>
-              <rect class="cls-83" x="2452" y="1396" width="824" height="20"/>
-              <text class="cls-39" transform="translate(2452.38 1409.71)"><tspan class="cls-51" x="0" y="0">「LRFN インストーラー」によりインストールされたソフトウェアを互換性ランタイムとして登録</tspan><tspan class="cls-52" x="438.34" y="-.72" xml:space="preserve"> (dev.nercone.os.nerune.runtime.register.installed-by-same-software)</tspan></text>
-            </g>
-            <g>
-              <rect class="cls-83" x="2452" y="1420" width="824" height="20"/>
-              <text class="cls-39" transform="translate(2452.38 1433.71)"><tspan class="cls-51" x="0" y="0">「LRFN インストーラー」によりインストールされたソフトウェアの互換性ランタイム登録を解除</tspan><tspan class="cls-52" x="438.34" y="-.72" xml:space="preserve"> (dev.nercone.os.nerune.runtime.unregister.installed-by-same-software)</tspan></text>
-            </g>
-            <g>
-              <rect class="cls-83" x="2420" y="1444" width="856" height="20"/>
-              <text class="cls-36" transform="translate(2425.38 1457.71)"><tspan x="0" y="0">隔離環境</tspan></text>
-            </g>
-            <g>
-              <rect class="cls-83" x="2452" y="1468" width="824" height="20"/>
-              <text class="cls-39" transform="translate(2457.38 1481.71)"><tspan class="cls-51" x="0" y="0">隔離環境の作成</tspan><tspan class="cls-52" x="70" y="-.72" xml:space="preserve"> (dev.nercone.os.nerune.environment.create)</tspan></text>
-            </g>
-            <g>
-              <rect class="cls-83" x="2452" y="1492" width="824" height="20"/>
-              <text class="cls-39" transform="translate(2452.38 1505.71)"><tspan class="cls-51" x="0" y="0">「LRFN インストーラー」により作成された隔離環境の編集</tspan><tspan class="cls-52" x="268.34" y="-.72" xml:space="preserve"> (dev.nercone.os.nerune.environment.edit.created-by-same-software)</tspan></text>
-            </g>
-            <g>
-              <rect class="cls-83" x="2452" y="1516" width="824" height="20"/>
-              <text class="cls-39" transform="translate(2452.38 1529.71)"><tspan class="cls-51" x="0" y="0">「LRFN インストーラー」により作成された隔離環境の削除</tspan><tspan class="cls-52" x="268.34" y="-.72" xml:space="preserve"> (dev.nercone.os.nerune.environment.remove.created-by-same-software)</tspan></text>
-            </g>
-            <g>
-              <rect class="cls-83" x="2420" y="1540" width="856" height="20"/>
-              <text class="cls-36" transform="translate(2425.38 1553.71)"><tspan x="0" y="0">権限管理</tspan></text>
-            </g>
-            <g>
-              <rect class="cls-83" x="2452" y="1564" width="824" height="90"/>
-              <text class="cls-39" transform="translate(2452.38 1577.71)"><tspan class="cls-51"><tspan x="0" y="0">「LRFN インストーラー」によりインストールされたソフトウェアへの権限の共有</tspan></tspan><tspan class="cls-52"><tspan x="5" y="10.28">dev.nercone.os.nerune.permission.share.installed-by-same-software</tspan></tspan></text>
-              <text class="cls-38" transform="translate(2457.86 1613.18)"><tspan x="0" y="0">共有する権限</tspan></text>
-              <text class="cls-43" transform="translate(2458.06 1624.73)"><tspan x="0" y="0">dev.nercone.os.nerune.environment.create</tspan><tspan x="0" y="10">dev.nercone.os.nerune.environment.edit.created-by-same-software</tspan><tspan x="0" y="20">dev.nercone.os.nerune.environment.remove.created-by-same-software</tspan></text>
-            </g>
-          </g>
-        </g>
-        <g id="_スタートメニュー" data-name="スタートメニュー">
-          <image class="cls-54" width="732" height="524" transform="translate(-12 1028) scale(2)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAtwAAAIMCAYAAADGl3tGAAAACXBIWXMAAAWJAAAFiQFtaJ36AAAM70lEQVR4nO3dy24c1xVA0UOJlATFQhAnA8POJP//X4YGsRBaD1ikzPagqshi8wEHyB4EvRZwQbJuFcDhxsXp6rN52tkzewAAwH2Hxy4+FtVnu+tnT9wDAAAsDnMX2/vfZ+Z+TG+/v3hkHd8LAACnbgvrm0fW7f750UMv1msXu3U+ohsAAPb2sf1tZq5369vcRfdtcJ/NXWy/npm3M/OXdb2eu+gW3AAAsAT3FttfZ+bzur6s+1t0H46D+2KW2P5+Zv6+/nw3S3S/HDPdAACwzWn/Pktsf5yZDzPzy7q/jZUcZg3u/ez2xcx8NzP/mJl/zsyPs0T323VvGy0BAIBTdjPL+MiXWWL751m6+mqWCL+eJcjPnjvh/nFm/jUzP8xyyv1qjJUAAMA2TnI1y+n2+/X6l5n5z8z8Onfd/GCkZJvh/m6W6P5hZn6amb/OzJsR3AAAsAX3bzNzuV67nKWhH3z+8am3lGwfnHw3S2z/be7PcQMAwKnaz2/PLCfab+d+bN/aB/f2gcgXs4T1xSxjJK/X9WYENwAAbME9s3Tyq1na+eXcnWzfNvPxCffMXXTv43u/BDcAAKdsewf31sf7dn7Qyo8F9+bsmQUAAKfsTzey1/wBAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEDo/Jm9wxMLAABO2X/VyY8F92FmbnY/f9+tmZmz/+E/CwAA/28Oc7+R9+38ILzPjx7cR/b1zFzNzNd1zcy8HMENAMBp24J76+SrWdp5H9+34X18wn0zM9/WB7/MzMeZuVz33swy8y24AQA4Zdsh9W+ztPLHWdr56ywtfbO/+fzooS22P83Mh5l5v+7/OjOvRnADAMDWzlezxPb7Wdr509yP7sPMw+C+nqXOP8zMz+ve5cy8nZmL8VYTAACYebydP6x/X89RcB9mObXeHvo0M/9er3+emXcz83ru5redcAMAcMq2Ge1tjvvjLLH9yywtvQX3zMzhqRPuWR++nCW2z8c4CQAAbI5Hsj+v68EJ9z6gz2aJ6vNZxke2tcX28f0AAHCqtreQbNF9vVv3ZriPg3tmievjdXwvAACcun10H6/b/cciej+nbWYbAACet3/v9oNvnXwupoU2AAD8eY9+vfsf0GbhG5CSC98AAAAASUVORK5CYII="/>
-          <g>
-            <rect class="cls-77" y="1040" width="1440" height="1024"/>
-            <g>
-              <g>
-                <rect class="cls-83" x="32" y="1072" width="48" height="48"/>
-                <g>
-                  <path class="cls-119" d="M68.77,1091.32c-.6-1.44-1.81-3-2.76-3.49.68,1.31,1.15,2.72,1.4,4.18v.02c-1.56-3.89-4.2-5.45-6.36-8.86-.11-.17-.22-.35-.32-.53-.05-.09-.1-.19-.15-.28-.09-.17-.16-.36-.21-.55,0-.02-.01-.03-.03-.04,0,0-.02,0-.03,0,0,0,0,0,0,0s0,0,0,0h0c-3.46,2.02-4.64,5.77-4.74,7.65-1.38.09-2.7.6-3.79,1.46-.11-.1-.23-.19-.36-.27-.31-1.1-.33-2.26-.04-3.37-1.27.62-2.4,1.49-3.32,2.56h0c-.55-.69-.51-2.97-.48-3.45-.16.06-.31.15-.46.24-.48.34-.93.73-1.35,1.15-.47.48-.9.99-1.29,1.54-.89,1.26-1.51,2.68-1.85,4.18,0,.03-.01.06-.02.09-.03.12-.12.73-.14.86,0,.01,0,.02,0,.03-.12.63-.2,1.26-.22,1.9v.07c0,7.61,6.17,13.78,13.78,13.78,6.71,0,12.45-4.83,13.58-11.45.02-.18.04-.35.06-.53.28-2.35-.02-4.73-.89-6.92h0ZM52.89,1102.1c.06.03.13.06.19.09h0c-.07-.03-.13-.06-.2-.09h0Z"/>
-                  <path class="cls-115" d="M68.77,1091.32c-.6-1.44-1.81-3-2.76-3.49.68,1.31,1.15,2.72,1.4,4.18,0,0,0,0,0,.01h0c1.3,3.54.59,7.12-.43,9.31-1.58,3.39-5.4,6.86-11.39,6.69-6.47-.18-12.16-4.98-13.22-11.26-.19-.99,0-1.49.1-2.3-.13.62-.21,1.26-.22,1.9v.07c0,7.61,6.17,13.78,13.78,13.78,6.71,0,12.45-4.83,13.58-11.45.02-.18.04-.35.06-.53.28-2.35-.02-4.73-.89-6.92h0Z"/>
-                  <path class="cls-117" d="M68.77,1091.32c-.6-1.44-1.81-3-2.76-3.49.68,1.31,1.15,2.72,1.4,4.18,0,0,0,0,0,.01h0c1.3,3.54.59,7.12-.43,9.31-1.58,3.39-5.4,6.86-11.39,6.69-6.47-.18-12.16-4.98-13.22-11.26-.19-.99,0-1.49.1-2.3-.13.62-.21,1.26-.22,1.9v.07c0,7.61,6.17,13.78,13.78,13.78,6.71,0,12.45-4.83,13.58-11.45.02-.18.04-.35.06-.53.28-2.35-.02-4.73-.89-6.92h0Z"/>
-                  <path class="cls-80" d="M62.07,1092.94s.06.04.09.06c-.35-.61-.78-1.18-1.28-1.67-4.28-4.28-1.12-9.29-.59-9.54h0c-3.46,2.02-4.64,5.77-4.74,7.65.16-.01.32-.02.48-.02,2.5,0,4.8,1.35,6.04,3.53h0Z"/>
-                  <path class="cls-79" d="M56.04,1093.79c-.02.34-1.23,1.52-1.66,1.52-3.92,0-4.55,2.37-4.55,2.37.17,2,1.56,3.64,3.25,4.51.08.04.15.08.23.11.13.06.27.11.4.17.58.2,1.18.32,1.79.35,6.87.32,8.2-8.21,3.24-10.69,1.27-.22,2.59.29,3.32.81-1.23-2.17-3.54-3.52-6.04-3.53-.16,0-.32.01-.48.02-1.38.09-2.7.6-3.79,1.46.21.18.45.42.95.91.93.92,3.33,1.88,3.34,1.99h0Z"/>
-                  <path class="cls-78" d="M56.04,1093.79c-.02.34-1.23,1.52-1.66,1.52-3.92,0-4.55,2.37-4.55,2.37.17,2,1.56,3.64,3.25,4.51.08.04.15.08.23.11.13.06.27.11.4.17.58.2,1.18.32,1.79.35,6.87.32,8.2-8.21,3.24-10.69,1.27-.22,2.59.29,3.32.81-1.23-2.17-3.54-3.52-6.04-3.53-.16,0-.32.01-.48.02-1.38.09-2.7.6-3.79,1.46.21.18.45.42.95.91.93.92,3.33,1.88,3.34,1.99h0Z"/>
-                  <path class="cls-82" d="M51.12,1090.44c.1.06.19.13.28.19-.31-1.1-.33-2.26-.04-3.37-1.27.62-2.4,1.49-3.32,2.56.07,0,2.07-.04,3.07.62Z"/>
-                  <path class="cls-81" d="M42.37,1096.77c1.06,6.28,6.76,11.08,13.22,11.26,5.98.17,9.81-3.3,11.39-6.69,1.02-2.19,1.73-5.78.43-9.3h0s0-.03,0-.03v.02c.49,3.19-1.13,6.28-3.67,8.38v.02c-4.95,4.03-9.68,2.43-10.64,1.78-.07-.03-.13-.07-.2-.1-2.88-1.38-4.07-4.01-3.82-6.26-1.4.02-2.68-.78-3.26-2.05,0,0,2.19-1.56,5.07-.2,1.63.74,3.49.81,5.17.2,0-.11-2.4-1.07-3.34-1.99-.5-.49-.74-.73-.95-.91-.11-.1-.23-.19-.36-.27-.08-.06-.17-.12-.28-.19-1.01-.65-3-.62-3.07-.62h0c-.55-.69-.51-2.97-.48-3.45-.16.06-.31.15-.46.24-.48.34-.93.73-1.35,1.15-.47.48-.9.99-1.29,1.54-.89,1.26-1.51,2.68-1.85,4.18,0,.03-.5,2.17-.26,3.28h0Z"/>
-                  <path class="cls-13" d="M60.88,1091.33c.5.49.93,1.06,1.28,1.67.07.05.14.11.21.17,3.12,2.88,1.49,6.95,1.37,7.24,2.54-2.09,4.16-5.18,3.67-8.38-1.56-3.88-4.2-5.45-6.36-8.86-.11-.17-.22-.35-.32-.53-.05-.09-.1-.19-.15-.28-.09-.17-.16-.36-.21-.55,0-.02-.01-.03-.03-.04,0,0-.02,0-.03,0,0,0,0,0,0,0s0,0,0,0c-.53.25-3.69,5.26.59,9.54Z"/>
-                  <path class="cls-120" d="M62.37,1093.17c-.07-.06-.14-.12-.21-.17-.03-.02-.06-.04-.09-.06-.74-.52-2.05-1.03-3.32-.81,4.96,2.48,3.63,11.01-3.24,10.69-.61-.03-1.22-.14-1.79-.35-.14-.05-.27-.11-.4-.17-.08-.04-.16-.07-.23-.11h0c.96.66,5.69,2.26,10.63-1.77v-.02c.13-.29,1.77-4.36-1.36-7.24h0Z"/>
-                  <path class="cls-118" d="M49.83,1097.69s.64-2.37,4.55-2.37c.42,0,1.64-1.18,1.66-1.52-1.68.61-3.54.54-5.17-.2-2.88-1.35-5.07.2-5.07.2.59,1.27,1.87,2.07,3.26,2.05-.26,2.25.94,4.88,3.82,6.26.06.03.13.06.19.09-1.68-.87-3.07-2.51-3.25-4.51Z"/>
-                  <path class="cls-116" d="M68.77,1091.32c-.6-1.44-1.81-3-2.77-3.49.68,1.31,1.15,2.72,1.4,4.18v.02c-1.56-3.89-4.2-5.45-6.36-8.86-.11-.17-.22-.35-.32-.53-.05-.09-.1-.19-.15-.28-.09-.17-.16-.36-.21-.55,0-.02-.01-.03-.03-.04,0,0-.02,0-.03,0,0,0,0,0,0,0s0,0,0,0h0c-3.46,2.02-4.64,5.77-4.74,7.65.16-.01.32-.02.48-.02,2.5,0,4.8,1.35,6.04,3.53-.74-.52-2.05-1.03-3.32-.81,4.96,2.48,3.63,11.01-3.24,10.69-.61-.03-1.22-.14-1.79-.35-.14-.05-.27-.11-.4-.17-.08-.04-.16-.07-.23-.11h0c-.07-.03-.13-.06-.2-.09.06.03.13.06.19.09-1.68-.87-3.07-2.51-3.25-4.51,0,0,.64-2.37,4.55-2.37.42,0,1.64-1.18,1.66-1.52,0-.11-2.4-1.07-3.34-1.99-.5-.49-.74-.73-.95-.91-.11-.1-.23-.19-.36-.27-.31-1.1-.33-2.26-.04-3.37-1.27.62-2.4,1.49-3.32,2.56h0c-.55-.69-.51-2.97-.48-3.45-.16.06-.31.15-.46.24-.48.34-.93.73-1.35,1.15-.47.48-.9.99-1.29,1.54-.89,1.26-1.51,2.68-1.85,4.18,0,.03-.01.06-.02.09-.03.12-.14.74-.16.87-.11.64-.17,1.28-.2,1.92v.07c0,7.61,6.17,13.78,13.78,13.78,6.71,0,12.45-4.83,13.58-11.45.02-.18.04-.35.06-.53.28-2.35-.02-4.73-.89-6.92h0ZM67.4,1092.02h0s0,.01,0,.01h0s0-.01,0-.01Z"/>
-                </g>
-              </g>
-              <text class="cls-15" transform="translate(98.7 1103.07)"><tspan x="0" y="0">Fi</tspan><tspan class="cls-107" x="16.65" y="0">r</tspan><tspan x="23.85" y="0">e</tspan><tspan class="cls-110" x="35.51" y="0">f</tspan><tspan class="cls-106" x="42.32" y="0">o</tspan><tspan x="53.87" y="0">x</tspan></text>
-              <g>
-                <rect class="cls-83" x="32" y="1128" width="48" height="48"/>
-                <g class="cls-75">
-                  <g>
-                    <path class="cls-85" d="M69.09,1140.97l-5.8-2.79c-.67-.32-1.47-.19-2,.34l-18.98,17.31c-.51.47-.51,1.27,0,1.73l1.55,1.41c.42.38,1.05.41,1.5.07l22.86-17.34c.77-.58,1.87-.03,1.87.93v-.07c0-.68-.39-1.29-1-1.58Z"/>
-                    <path class="cls-100" d="M69.09,1163.03l-5.8,2.79c-.67.32-1.47.19-2-.34l-18.98-17.31c-.51-.47-.51-1.27,0-1.73l1.55-1.41c.42-.38,1.05-.41,1.5-.07l22.86,17.34c.77.58,1.87.03,1.87-.93v.07c0,.68-.39,1.29-1,1.58Z"/>
-                    <path class="cls-68" d="M63.29,1165.83c-.67.32-1.47.19-2-.34.65.65,1.76.19,1.76-.73v-25.52c0-.92-1.11-1.38-1.76-.73.53-.53,1.33-.66,2-.34l5.8,2.79c.61.29,1,.91,1,1.59v18.91c0,.68-.39,1.29-1,1.59l-5.8,2.79Z"/>
-                    <g class="cls-55">
-                      <path class="cls-18" d="M61.88,1165.88c.44.17.95.16,1.4-.05l5.79-2.79c.61-.29,1-.91,1-1.59v-18.91c0-.68-.39-1.29-1-1.59l-5.79-2.79c-.59-.28-1.27-.21-1.79.16-.07.05-.14.11-.21.18l-11.09,10.12-4.83-3.67c-.45-.34-1.08-.31-1.5.07l-1.55,1.41c-.51.46-.51,1.27,0,1.73l4.19,3.82-4.19,3.82c-.51.47-.51,1.27,0,1.73l1.55,1.41c.42.38,1.05.41,1.5.07l4.83-3.67,11.09,10.12c.18.18.38.31.6.39ZM63.03,1145.61l-8.42,6.39,8.42,6.39v-12.78Z"/>
-                    </g>
-                  </g>
-                </g>
-              </g>
-              <text class="cls-15" transform="translate(98.81 1159.41)"><tspan x="0" y="0">Visual Studio Code</tspan></text>
-              <g>
-                <rect class="cls-71" x="32" y="1184" width="48" height="48"/>
-                <g>
-                  <path class="cls-3" d="M58.07,1215.41v-19.26l4.74,4.74"/>
-                  <circle class="cls-3" cx="53.63" cy="1215.41" r="4.44"/>
-                </g>
-              </g>
-              <text class="cls-15" transform="translate(98.81 1215.41)"><tspan x="0" y="0">ミュージック</tspan></text>
-              <g>
-                <rect class="cls-84" x="32" y="1296" width="48" height="48"/>
-                <g>
-                  <polyline class="cls-3" points="44.57 1327.14 53.14 1318.57 44.57 1310"/>
-                  <line class="cls-3" x1="56" y1="1330" x2="67.43" y2="1330"/>
-                </g>
-              </g>
-              <text class="cls-15" transform="translate(98.81 1327.41)"><tspan x="0" y="0">ターミナル</tspan></text>
-              <g>
-                <rect class="cls-84" x="32" y="1352" width="48" height="48"/>
-                <polygon class="cls-40" points="44.57 1367.43 53.14 1376 44.57 1384.57 44.57 1367.43"/>
-                <polyline class="cls-3" points="51.71 1384.57 60.29 1376 51.71 1367.43"/>
-                <polyline class="cls-3" points="58.86 1384.57 67.43 1376 58.86 1367.43"/>
-              </g>
-              <text class="cls-15" transform="translate(98.81 1383.41)"><tspan x="0" y="0">プロセスマネージャー</tspan></text>
-              <g>
-                <rect class="cls-84" x="32" y="1240" width="48" height="48"/>
-                <g>
-                  <rect class="cls-29" x="42" y="1250" width="4" height="24"/>
-                  <rect class="cls-39" x="46" y="1250" width="24" height="4"/>
-                  <rect class="cls-23" x="66" y="1254" width="4" height="24"/>
-                  <rect class="cls-24" x="42" y="1274" width="24" height="4"/>
-                </g>
-              </g>
-              <text class="cls-15" transform="translate(98.81 1271.41)"><tspan x="0" y="0">システム設定</tspan></text>
-            </g>
-            <g>
-              <g>
-                <rect class="cls-83" x="32" y="1984" width="48" height="48"/>
-                <g>
-                  <path class="cls-10" d="M63.07,2002.04c3.9,3.91,3.9,10.24,0,14.14-3.91,3.9-10.24,3.9-14.14,0-3.9-3.9-3.9-10.23,0-14.14"/>
-                  <line class="cls-10" x1="56.01" y1="1996.89" x2="56.01" y2="2008"/>
-                </g>
-              </g>
-              <g>
-                <rect class="cls-83" x="88" y="1984" width="48" height="48"/>
-                <polyline class="cls-10" points="116 2018 106 2008 116 1998"/>
-              </g>
-              <g>
-                <rect class="cls-83" x="144" y="1984" width="48" height="48"/>
-                <g>
-                  <path class="cls-10" d="M164.67,2018h-6.67v-20h6.67"/>
-                  <polyline class="cls-10" points="172.44 2013.56 178 2008 172.44 2002.44"/>
-                  <line class="cls-10" x1="178" y1="2008" x2="164.67" y2="2008"/>
-                </g>
-              </g>
-            </g>
-            <g>
-              <rect class="cls-112" x="424" y="1048" width="1008" height="1008"/>
-              <text class="cls-31" transform="translate(474 1125.02)"><tspan x="0" y="0">おはようございます</tspan></text>
-              <text class="cls-32" transform="translate(1229.98 1125.02)"><tspan x="0" y="0">8:19 火曜日</tspan></text>
-              <g>
-                <rect class="cls-77" x="474" y="1180" width="108" height="108"/>
-                <g>
-                  <path class="cls-57" d="M556.73,1223.47c-1.35-3.24-4.07-6.74-6.22-7.85,1.53,2.96,2.59,6.13,3.14,9.41v.05c-3.5-8.74-9.44-12.27-14.3-19.94-.25-.39-.5-.79-.73-1.19-.12-.21-.23-.42-.34-.64-.2-.39-.36-.8-.46-1.23,0-.04-.03-.08-.07-.08-.02,0-.04,0-.06,0,0,0-.01,0-.02,0s-.02,0-.02.01v-.02c-7.78,4.56-10.42,13-10.66,17.22-3.11.21-6.08,1.36-8.53,3.29-.26-.22-.53-.42-.81-.61-.7-2.47-.74-5.09-.09-7.58-2.86,1.39-5.4,3.35-7.46,5.77h-.02c-1.23-1.56-1.14-6.69-1.07-7.76-.36.14-.71.33-1.03.55-1.08.77-2.1,1.64-3.03,2.6-1.06,1.08-2.03,2.23-2.9,3.47-1.99,2.83-3.41,6.02-4.16,9.39-.02.07-.03.14-.04.21-.06.27-.27,1.64-.31,1.94,0,.02,0,.04,0,.07-.27,1.41-.44,2.84-.5,4.28v.16c0,17.12,13.88,31,31.01,31,15.1,0,28-10.88,30.55-25.76.05-.4.1-.8.14-1.2.64-5.28-.05-10.63-2.01-15.58h0ZM521,1247.73c.15.07.28.14.43.21h.02c-.15-.06-.3-.14-.46-.21h0Z"/>
-                  <path class="cls-63" d="M556.73,1223.47c-1.35-3.24-4.07-6.74-6.22-7.85,1.53,2.96,2.59,6.13,3.14,9.41,0,0,0,0,0,.03v.03c2.93,7.93,1.34,16-.96,20.92-3.55,7.63-12.15,15.44-25.62,15.06-14.55-.41-27.36-11.21-29.75-25.34-.43-2.23,0-3.36.22-5.17-.3,1.41-.47,2.84-.5,4.28v.16c0,17.12,13.88,31.01,31.01,31.01,15.1,0,28-10.88,30.56-25.76.05-.4.1-.8.14-1.2.64-5.28-.05-10.63-2.01-15.58h0Z"/>
-                  <path class="cls-59" d="M556.73,1223.47c-1.35-3.24-4.07-6.74-6.22-7.85,1.53,2.96,2.59,6.13,3.14,9.41,0,0,0,0,0,.03v.03c2.93,7.93,1.34,16-.96,20.92-3.55,7.63-12.15,15.44-25.62,15.06-14.55-.41-27.36-11.21-29.75-25.34-.43-2.23,0-3.36.22-5.17-.3,1.41-.47,2.84-.5,4.28v.16c0,17.12,13.88,31.01,31.01,31.01,15.1,0,28-10.88,30.56-25.76.05-.4.1-.8.14-1.2.64-5.28-.05-10.63-2.01-15.58h0Z"/>
-                  <path class="cls-97" d="M541.66,1227.11c.07.05.13.1.19.14-.78-1.38-1.75-2.65-2.88-3.76-9.64-9.64-2.52-20.89-1.32-21.47v-.02c-7.78,4.56-10.42,13-10.66,17.22.36-.02.72-.05,1.09-.05,5.63.01,10.81,3.04,13.58,7.93h0Z"/>
-                  <path class="cls-94" d="M528.1,1229.03c-.05.77-2.77,3.43-3.73,3.43-8.82,0-10.25,5.33-10.25,5.33.39,4.49,3.52,8.19,7.3,10.15.17.09.35.17.52.25.3.13.6.26.91.37,1.3.46,2.66.72,4.03.78,15.45.72,18.45-18.47,7.3-24.05,2.85-.5,5.82.65,7.48,1.81-2.77-4.89-7.96-7.92-13.59-7.93-.37,0-.73.03-1.09.05-3.11.21-6.08,1.36-8.53,3.29.47.4,1.01.93,2.13,2.04,2.1,2.07,7.5,4.22,7.51,4.47h0Z"/>
-                  <path class="cls-90" d="M528.1,1229.03c-.05.77-2.77,3.43-3.73,3.43-8.82,0-10.25,5.33-10.25,5.33.39,4.49,3.52,8.19,7.3,10.15.17.09.35.17.52.25.3.13.6.26.91.37,1.3.46,2.66.72,4.03.78,15.45.72,18.45-18.47,7.3-24.05,2.85-.5,5.82.65,7.48,1.81-2.77-4.89-7.96-7.92-13.59-7.93-.37,0-.73.03-1.09.05-3.11.21-6.08,1.36-8.53,3.29.47.4,1.01.93,2.13,2.04,2.1,2.07,7.5,4.22,7.51,4.47h0Z"/>
-                  <path class="cls-93" d="M517.01,1221.49c.22.14.43.28.64.43-.7-2.47-.74-5.09-.09-7.58-2.86,1.39-5.4,3.35-7.46,5.77.15,0,4.65-.08,6.91,1.39Z"/>
-                  <path class="cls-89" d="M497.32,1235.73c2.39,14.14,15.2,24.93,29.75,25.34,13.46.38,22.07-7.43,25.62-15.06,2.3-4.93,3.89-12.99.97-20.92v-.03s0-.04,0-.03v.05c1.11,7.18-2.54,14.14-8.26,18.85l-.02.04c-11.13,9.06-21.77,5.47-23.93,3.99-.15-.07-.3-.15-.45-.23-6.49-3.1-9.16-9.01-8.59-14.08-3.14.04-6.02-1.76-7.34-4.62,0,0,4.92-3.51,11.4-.46,3.67,1.67,7.85,1.83,11.64.46-.01-.25-5.41-2.4-7.51-4.47-1.12-1.11-1.66-1.64-2.13-2.04-.25-.22-.52-.42-.8-.61-.19-.12-.39-.26-.64-.43-2.26-1.47-6.76-1.39-6.91-1.39h-.02c-1.23-1.56-1.14-6.69-1.07-7.76-.36.14-.71.33-1.03.55-1.08.77-2.1,1.64-3.03,2.6-1.06,1.08-2.03,2.23-2.9,3.47-1.99,2.83-3.41,6.02-4.16,9.39-.02.07-1.12,4.88-.58,7.38h0Z"/>
-                  <path class="cls-12" d="M538.98,1223.49c1.13,1.11,2.1,2.38,2.88,3.76.16.12.32.25.47.38,7.03,6.47,3.35,15.64,3.07,16.29,5.71-4.7,9.36-11.66,8.27-18.85-3.51-8.74-9.45-12.26-14.31-19.93-.25-.39-.5-.79-.73-1.19-.12-.21-.23-.42-.34-.64-.2-.39-.36-.8-.46-1.23,0-.04-.03-.08-.07-.08-.02,0-.04,0-.06,0,0,0-.01,0-.02,0s-.02,0-.02.01c-1.2.57-8.31,11.83,1.32,21.47Z"/>
-                  <path class="cls-66" d="M542.32,1227.63c-.15-.13-.31-.26-.47-.38-.06-.05-.12-.1-.19-.14-1.66-1.16-4.62-2.31-7.48-1.81,11.15,5.58,8.16,24.78-7.3,24.05-1.38-.06-2.73-.32-4.03-.78-.31-.12-.61-.24-.91-.37-.17-.08-.35-.16-.52-.25h.02c2.15,1.48,12.8,5.08,23.93-3.98l.02-.04c.27-.65,3.96-9.81-3.07-16.29h.01Z"/>
-                  <path class="cls-65" d="M514.12,1237.8s1.43-5.33,10.25-5.33c.95,0,3.68-2.66,3.73-3.43-3.79,1.37-7.97,1.21-11.64-.46-6.48-3.05-11.4.46-11.4.46,1.32,2.86,4.2,4.67,7.34,4.62-.58,5.07,2.11,10.98,8.59,14.08.15.07.28.14.43.21-3.79-1.96-6.91-5.66-7.3-10.15Z"/>
-                  <path class="cls-60" d="M556.73,1223.47c-1.35-3.24-4.08-6.74-6.22-7.85,1.53,2.96,2.59,6.13,3.14,9.41v.05c-3.5-8.74-9.44-12.27-14.3-19.94-.25-.39-.5-.79-.73-1.19-.12-.21-.23-.42-.34-.64-.2-.39-.36-.8-.46-1.23,0-.04-.03-.08-.07-.08-.02,0-.04,0-.06,0,0,0-.01,0-.02,0s-.02,0-.02.01v-.02c-7.78,4.56-10.42,13-10.66,17.22.36-.02.72-.05,1.09-.05,5.63.01,10.81,3.04,13.58,7.93-1.65-1.16-4.62-2.31-7.48-1.81,11.15,5.58,8.16,24.78-7.3,24.05-1.38-.06-2.73-.32-4.03-.78-.31-.12-.61-.24-.91-.37-.17-.08-.35-.16-.52-.25h.02c-.15-.06-.3-.14-.45-.21.14.07.28.14.43.21-3.79-1.96-6.91-5.66-7.3-10.15,0,0,1.43-5.33,10.25-5.33.95,0,3.68-2.66,3.73-3.43-.01-.25-5.41-2.4-7.51-4.47-1.12-1.11-1.66-1.64-2.13-2.04-.26-.22-.52-.42-.8-.61-.7-2.47-.74-5.09-.09-7.58-2.86,1.39-5.4,3.35-7.46,5.77h-.02c-1.23-1.56-1.14-6.69-1.07-7.76-.36.14-.71.33-1.03.55-1.08.77-2.1,1.64-3.03,2.6-1.06,1.08-2.03,2.23-2.9,3.47-1.99,2.83-3.41,6.02-4.16,9.39-.02.07-.03.14-.04.21-.06.27-.32,1.66-.36,1.96-.24,1.43-.39,2.88-.46,4.32v.16c0,17.12,13.88,31,31.01,31,15.1,0,28-10.88,30.55-25.76.05-.4.1-.8.14-1.2.64-5.28-.05-10.63-2.01-15.58h.01ZM553.65,1225.06v.03h0v-.03h0Z"/>
-                </g>
-                <text class="cls-70" transform="translate(507.68 1307.17)"><tspan x="0" y="0">Fi</tspan><tspan class="cls-103" x="10.29" y="0">r</tspan><tspan x="14.89" y="0">e</tspan><tspan class="cls-104" x="22.04" y="0">f</tspan><tspan class="cls-105" x="26.55" y="0">o</tspan><tspan x="33.67" y="0">x</tspan></text>
-              </g>
-              <g>
-                <rect class="cls-77" x="598" y="1180.34" width="108" height="108"/>
-                <g class="cls-73">
-                  <g>
-                    <path class="cls-85" d="M681.91,1209.12l-13.26-6.38c-1.53-.74-3.37-.43-4.57.78l-43.39,39.56c-1.17,1.06-1.17,2.9,0,3.96l3.54,3.22c.96.87,2.39.93,3.42.15l52.25-39.64c1.75-1.33,4.27-.08,4.27,2.12v-.15c0-1.54-.88-2.95-2.28-3.62Z"/>
-                    <path class="cls-100" d="M681.91,1259.56l-13.26,6.38c-1.53.74-3.37.43-4.57-.78l-43.39-39.56c-1.17-1.06-1.17-2.9,0-3.96l3.54-3.22c.96-.87,2.39-.93,3.42-.15l52.25,39.64c1.75,1.33,4.27.08,4.27-2.12v.15c0,1.54-.88,2.95-2.28,3.62Z"/>
-                    <path class="cls-68" d="M668.65,1265.94c-1.53.74-3.37.43-4.57-.78,1.48,1.48,4.02.43,4.02-1.67v-58.32c0-2.1-2.54-3.15-4.02-1.67,1.2-1.2,3.04-1.52,4.57-.78l13.25,6.37c1.39.67,2.28,2.08,2.28,3.62v43.21c0,1.55-.89,2.95-2.28,3.62l-13.25,6.37Z"/>
-                    <g class="cls-55">
-                      <path class="cls-17" d="M665.43,1266.06c1.01.39,2.17.37,3.19-.12l13.24-6.37c1.39-.67,2.28-2.08,2.28-3.62v-43.21c0-1.55-.89-2.95-2.28-3.62l-13.24-6.37c-1.34-.65-2.91-.49-4.09.37-.17.12-.33.26-.48.41l-25.36,23.13-11.04-8.38c-1.03-.78-2.47-.72-3.42.15l-3.54,3.22c-1.17,1.06-1.17,2.9,0,3.96l9.58,8.74-9.58,8.74c-1.17,1.06-1.17,2.9,0,3.96l3.54,3.22c.95.87,2.39.93,3.42.15l11.04-8.38,25.36,23.13c.4.4.87.7,1.38.9ZM668.07,1219.73l-19.24,14.6,19.24,14.6v-29.21Z"/>
-                    </g>
-                  </g>
-                </g>
-                <text class="cls-70" transform="translate(596.42 1307.51)"><tspan x="0" y="0">Visual Studio Code</tspan></text>
-              </g>
-              <g>
-                <rect class="cls-77" x="474" y="1774" width="908" height="108"/>
-                <g class="cls-86">
-                  <g>
-                    <rect class="cls-98" x="487.5" y="1787.5" width="81" height="81"/>
-                    <g>
-                      <line class="cls-7" x1="624" y1="1828" x2="432" y2="1828"/>
-                      <polyline class="cls-7" points="504 1828 516 1816 540 1840 552 1828"/>
-                      <polyline class="cls-7" points="504 1828 516 1840 540 1816 552 1828"/>
-                      <polyline class="cls-9" points="516 1816 504 1828 516 1840 540 1816 552 1828 540 1840 534 1834"/>
-                    </g>
-                  </g>
-                </g>
-                <text class="cls-22" transform="translate(587.31 1816.23)"><tspan x="0" y="0">更新が利用可能です</tspan></text>
-                <text class="cls-46" transform="translate(588 1835.3)"><tspan x="0" y="0">メインモジュール、</tspan><tspan class="cls-76" x="108" y="0">3</tspan><tspan x="118.41" y="0">個のサブモジュール、</tspan><tspan class="cls-76" x="238.41" y="0">1</tspan><tspan x="246.29" y="0">個の機能拡張、およ</tspan><tspan class="cls-76" x="354.29" y="0">び4</tspan><tspan x="380.04" y="0">個のパッケージの更新が利用可能です</tspan><tspan class="cls-101" x="584.04" y="0">。</tspan><tspan x="0" y="16">今すぐアップデートしますか？</tspan></text>
-                <rect class="cls-99" x="1270" y="1858" width="100" height="24"/>
-                <rect class="cls-112" x="1082" y="1858" width="104" height="24"/>
-                <text class="cls-41" transform="translate(1284 1873.39)"><tspan x="0" y="0">今すぐインストール</tspan></text>
-                <text class="cls-21" transform="translate(1092 1872.92)"><tspan x="0" y="0">このバージョンをスキップ</tspan></text>
-                <rect class="cls-112" x="1188" y="1858" width="80" height="24"/>
-                <text class="cls-21" transform="translate(1200 1872.71)"><tspan x="0" y="0">更新の情報を表示</tspan></text>
-                <text class="cls-53" transform="translate(1308.28 1790.12)"><tspan x="0" y="0">システム・</tspan><tspan class="cls-76" x="40" y="0">1</tspan><tspan x="45.45" y="0">分前</tspan></text>
-                <rect class="cls-112" x="976" y="1858" width="104" height="24"/>
-                <text class="cls-21" transform="translate(984.25 1872.71)"><tspan x="0" y="0">「更新」設定パネルを開く</tspan></text>
-              </g>
-              <g>
-                <rect class="cls-77" x="474" y="1898" width="908" height="108"/>
-                <rect class="cls-83" x="487.5" y="1911.5" width="81" height="81"/>
-                <text class="cls-22" transform="translate(587.31 1932.23)"><tspan x="0" y="0">ようこそ、Ne</tspan><tspan class="cls-103" x="101.73" y="0">r</tspan><tspan x="107.85" y="0">coneO</tspan><tspan class="cls-76" x="158.9" y="0">S</tspan><tspan x="173.38" y="0">へ</tspan></text>
-                <text class="cls-46" transform="translate(588 1951.3)"><tspan x="0" y="0">Ne</tspan><tspan class="cls-107" x="16.04" y="0">r</tspan><tspan x="20.36" y="0">coneO</tspan><tspan class="cls-76" x="57.67" y="0">S</tspan><tspan x="68.37" y="0">は安全性と快適性を第一に設計された、オープンソースのオペレーティングシステムです</tspan><tspan class="cls-101" x="548.37" y="0">。</tspan><tspan x="0" y="16">アップデートのタイミングから、アプリの管理、おすすめの頻度まで。あなたのコンピューターは、全てあなたが管理できます</tspan><tspan class="cls-101" x="684" y="16">。</tspan><tspan x="0" y="32">もっと詳しく知りたいですか？この通知の下部にあるボタンをクリックしてみてください</tspan><tspan class="cls-101" x="480" y="32">。</tspan></text>
-                <rect class="cls-99" x="1270" y="1982" width="100" height="24"/>
-                <text class="cls-41" transform="translate(1282 1997.12)"><tspan x="0" y="0">「ようこそ」を開く</tspan></text>
-                <text class="cls-53" transform="translate(1306.53 1914.12)"><tspan x="0" y="0">ようこそ・</tspan><tspan class="cls-76" x="40" y="0">9</tspan><tspan x="47.2" y="0">分前</tspan></text>
-                <g>
-                  <rect class="cls-29" x="504" y="1936.73" width="4.36" height="26.18"/>
-                  <rect class="cls-39" x="508.36" y="1936.73" width="17.45" height="4.36"/>
-                  <rect class="cls-23" x="521.45" y="1941.09" width="4.36" height="26.18"/>
-                  <rect class="cls-24" x="504" y="1962.91" width="17.45" height="4.36"/>
-                  <rect class="cls-28" x="530.18" y="1936.73" width="4.36" height="17.45"/>
-                  <rect class="cls-39" x="534.55" y="1936.73" width="17.45" height="4.36"/>
-                  <rect class="cls-26" x="547.64" y="1954.18" width="4.36" height="13.09"/>
-                  <rect class="cls-27" x="534.55" y="1949.82" width="17.45" height="4.36"/>
-                  <rect class="cls-25" x="530.18" y="1962.91" width="17.45" height="4.36"/>
-                </g>
-              </g>
-              <g>
-                <rect class="cls-77" x="474" y="1650" width="908" height="108"/>
-                <g>
-                  <rect class="cls-71" x="487.5" y="1663.5" width="81" height="81"/>
-                  <g>
-                    <path class="cls-5" d="M531.5,1716.5v-32.5l8,8"/>
-                    <circle class="cls-5" cx="524" cy="1716.5" r="7.5"/>
-                  </g>
-                </g>
-                <text class="cls-42" transform="translate(587.31 1702.23)"><tspan x="0" y="0">今天不是明天 (feat. 兰</tspan><tspan class="cls-76" x="155.42" y="0">音</tspan><tspan x="175.42" y="0">Reine)</tspan></text>
-                <text class="cls-45" transform="translate(588 1717.3)"><tspan x="0" y="0">ソー</tspan><tspan class="cls-76" x="20" y="0">ス</tspan><tspan x="32.5" y="0">: </tspan><tspan class="cls-102" x="38.19" y="0">Y</tspan><tspan x="44.21" y="0">outube</tspan></text>
-                <text class="cls-53" transform="translate(1233.72 1666.12)"><tspan x="0" y="0">ミュージック・ライブアクティビティ</tspan></text>
-                <rect class="cls-112" x="1202" y="1676" width="168" height="82"/>
-                <rect class="cls-111" x="1270" y="1701" width="32" height="32" rx="16" ry="16"/>
-                <polygon class="cls-14" points="1281.28 1709 1293.72 1717 1281.28 1725 1281.28 1709"/>
-                <polygon class="cls-14" points="1244.57 1723 1236.86 1717 1244.57 1711 1244.57 1723"/>
-                <polygon class="cls-14" points="1254 1723 1246.29 1717 1254 1711 1254 1723"/>
-                <polygon class="cls-14" points="1327.43 1723 1335.14 1717 1327.43 1711 1327.43 1723"/>
-                <polygon class="cls-14" points="1318 1723 1325.71 1717 1318 1711 1318 1723"/>
-                <rect class="cls-84" x="1202" y="1754" width="168" height="4"/>
-                <rect class="cls-71" x="1202" y="1754" width="23.72" height="4"/>
-              </g>
-            </g>
-          </g>
-        </g>
-        <g id="_タスクバー" data-name="タスクバー">
-          <rect class="cls-112" y="2064" width="3840" height="96"/>
-          <rect class="cls-83" y="2064" width="96" height="96"/>
-          <g>
-            <g>
-              <circle class="cls-5" cx="142.03" cy="2109.77" r="15.77"/>
-              <line class="cls-8" x1="161.74" y1="2130" x2="153.16" y2="2121.43"/>
-            </g>
-            <g>
-              <path class="cls-56" d="M261.55,2104.1c-1.01-2.43-3.06-5.06-4.67-5.89,1.14,2.22,1.94,4.6,2.36,7.06v.04c-2.62-6.56-7.08-9.2-10.72-14.95-.19-.29-.37-.59-.55-.89-.09-.16-.18-.32-.26-.48-.15-.29-.27-.6-.35-.92,0-.03-.02-.06-.05-.06-.02,0-.03,0-.05,0,0,0,0,0-.01,0s-.01,0-.02,0h0c-5.84,3.41-7.82,9.74-8.01,12.9-2.33.16-4.56,1.02-6.4,2.47-.19-.16-.4-.31-.6-.46-.53-1.85-.55-3.82-.07-5.68-2.14,1.04-4.05,2.51-5.6,4.32h-.01c-.92-1.17-.86-5.02-.8-5.82-.27.11-.53.25-.78.41-.81.58-1.57,1.23-2.27,1.95-.79.81-1.52,1.68-2.17,2.6-1.49,2.12-2.55,4.51-3.12,7.05-.01.05-.02.1-.03.15-.04.21-.2,1.23-.23,1.45,0,.02,0,.03,0,.05-.2,1.06-.33,2.13-.38,3.21v.12c0,12.84,10.41,23.25,23.25,23.25,11.33,0,21-8.16,22.92-19.32.04-.3.07-.6.11-.9.48-3.96-.04-7.98-1.51-11.68h0ZM234.75,2122.3c.11.05.21.11.32.16h.02c-.11-.05-.23-.1-.34-.16h0Z"/>
-              <path class="cls-62" d="M261.55,2104.1c-1.01-2.43-3.06-5.06-4.67-5.89,1.14,2.22,1.94,4.6,2.36,7.06,0,0,0,0,0,.02v.02c2.2,5.95,1,12-.72,15.69-2.66,5.72-9.11,11.58-19.21,11.3-10.91-.31-20.52-8.4-22.32-19.01-.33-1.67,0-2.52.16-3.88-.23,1.05-.35,2.13-.38,3.21v.12c0,12.84,10.41,23.25,23.25,23.25,11.33,0,21-8.16,22.92-19.32.04-.3.07-.6.11-.9.48-3.96-.04-7.98-1.51-11.68h0Z"/>
-              <path class="cls-58" d="M261.55,2104.1c-1.01-2.43-3.06-5.06-4.67-5.89,1.14,2.22,1.94,4.6,2.36,7.06,0,0,0,0,0,.02v.02c2.2,5.95,1,12-.72,15.69-2.66,5.72-9.11,11.58-19.21,11.3-10.91-.31-20.52-8.4-22.32-19.01-.33-1.67,0-2.52.16-3.88-.23,1.05-.35,2.13-.38,3.21v.12c0,12.84,10.41,23.25,23.25,23.25,11.33,0,21-8.16,22.92-19.32.04-.3.07-.6.11-.9.48-3.96-.04-7.98-1.51-11.68h0Z"/>
-              <path class="cls-96" d="M250.25,2106.83c.05.04.1.07.15.11-.58-1.04-1.31-1.98-2.16-2.82-7.23-7.23-1.89-15.67-.99-16.1h0c-5.84,3.41-7.82,9.74-8.01,12.9.27-.02.54-.04.82-.04,4.22,0,8.11,2.28,10.19,5.95h0Z"/>
-              <path class="cls-95" d="M240.07,2108.28c-.04.58-2.08,2.57-2.8,2.57-6.61,0-7.69,4-7.69,4,.29,3.37,2.64,6.14,5.48,7.61.13.07.26.13.39.19.22.1.45.19.68.28.97.34,1.99.54,3.03.58,11.59.54,13.83-13.86,5.47-18.04,2.14-.37,4.36.49,5.61,1.36-2.08-3.67-5.97-5.94-10.19-5.95-.27,0-.55.02-.82.04-2.33.16-4.56,1.02-6.4,2.47.35.3.76.7,1.6,1.53,1.58,1.56,5.62,3.17,5.63,3.36h0Z"/>
-              <path class="cls-91" d="M240.07,2108.28c-.04.58-2.08,2.57-2.8,2.57-6.61,0-7.69,4-7.69,4,.29,3.37,2.64,6.14,5.48,7.61.13.07.26.13.39.19.22.1.45.19.68.28.97.34,1.99.54,3.03.58,11.59.54,13.83-13.86,5.47-18.04,2.14-.37,4.36.49,5.61,1.36-2.08-3.67-5.97-5.94-10.19-5.95-.27,0-.55.02-.82.04-2.33.16-4.56,1.02-6.4,2.47.35.3.76.7,1.6,1.53,1.58,1.56,5.62,3.17,5.63,3.36h0Z"/>
-              <path class="cls-92" d="M231.76,2102.62c.16.1.32.21.48.32-.53-1.85-.55-3.82-.07-5.68-2.14,1.04-4.05,2.51-5.6,4.32.11,0,3.49-.06,5.18,1.04Z"/>
-              <path class="cls-88" d="M216.99,2113.3c1.79,10.6,11.4,18.7,22.32,19.01,10.1.29,16.55-5.58,19.21-11.29,1.72-3.7,2.92-9.75.72-15.69v-.02s0-.03,0-.02v.04c.83,5.39-1.91,10.6-6.19,14.13v.03c-8.36,6.8-16.34,4.1-17.96,3-.11-.05-.23-.11-.34-.17-4.87-2.33-6.87-6.76-6.44-10.56-2.36.03-4.52-1.32-5.51-3.46,0,0,3.69-2.63,8.55-.34,2.75,1.25,5.89,1.37,8.73.34,0-.19-4.06-1.8-5.63-3.36-.84-.83-1.24-1.23-1.6-1.53-.19-.16-.39-.31-.6-.46-.14-.09-.29-.2-.48-.32-1.7-1.1-5.07-1.04-5.18-1.04h-.01c-.92-1.17-.86-5.02-.8-5.82-.27.11-.53.25-.78.41-.81.58-1.57,1.23-2.27,1.95-.79.81-1.52,1.68-2.17,2.6-1.49,2.12-2.55,4.51-3.12,7.05-.01.05-.84,3.66-.43,5.54h0Z"/>
-              <path class="cls-87" d="M248.23,2104.12c.85.83,1.58,1.78,2.16,2.82.12.09.24.18.35.29,5.27,4.86,2.51,11.73,2.3,12.22,4.28-3.53,7.02-8.75,6.2-14.13-2.63-6.55-7.09-9.2-10.73-14.95-.19-.29-.37-.59-.55-.89-.09-.16-.18-.32-.26-.48-.15-.29-.27-.6-.35-.92,0-.03-.02-.06-.05-.06-.02,0-.03,0-.05,0,0,0,0,0-.01,0s-.01,0-.02,0c-.9.43-6.23,8.87.99,16.1Z"/>
-              <path class="cls-67" d="M250.74,2107.22c-.11-.1-.23-.2-.35-.29-.05-.04-.09-.07-.14-.11-1.24-.87-3.46-1.73-5.61-1.36,8.36,4.18,6.12,18.58-5.47,18.04-1.03-.04-2.05-.24-3.03-.58-.23-.09-.46-.18-.68-.28-.13-.06-.26-.12-.39-.19h.02c1.62,1.11,9.6,3.81,17.95-2.99v-.03c.22-.49,2.98-7.36-2.29-12.22h0Z"/>
-              <path class="cls-64" d="M229.59,2114.85s1.07-4,7.69-4c.72,0,2.76-2,2.8-2.57-2.84,1.03-5.98.91-8.73-.34-4.86-2.29-8.55.34-8.55.34.99,2.14,3.15,3.5,5.51,3.46-.43,3.8,1.58,8.24,6.44,10.56.11.05.21.11.32.16-2.84-1.47-5.19-4.24-5.48-7.61Z"/>
-              <path class="cls-61" d="M261.55,2104.1c-1.01-2.43-3.06-5.06-4.67-5.89,1.14,2.22,1.94,4.6,2.36,7.06v.04c-2.62-6.56-7.08-9.2-10.72-14.95-.19-.29-.37-.59-.55-.89-.09-.16-.18-.32-.26-.48-.15-.29-.27-.6-.35-.92,0-.03-.02-.06-.05-.06-.02,0-.03,0-.05,0,0,0,0,0-.01,0s-.01,0-.02,0h0c-5.84,3.41-7.82,9.74-8.01,12.9.27-.02.54-.04.82-.04,4.22,0,8.11,2.28,10.19,5.95-1.24-.87-3.46-1.73-5.61-1.36,8.36,4.18,6.12,18.58-5.47,18.04-1.03-.04-2.05-.24-3.03-.58-.23-.09-.46-.18-.68-.28-.13-.06-.26-.12-.39-.19h.02c-.11-.05-.23-.1-.34-.16.11.05.21.11.32.16-2.84-1.47-5.19-4.24-5.48-7.61,0,0,1.07-4,7.69-4,.72,0,2.76-2,2.8-2.57,0-.19-4.06-1.8-5.63-3.36-.84-.83-1.24-1.23-1.6-1.53-.19-.16-.39-.32-.6-.46-.53-1.85-.55-3.82-.07-5.68-2.14,1.04-4.05,2.51-5.6,4.32h-.01c-.92-1.17-.86-5.02-.8-5.82-.27.11-.53.25-.78.41-.81.58-1.57,1.23-2.27,1.95-.79.81-1.52,1.68-2.17,2.6-1.49,2.12-2.55,4.52-3.12,7.05-.01.05-.02.1-.03.15-.04.21-.24,1.24-.27,1.47-.18,1.08-.29,2.16-.34,3.24v.12c0,12.84,10.41,23.25,23.25,23.25,11.33,0,21-8.16,22.92-19.32.04-.3.07-.6.11-.9.48-3.96-.04-7.98-1.51-11.68h0ZM259.24,2105.29v.02h0v-.02h0Z"/>
-            </g>
-            <g class="cls-74">
-              <g>
-                <path class="cls-85" d="M358.43,2093.08l-9.94-4.79c-1.15-.55-2.53-.32-3.43.58l-32.54,29.67c-.88.8-.87,2.18,0,2.97l2.66,2.42c.72.65,1.8.7,2.57.11l39.19-29.73c1.31-1,3.2-.06,3.2,1.59v-.12c0-1.16-.66-2.21-1.71-2.72Z"/>
-                <path class="cls-100" d="M358.43,2130.92l-9.94,4.79c-1.15.55-2.53.32-3.43-.58l-32.54-29.67c-.88-.8-.87-2.18,0-2.97l2.66-2.42c.72-.65,1.8-.7,2.57-.11l39.19,29.73c1.31,1,3.2.06,3.2-1.59v.12c0,1.16-.66,2.21-1.71,2.72Z"/>
-                <path class="cls-68" d="M348.49,2135.7c-1.15.55-2.53.32-3.43-.58,1.11,1.11,3.02.32,3.02-1.25v-43.74c0-1.57-1.9-2.36-3.02-1.25.9-.9,2.28-1.14,3.43-.58l9.94,4.78c1.04.5,1.71,1.56,1.71,2.72v32.41c0,1.16-.66,2.22-1.71,2.72l-9.94,4.78Z"/>
-                <g class="cls-55">
-                  <path class="cls-19" d="M346.08,2135.79c.76.3,1.63.28,2.39-.09l9.93-4.78c1.04-.5,1.71-1.56,1.71-2.72v-32.41c0-1.16-.66-2.22-1.71-2.72l-9.93-4.78c-1.01-.48-2.18-.37-3.07.28-.13.09-.25.19-.36.31l-19.02,17.35-8.28-6.29c-.77-.59-1.85-.54-2.57.11l-2.66,2.42c-.88.8-.88,2.18,0,2.97l7.18,6.55-7.18,6.55c-.87.8-.87,2.18,0,2.97l2.66,2.42c.72.65,1.79.7,2.57.11l8.28-6.29,19.02,17.35c.3.3.65.53,1.03.68ZM348.05,2101.05l-14.43,10.95,14.43,10.95v-21.91Z"/>
-                </g>
-              </g>
-            </g>
-            <g>
-              <g>
-                <rect class="cls-111" x="415.03" y="2095.03" width="33.94" height="33.94" transform="translate(-1366.88 924.06) rotate(-45)"/>
-                <g>
-                  <polygon class="cls-14" points="436.8 2118.4 436.8 2120 424 2120 424 2104 425.6 2104 425.6 2118.4 436.8 2118.4"/>
-                  <rect class="cls-14" x="438.4" y="2104" width="1.6" height="16"/>
-                </g>
-              </g>
-              <rect class="cls-39" x="400" y="2156" width="64" height="4"/>
-            </g>
-          </g>
-          <polyline class="cls-2" points="76 2116.72 20 2098 20 2126 48 2126 76 2098 76 2126 61.42 2126"/>
-        </g>
-        <text class="cls-34" transform="translate(3728.98 2127.28)"><tspan x="0" y="0">8:19</tspan></text>
+        <rect class="cls-116" x="-6" y="-3.38" width="3852" height="2166.75"/>
+        <line class="cls-6" x1="3846" y1="1080" x2="-6" y2="1080"/>
+        <polyline class="cls-6" points="1438.5 1080 1679.25 839.25 2160.75 1320.75 2401.5 1080"/>
+        <polyline class="cls-6" points="1438.5 1080 1679.25 1320.75 2160.75 839.25 2401.5 1080"/>
+        <polyline class="cls-4" points="-6 1080 1438.5 1080 1679.25 839.25 1920 1080 2160.75 839.25"/>
       </g>
+      <g>
+        <image class="cls-54" width="780" height="532" transform="translate(2036 820) scale(2)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAwwAAAIUCAYAAAC3jas5AAAACXBIWXMAAAWJAAAFiQFtaJ36AAANMUlEQVR4nO3dT4scxwGH4d/akmUUm5A/B+Pkku//vYwPsYgiW9iSrc2hZ7Sj3X1FAiEwyvNAsbtd3bDHeqmumZu1m4/MAQAAn5bbxy4+FgU3F9dv4h4AAODTcLu7WLj8fduHMXD+/bNHxv17AQCA63YOg3ePjPfzT+499Nnp2tOL8WSiAQAAPiWXsfDrtrcX49fdRcP7YLjZXSw82/Z82+9O49nuokEwAADA9bvdXSz8su2n03h9mj9Hw+39YHi6Ixb+uO1Pp59f74iGz+dMAwAAXLvzOYXfdsTCq20vtv1wmj+/lnS7UzBcnl14uu2rbX/e9tdt3+6IhuenufOrSQAAwPV6t+P1o9c7YuG7HV3wZkdEvN0RFDcf22H4dtvftn2zY5fhi3ktCQAArt35daQ3O3YXvj9df73tH9v+ubt1/4NXks5nGL7aEQ3fbPvLtt9v+3KCAQAArt05GH7e9vJ07eWOBnhwfrk+Jel88PnrHbHwh314jgEAALhOl+cXtmNH4fk+jIX3LoPhfKD5sx1h8HTHa0jPTuPLCQYAALh252DYjnX+FzvW/p/vbmfh/Zr//g7DdhcNl/FwOQQDAABcr/N3MJzX95dr/wdr/ceC4ezmIwMAALhe//Ya38ekAgAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAEkwAAAASTAAAABJMAAAAOnJR+ZuYwAAANfrP1rnPxYMt9veXfz87WJs281/8Z8FAAD+t2734Rr/cu3/IBye3HvwMhLebnuz7ZfT2LbPJxgAAOCanYPhvM5/s2PtfxkP78Ph/g7Du22/nh58ve3VtpenuS93nHkQDAAAcL3OmwQ/71jrv9qx9v9lRwu8u7z5yb2HzrHw47YX274/zf9z2xcTDAAAcO3Oa/83O2Lh+x1r/x/3YTTcbg+D4e2Ounix7bvT3Mttz7c9nU9VAgCAT8Fja/8Xp7/f7l4w3O7YNTg/9OO2v5+u/7Tt623Pdnd+wQ4DAABcr/MZhfM5hlc7YuGHHS1wDoZtu60dhp0efrkjFp7M60gAAPCpuH8k4afTeLDDcBkANzui4MmO14/O4xwL9+8HAACu0/lTkM7R8PZifHCG4X4wbEcc3B/37wUAAK7bZTTcH+/nH4uAy3MKziwAAMCn7fJ7Fx586/PHYkAoAADA/48H3/K8bf8ChU/hKxMoEi4AAAAASUVORK5CYII="/>
+        <g>
+          <g>
+            <rect class="cls-116" x="2050" y="834" width="1532" height="1036"/>
+            <path class="cls-77" d="M3580,836v1032h-1528V836h1528M3584,832h-1536v1040h1536V832h0Z"/>
+          </g>
+          <rect class="cls-77" x="2048" y="832" width="1536" height="48"/>
+          <text class="cls-48" transform="translate(2064.51 863.45)"><tspan x="0" y="0">LRFN インストーラー</tspan></text>
+          <g>
+            <rect class="cls-77" x="2112" y="944" width="192" height="192"/>
+            <g class="cls-11">
+              <g>
+                <path class="cls-85" d="M2261.17,995.16l-23.56-11.35c-2.73-1.31-5.99-.76-8.13,1.38l-77.14,70.34c-2.07,1.89-2.07,5.16,0,7.05l6.3,5.73c1.7,1.54,4.26,1.66,6.09.27l92.9-70.47c3.12-2.36,7.59-.14,7.59,3.77v-.27c0-2.75-1.57-5.25-4.05-6.44Z"/>
+                <path class="cls-101" d="M2261.17,1084.84l-23.56,11.35c-2.73,1.31-5.99.76-8.13-1.38l-77.14-70.34c-2.07-1.89-2.07-5.16,0-7.05l6.3-5.73c1.7-1.54,4.26-1.66,6.09-.27l92.9,70.47c3.12,2.36,7.59.14,7.59-3.77v.27c0,2.75-1.57,5.25-4.05,6.44Z"/>
+                <path class="cls-68" d="M2237.61,1096.18c-2.73,1.31-5.99.76-8.13-1.38,2.64,2.64,7.15.77,7.15-2.96v-103.68c0-3.73-4.51-5.6-7.15-2.96,2.14-2.14,5.4-2.7,8.13-1.38l23.56,11.33c2.48,1.19,4.05,3.69,4.05,6.44v76.82c0,2.75-1.57,5.25-4.05,6.44l-23.56,11.33Z"/>
+                <g class="cls-55">
+                  <path class="cls-20" d="M2231.88,1096.4c1.8.7,3.86.66,5.67-.22l23.55-11.33c2.47-1.19,4.05-3.69,4.05-6.44v-76.82c0-2.75-1.57-5.25-4.05-6.44l-23.55-11.33c-2.39-1.15-5.18-.87-7.27.66-.3.22-.58.46-.85.73l-45.08,41.12-19.63-14.9c-1.83-1.39-4.38-1.27-6.08.27l-6.3,5.73c-2.08,1.89-2.08,5.16,0,7.05l17.03,15.53-17.03,15.53c-2.07,1.89-2.07,5.16,0,7.05l6.3,5.73c1.7,1.54,4.25,1.66,6.08.27l19.63-14.9,45.08,41.12c.71.71,1.55,1.25,2.45,1.6ZM2236.57,1014.04l-34.2,25.96,34.2,25.96v-51.93Z"/>
+                </g>
+              </g>
+            </g>
+          </g>
+          <text class="cls-33" transform="translate(2359.28 1040)"><tspan x="0" y="0">Visual Studio Code</tspan></text>
+          <text class="cls-50" transform="translate(2360.9 1087.34)"><tspan x="0" y="0">Mic</tspan><tspan class="cls-109" x="54.94" y="0">r</tspan><tspan x="66.45" y="0">oso</tspan><tspan class="cls-112" x="121.72" y="0">f</tspan><tspan x="132.47" y="0">t Co</tspan><tspan class="cls-118" x="194.5" y="0">r</tspan><tspan x="207.05" y="0">poration</tspan></text>
+          <rect class="cls-77" x="2112" y="1200" width="1408" height="576"/>
+          <text class="cls-69" transform="translate(2131.91 1232.8)"><tspan x="0" y="0">LRFN Installer v4.3</tspan><tspan x="0" y="28">Checking System Information...</tspan><tspan x="0" y="56">Downloading LRFN Catalog for NerconeOS Executable Format 1</tspan><tspan x="0" y="84">Found: LRFN v19.3.2 for NerconeOS &quot;First Step&quot;</tspan><tspan x="0" y="112">Downloading CRP (Compatibility Runtime Package) File</tspan><tspan x="0" y="140">-&gt; https://dl.nercone.dev/os/lrfn/19.3.2/lrfn-19.3.2-nef1.tar.xz (100%)</tspan><tspan x="0" y="168">-&gt; Extracting (100%)</tspan><tspan x="0" y="196">Installing lrfn-19.3.2-nef1.crp</tspan><tspan x="0" y="224">Waiting for NeRunE Permission Manager...</tspan></text>
+          <text class="cls-49" transform="translate(2112 1828.12)"><tspan x="0" y="0">LRFN (Linux Runtime </tspan><tspan class="cls-114" x="243.62" y="0">f</tspan><tspan x="251.8" y="0">or Ne</tspan><tspan class="cls-109" x="314.05" y="0">r</tspan><tspan x="322.69" y="0">coneOS)をインストールしています...</tspan></text>
+          <rect class="cls-71" x="3512" y="832" width="72" height="48"/>
+        </g>
+      </g>
+      <g>
+        <image class="cls-54" width="492" height="368" transform="translate(2324 1004) scale(2)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAewAAAFwCAYAAAB6jkhYAAAACXBIWXMAAAWJAAAFiQFtaJ36AAAIdUlEQVR4nO3cy24cxxmA0Z8SdYFiIchlYTjZ5P3fy9AiFiLrAouUOVl0N9kcXpCAYwMffA5QINnVDXD3oap65mwedvbIHADw2zjcd/G+KJ/trp89cA8AcFqHuYn1/veZuR3j7fdn94zjewGA09jCfHXPuJ4/P3ro2XrtxW6cj2gDwG9hH+tvM3O5G9/mJtrXwT6bm1i/mpk3M/Ondbyam2gLNgCczmFuYv11Zj6v48s6v0X7cBzsF7PE+q8z87f159tZov18nGkDwKls59S/zhLrjzPzfmZ+Wue3bfHDrMHen12/mJnvZubvM/PPmflhlmi/Wee2rXEA4OmuZtn+/jJLrH+cpcsXs0T8cpagnz22wv5hZv41M9/Pssp+ObbFAeBUtu3wi1lW1+/W619m5j8z8/PcdPfOlvh2hv3dLNH+fmb+MTN/npnXI9gAcCpbsH+ZmQ/rtQ+zNPjO+2MPvSW+vXj2dpZY/2Vun2MDAE+zP7+eWVbUb+Z2rK/tg729UPZsljC/mGUb/NU6Xo9gA8CpbMGeWTr7cpb2Pp+blfV1c49X2DM30d7Hez8EGwCebvsM9tbXfXvvtPa+YG/OHhkAwNP9z431MS0ACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACBBsAAgQbAAIEGwACDh/ZO7wwAAAnu7/6ux9wT7MzNXu56+7MTNzdsJ/FgD+qA5zu7H79t4J9/nRg/tIX87Mxcx8XcfMzPMRbAA4hS3YW2cvZmnvPt7X4T5eYV/NzLf1wS8z83FmPqxzr2c58xZsAHi6bZH8yyyt/ThLe7/O0uKr/c3nRw9tsf40M+9n5t06//PMvBzBBoBT2dp7MUus383S3k9zO9qHmbvBvpyl7u9n5sd17sPMvJmZF+OtcgA4pfva+379+3KOgn2YZdW8PfRpZv69Xv88M29n5tXcnF9bYQPA021n1Ns59sdZYv3TLC3egj0zc3hohT3rwx9mifX52A4HgFM7PpL+vI47K+x9gM9mifL5LNvf29hifXw/APA021vgW7Qvd+PWGfZxsGeWOB+P43sBgNPYR/t4XM/fF+H9ObUzawD4few/d33nW88ei7FQA8Dv796vJ/0v1i3f43F5qhgAAAAASUVORK5CYII="/>
+        <g>
+          <g>
+            <rect class="cls-116" x="2338" y="1018" width="956" height="708"/>
+            <path class="cls-71" d="M3292,1020v704h-952v-704h952M3296,1016h-960v712h960v-712h0Z"/>
+          </g>
+          <rect class="cls-71" x="2336" y="1016" width="960" height="32"/>
+          <text class="cls-30" transform="translate(2345.42 1037.91)"><tspan x="0" y="0">権限マネージャー</tspan></text>
+          <g>
+            <rect class="cls-77" x="2368" y="1072" width="96" height="96"/>
+            <g>
+              <rect class="cls-115" x="2393.37" y="1097.37" width="45.25" height="45.25" transform="translate(-84.33 2036.41) rotate(-45)"/>
+              <g>
+                <polygon class="cls-14" points="2422.4 1128.53 2422.4 1130.67 2405.33 1130.67 2405.33 1109.33 2407.47 1109.33 2407.47 1128.53 2422.4 1128.53"/>
+                <rect class="cls-14" x="2424.53" y="1109.33" width="2.13" height="21.33"/>
+              </g>
+            </g>
+          </g>
+          <text class="cls-37" transform="translate(2491.05 1115.7)"><tspan x="0" y="0">LRFNインストーラー</tspan></text>
+          <text class="cls-47" transform="translate(2491.86 1147.15)"><tspan x="0" y="0">このソフトウェアは、次の権限を要求しています。</tspan></text>
+          <rect class="cls-77" x="2352" y="1200" width="928" height="468"/>
+          <g>
+            <rect class="cls-71" x="3152" y="1680" width="128" height="32"/>
+            <text class="cls-22" transform="translate(3200 1702.35)"><tspan x="0" y="0">許可</tspan></text>
+          </g>
+          <g>
+            <rect class="cls-77" x="3012" y="1680" width="128" height="32"/>
+            <text class="cls-35" transform="translate(3060 1702.35)"><tspan x="0" y="0">拒否</tspan></text>
+          </g>
+          <g>
+            <rect class="cls-83" x="2356" y="1204" width="920" height="20"/>
+            <text class="cls-36" transform="translate(2362.09 1217.71)"><tspan x="0" y="0">Ne</tspan><tspan class="cls-118" x="13.36" y="0">r</tspan><tspan class="cls-113" x="17.29" y="0">K</tspan><tspan x="23.61" y="0">e</tspan><tspan class="cls-118" x="29.44" y="0">r</tspan><tspan x="33.36" y="0">nel (8)</tspan></text>
+          </g>
+          <g>
+            <rect class="cls-83" x="2420" y="1252" width="856" height="20"/>
+            <text class="cls-39" transform="translate(2425.59 1265.71) scale(1.04 1)"><tspan class="cls-51" x="0" y="0">カーネル機能拡張のインストール</tspan><tspan class="cls-52" x="150.01" y="-.72" xml:space="preserve"> (dev.nercone.os.nerkernel.nkext.install)</tspan></text>
+          </g>
+          <g>
+            <rect class="cls-83" x="2420" y="1276" width="856" height="20"/>
+            <text class="cls-39" transform="translate(2425.38 1289.71)"><tspan class="cls-51" x="0" y="0">「LRFN インストーラー」によりインストールされたカーネル機能拡張の削除</tspan><tspan class="cls-52" x="348.34" y="-.72" xml:space="preserve"> (dev.nercone.os.nerkernel.nkext.remove.installed-by-same-software)</tspan></text>
+          </g>
+          <g>
+            <rect class="cls-83" x="2388" y="1228" width="888" height="20"/>
+            <text class="cls-36" transform="translate(2392.64 1241.71)"><tspan x="0" y="0">NKE</tspan><tspan class="cls-117" x="20.26" y="0">x</tspan><tspan x="25.92" y="0">t</tspan></text>
+            <text class="cls-44" transform="translate(2766 1241)"><tspan x="0" y="0">機能拡張はこのコンピューターへの無制限のアクセスが許可されます。ソフトウェアが少しでも信頼できない場合、必ず拒否してください。</tspan></text>
+          </g>
+          <g>
+            <rect class="cls-83" x="2388" y="1300" width="888" height="20"/>
+            <text class="cls-36" transform="translate(2392.64 1313.71)"><tspan x="0" y="0">NeRunE</tspan></text>
+          </g>
+          <g>
+            <rect class="cls-83" x="2420" y="1324" width="856" height="20"/>
+            <text class="cls-39" transform="translate(2425.59 1337.71) scale(1.04 1)"><tspan class="cls-51" x="0" y="0">ソフトウェアのインストール</tspan><tspan class="cls-52" x="130" y="-.72" xml:space="preserve"> (dev.nercone.os.nerune.software.install)</tspan></text>
+          </g>
+          <g>
+            <rect class="cls-83" x="2420" y="1348" width="856" height="20"/>
+            <text class="cls-39" transform="translate(2425.38 1361.71)"><tspan class="cls-51" x="0" y="0">「LRFN インストーラー」によりインストールされたソフトウェアの削除</tspan><tspan class="cls-52" x="328.34" y="-.72" xml:space="preserve"> (dev.nercone.os.nerune.software.remove.installed-by-same-software)</tspan></text>
+          </g>
+          <g>
+            <rect class="cls-83" x="2420" y="1372" width="856" height="20"/>
+            <text class="cls-36" transform="translate(2425.38 1385.71)"><tspan x="0" y="0">互換性</tspan></text>
+          </g>
+          <g>
+            <rect class="cls-83" x="2452" y="1396" width="824" height="20"/>
+            <text class="cls-39" transform="translate(2457.38 1409.71)"><tspan class="cls-51" x="0" y="0">「LRFN インストーラー」によりインストールされたソフトウェアを互換性ランタイムとして登録</tspan><tspan class="cls-52" x="438.34" y="-.72" xml:space="preserve"> (dev.nercone.os.nerune.runtime.register.installed-by-same-software)</tspan></text>
+          </g>
+          <g>
+            <rect class="cls-83" x="2452" y="1420" width="824" height="20"/>
+            <text class="cls-39" transform="translate(2457.38 1433.71)"><tspan class="cls-51" x="0" y="0">「LRFN インストーラー」によりインストールされたソフトウェアの互換性ランタイム登録を解除</tspan><tspan class="cls-52" x="438.34" y="-.72" xml:space="preserve"> (dev.nercone.os.nerune.runtime.unregister.installed-by-same-software)</tspan></text>
+          </g>
+          <g>
+            <rect class="cls-83" x="2420" y="1444" width="856" height="20"/>
+            <text class="cls-36" transform="translate(2425.38 1457.71)"><tspan x="0" y="0">隔離環境</tspan></text>
+          </g>
+          <g>
+            <rect class="cls-83" x="2452" y="1468" width="824" height="20"/>
+            <text class="cls-39" transform="translate(2457.38 1481.71)"><tspan class="cls-51" x="0" y="0">隔離環境の作成</tspan><tspan class="cls-52" x="70" y="-.72" xml:space="preserve"> (dev.nercone.os.nerune.environment.create)</tspan></text>
+          </g>
+          <g>
+            <rect class="cls-83" x="2452" y="1492" width="824" height="20"/>
+            <text class="cls-39" transform="translate(2457.38 1505.71)"><tspan class="cls-51" x="0" y="0">「LRFN インストーラー」により作成された隔離環境の編集</tspan><tspan class="cls-52" x="268.34" y="-.72" xml:space="preserve"> (dev.nercone.os.nerune.environment.edit.created-by-same-software)</tspan></text>
+          </g>
+          <g>
+            <rect class="cls-83" x="2452" y="1516" width="824" height="20"/>
+            <text class="cls-39" transform="translate(2457.38 1529.71)"><tspan class="cls-51" x="0" y="0">「LRFN インストーラー」により作成された隔離環境の削除</tspan><tspan class="cls-52" x="268.34" y="-.72" xml:space="preserve"> (dev.nercone.os.nerune.environment.remove.created-by-same-software)</tspan></text>
+          </g>
+          <g>
+            <rect class="cls-83" x="2420" y="1540" width="856" height="20"/>
+            <text class="cls-36" transform="translate(2425.38 1553.71)"><tspan x="0" y="0">権限管理</tspan></text>
+          </g>
+          <g>
+            <rect class="cls-83" x="2452" y="1564" width="824" height="90"/>
+            <text class="cls-39" transform="translate(2457.38 1577.71)"><tspan class="cls-51"><tspan x="0" y="0">「LRFN インストーラー」によりインストールされたソフトウェアへの権限の共有</tspan></tspan><tspan class="cls-52"><tspan x="0" y="10.28">dev.nercone.os.nerune.permission.share.installed-by-same-software</tspan></tspan></text>
+            <text class="cls-38" transform="translate(2457.86 1613.18)"><tspan x="0" y="0">共有する権限</tspan></text>
+            <text class="cls-42" transform="translate(2458.06 1624.73)"><tspan x="0" y="0">dev.nercone.os.nerune.environment.create</tspan><tspan x="0" y="10">dev.nercone.os.nerune.environment.edit.created-by-same-software</tspan><tspan x="0" y="20">dev.nercone.os.nerune.environment.remove.created-by-same-software</tspan></text>
+          </g>
+        </g>
+      </g>
+      <g id="_スタートメニュー" data-name="スタートメニュー">
+        <image class="cls-54" width="732" height="524" transform="translate(-12 1028) scale(2)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAtwAAAIMCAYAAADGl3tGAAAACXBIWXMAAAWJAAAFiQFtaJ36AAAM70lEQVR4nO3dy24c1xVA0UOJlATFQhAnA8POJP//X4YGsRBaD1ikzPagqshi8wEHyB4EvRZwQbJuFcDhxsXp6rN52tkzewAAwH2Hxy4+FtVnu+tnT9wDAAAsDnMX2/vfZ+Z+TG+/v3hkHd8LAACnbgvrm0fW7f750UMv1msXu3U+ohsAAPb2sf1tZq5369vcRfdtcJ/NXWy/npm3M/OXdb2eu+gW3AAAsAT3FttfZ+bzur6s+1t0H46D+2KW2P5+Zv6+/nw3S3S/HDPdAACwzWn/Pktsf5yZDzPzy7q/jZUcZg3u/ez2xcx8NzP/mJl/zsyPs0T323VvGy0BAIBTdjPL+MiXWWL751m6+mqWCL+eJcjPnjvh/nFm/jUzP8xyyv1qjJUAAMA2TnI1y+n2+/X6l5n5z8z8Onfd/GCkZJvh/m6W6P5hZn6amb/OzJsR3AAAsAX3bzNzuV67nKWhH3z+8am3lGwfnHw3S2z/be7PcQMAwKnaz2/PLCfab+d+bN/aB/f2gcgXs4T1xSxjJK/X9WYENwAAbME9s3Tyq1na+eXcnWzfNvPxCffMXXTv43u/BDcAAKdsewf31sf7dn7Qyo8F9+bsmQUAAKfsTzey1/wBAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEBIcAMAQEhwAwBASHADAEDo/Jm9wxMLAABO2X/VyY8F92FmbnY/f9+tmZmz/+E/CwAA/28Oc7+R9+38ILzPjx7cR/b1zFzNzNd1zcy8HMENAMBp24J76+SrWdp5H9+34X18wn0zM9/WB7/MzMeZuVz33swy8y24AQA4Zdsh9W+ztPLHWdr56ywtfbO/+fzooS22P83Mh5l5v+7/OjOvRnADAMDWzlezxPb7Wdr509yP7sPMw+C+nqXOP8zMz+ve5cy8nZmL8VYTAACYebydP6x/X89RcB9mObXeHvo0M/9er3+emXcz83ru5redcAMAcMq2Ge1tjvvjLLH9yywtvQX3zMzhqRPuWR++nCW2z8c4CQAAbI5Hsj+v68EJ9z6gz2aJ6vNZxke2tcX28f0AAHCqtreQbNF9vVv3ZriPg3tmievjdXwvAACcun10H6/b/cciej+nbWYbAACet3/v9oNvnXwupoU2AAD8eY9+vfsf0GbhG5CSC98AAAAASUVORK5CYII="/>
+        <g>
+          <rect class="cls-77" y="1040" width="1440" height="1024"/>
+          <g>
+            <g>
+              <rect class="cls-83" x="32" y="1072" width="48" height="48"/>
+              <g>
+                <path class="cls-123" d="M68.77,1091.32c-.6-1.44-1.81-3-2.76-3.49.68,1.31,1.15,2.72,1.4,4.18v.02c-1.56-3.89-4.2-5.45-6.36-8.86-.11-.17-.22-.35-.32-.53-.05-.09-.1-.19-.15-.28-.09-.17-.16-.36-.21-.55,0-.02-.01-.03-.03-.04,0,0-.02,0-.03,0,0,0,0,0,0,0s0,0,0,0h0c-3.46,2.02-4.64,5.77-4.74,7.65-1.38.09-2.7.6-3.79,1.46-.11-.1-.23-.19-.36-.27-.31-1.1-.33-2.26-.04-3.37-1.27.62-2.4,1.49-3.32,2.56h0c-.55-.69-.51-2.97-.48-3.45-.16.06-.31.15-.46.24-.48.34-.93.73-1.35,1.15-.47.48-.9.99-1.29,1.54-.89,1.26-1.51,2.68-1.85,4.18,0,.03-.01.06-.02.09-.03.12-.12.73-.14.86,0,.01,0,.02,0,.03-.12.63-.2,1.26-.22,1.9v.07c0,7.61,6.17,13.78,13.78,13.78,6.71,0,12.45-4.83,13.58-11.45.02-.18.04-.35.06-.53.28-2.35-.02-4.73-.89-6.92h0ZM52.89,1102.1c.06.03.13.06.19.09h0c-.07-.03-.13-.06-.2-.09h0Z"/>
+                <path class="cls-119" d="M68.77,1091.32c-.6-1.44-1.81-3-2.76-3.49.68,1.31,1.15,2.72,1.4,4.18,0,0,0,0,0,.01h0c1.3,3.54.59,7.12-.43,9.31-1.58,3.39-5.4,6.86-11.39,6.69-6.47-.18-12.16-4.98-13.22-11.26-.19-.99,0-1.49.1-2.3-.13.62-.21,1.26-.22,1.9v.07c0,7.61,6.17,13.78,13.78,13.78,6.71,0,12.45-4.83,13.58-11.45.02-.18.04-.35.06-.53.28-2.35-.02-4.73-.89-6.92h0Z"/>
+                <path class="cls-121" d="M68.77,1091.32c-.6-1.44-1.81-3-2.76-3.49.68,1.31,1.15,2.72,1.4,4.18,0,0,0,0,0,.01h0c1.3,3.54.59,7.12-.43,9.31-1.58,3.39-5.4,6.86-11.39,6.69-6.47-.18-12.16-4.98-13.22-11.26-.19-.99,0-1.49.1-2.3-.13.62-.21,1.26-.22,1.9v.07c0,7.61,6.17,13.78,13.78,13.78,6.71,0,12.45-4.83,13.58-11.45.02-.18.04-.35.06-.53.28-2.35-.02-4.73-.89-6.92h0Z"/>
+                <path class="cls-80" d="M62.07,1092.94s.06.04.09.06c-.35-.61-.78-1.18-1.28-1.67-4.28-4.28-1.12-9.29-.59-9.54h0c-3.46,2.02-4.64,5.77-4.74,7.65.16-.01.32-.02.48-.02,2.5,0,4.8,1.35,6.04,3.53h0Z"/>
+                <path class="cls-79" d="M56.04,1093.79c-.02.34-1.23,1.52-1.66,1.52-3.92,0-4.55,2.37-4.55,2.37.17,2,1.56,3.64,3.25,4.51.08.04.15.08.23.11.13.06.27.11.4.17.58.2,1.18.32,1.79.35,6.87.32,8.2-8.21,3.24-10.69,1.27-.22,2.59.29,3.32.81-1.23-2.17-3.54-3.52-6.04-3.53-.16,0-.32.01-.48.02-1.38.09-2.7.6-3.79,1.46.21.18.45.42.95.91.93.92,3.33,1.88,3.34,1.99h0Z"/>
+                <path class="cls-78" d="M56.04,1093.79c-.02.34-1.23,1.52-1.66,1.52-3.92,0-4.55,2.37-4.55,2.37.17,2,1.56,3.64,3.25,4.51.08.04.15.08.23.11.13.06.27.11.4.17.58.2,1.18.32,1.79.35,6.87.32,8.2-8.21,3.24-10.69,1.27-.22,2.59.29,3.32.81-1.23-2.17-3.54-3.52-6.04-3.53-.16,0-.32.01-.48.02-1.38.09-2.7.6-3.79,1.46.21.18.45.42.95.91.93.92,3.33,1.88,3.34,1.99h0Z"/>
+                <path class="cls-82" d="M51.12,1090.44c.1.06.19.13.28.19-.31-1.1-.33-2.26-.04-3.37-1.27.62-2.4,1.49-3.32,2.56.07,0,2.07-.04,3.07.62Z"/>
+                <path class="cls-81" d="M42.37,1096.77c1.06,6.28,6.76,11.08,13.22,11.26,5.98.17,9.81-3.3,11.39-6.69,1.02-2.19,1.73-5.78.43-9.3h0s0-.03,0-.03v.02c.49,3.19-1.13,6.28-3.67,8.38v.02c-4.95,4.03-9.68,2.43-10.64,1.78-.07-.03-.13-.07-.2-.1-2.88-1.38-4.07-4.01-3.82-6.26-1.4.02-2.68-.78-3.26-2.05,0,0,2.19-1.56,5.07-.2,1.63.74,3.49.81,5.17.2,0-.11-2.4-1.07-3.34-1.99-.5-.49-.74-.73-.95-.91-.11-.1-.23-.19-.36-.27-.08-.06-.17-.12-.28-.19-1.01-.65-3-.62-3.07-.62h0c-.55-.69-.51-2.97-.48-3.45-.16.06-.31.15-.46.24-.48.34-.93.73-1.35,1.15-.47.48-.9.99-1.29,1.54-.89,1.26-1.51,2.68-1.85,4.18,0,.03-.5,2.17-.26,3.28h0Z"/>
+                <path class="cls-13" d="M60.88,1091.33c.5.49.93,1.06,1.28,1.67.07.05.14.11.21.17,3.12,2.88,1.49,6.95,1.37,7.24,2.54-2.09,4.16-5.18,3.67-8.38-1.56-3.88-4.2-5.45-6.36-8.86-.11-.17-.22-.35-.32-.53-.05-.09-.1-.19-.15-.28-.09-.17-.16-.36-.21-.55,0-.02-.01-.03-.03-.04,0,0-.02,0-.03,0,0,0,0,0,0,0s0,0,0,0c-.53.25-3.69,5.26.59,9.54Z"/>
+                <path class="cls-124" d="M62.37,1093.17c-.07-.06-.14-.12-.21-.17-.03-.02-.06-.04-.09-.06-.74-.52-2.05-1.03-3.32-.81,4.96,2.48,3.63,11.01-3.24,10.69-.61-.03-1.22-.14-1.79-.35-.14-.05-.27-.11-.4-.17-.08-.04-.16-.07-.23-.11h0c.96.66,5.69,2.26,10.63-1.77v-.02c.13-.29,1.77-4.36-1.36-7.24h0Z"/>
+                <path class="cls-122" d="M49.83,1097.69s.64-2.37,4.55-2.37c.42,0,1.64-1.18,1.66-1.52-1.68.61-3.54.54-5.17-.2-2.88-1.35-5.07.2-5.07.2.59,1.27,1.87,2.07,3.26,2.05-.26,2.25.94,4.88,3.82,6.26.06.03.13.06.19.09-1.68-.87-3.07-2.51-3.25-4.51Z"/>
+                <path class="cls-120" d="M68.77,1091.32c-.6-1.44-1.81-3-2.77-3.49.68,1.31,1.15,2.72,1.4,4.18v.02c-1.56-3.89-4.2-5.45-6.36-8.86-.11-.17-.22-.35-.32-.53-.05-.09-.1-.19-.15-.28-.09-.17-.16-.36-.21-.55,0-.02-.01-.03-.03-.04,0,0-.02,0-.03,0,0,0,0,0,0,0s0,0,0,0h0c-3.46,2.02-4.64,5.77-4.74,7.65.16-.01.32-.02.48-.02,2.5,0,4.8,1.35,6.04,3.53-.74-.52-2.05-1.03-3.32-.81,4.96,2.48,3.63,11.01-3.24,10.69-.61-.03-1.22-.14-1.79-.35-.14-.05-.27-.11-.4-.17-.08-.04-.16-.07-.23-.11h0c-.07-.03-.13-.06-.2-.09.06.03.13.06.19.09-1.68-.87-3.07-2.51-3.25-4.51,0,0,.64-2.37,4.55-2.37.42,0,1.64-1.18,1.66-1.52,0-.11-2.4-1.07-3.34-1.99-.5-.49-.74-.73-.95-.91-.11-.1-.23-.19-.36-.27-.31-1.1-.33-2.26-.04-3.37-1.27.62-2.4,1.49-3.32,2.56h0c-.55-.69-.51-2.97-.48-3.45-.16.06-.31.15-.46.24-.48.34-.93.73-1.35,1.15-.47.48-.9.99-1.29,1.54-.89,1.26-1.51,2.68-1.85,4.18,0,.03-.01.06-.02.09-.03.12-.14.74-.16.87-.11.64-.17,1.28-.2,1.92v.07c0,7.61,6.17,13.78,13.78,13.78,6.71,0,12.45-4.83,13.58-11.45.02-.18.04-.35.06-.53.28-2.35-.02-4.73-.89-6.92h0ZM67.4,1092.02h0s0,.01,0,.01h0s0-.01,0-.01Z"/>
+              </g>
+            </g>
+            <text class="cls-15" transform="translate(98.7 1103.07)"><tspan x="0" y="0">Fi</tspan><tspan class="cls-109" x="16.65" y="0">r</tspan><tspan x="23.85" y="0">e</tspan><tspan class="cls-114" x="35.51" y="0">f</tspan><tspan class="cls-108" x="42.32" y="0">o</tspan><tspan x="53.87" y="0">x</tspan></text>
+            <g>
+              <rect class="cls-83" x="32" y="1128" width="48" height="48"/>
+              <g class="cls-75">
+                <g>
+                  <path class="cls-85" d="M69.09,1140.97l-5.8-2.79c-.67-.32-1.47-.19-2,.34l-18.98,17.31c-.51.47-.51,1.27,0,1.73l1.55,1.41c.42.38,1.05.41,1.5.07l22.86-17.34c.77-.58,1.87-.03,1.87.93v-.07c0-.68-.39-1.29-1-1.58Z"/>
+                  <path class="cls-101" d="M69.09,1163.03l-5.8,2.79c-.67.32-1.47.19-2-.34l-18.98-17.31c-.51-.47-.51-1.27,0-1.73l1.55-1.41c.42-.38,1.05-.41,1.5-.07l22.86,17.34c.77.58,1.87.03,1.87-.93v.07c0,.68-.39,1.29-1,1.58Z"/>
+                  <path class="cls-68" d="M63.29,1165.83c-.67.32-1.47.19-2-.34.65.65,1.76.19,1.76-.73v-25.52c0-.92-1.11-1.38-1.76-.73.53-.53,1.33-.66,2-.34l5.8,2.79c.61.29,1,.91,1,1.59v18.91c0,.68-.39,1.29-1,1.59l-5.8,2.79Z"/>
+                  <g class="cls-55">
+                    <path class="cls-18" d="M61.88,1165.88c.44.17.95.16,1.4-.05l5.79-2.79c.61-.29,1-.91,1-1.59v-18.91c0-.68-.39-1.29-1-1.59l-5.79-2.79c-.59-.28-1.27-.21-1.79.16-.07.05-.14.11-.21.18l-11.09,10.12-4.83-3.67c-.45-.34-1.08-.31-1.5.07l-1.55,1.41c-.51.46-.51,1.27,0,1.73l4.19,3.82-4.19,3.82c-.51.47-.51,1.27,0,1.73l1.55,1.41c.42.38,1.05.41,1.5.07l4.83-3.67,11.09,10.12c.18.18.38.31.6.39ZM63.03,1145.61l-8.42,6.39,8.42,6.39v-12.78Z"/>
+                  </g>
+                </g>
+              </g>
+            </g>
+            <text class="cls-15" transform="translate(98.81 1159.41)"><tspan x="0" y="0">Visual Studio Code</tspan></text>
+            <g>
+              <rect class="cls-71" x="32" y="1184" width="48" height="48"/>
+              <g>
+                <path class="cls-3" d="M58.07,1215.41v-19.26l4.74,4.74"/>
+                <circle class="cls-3" cx="53.63" cy="1215.41" r="4.44"/>
+              </g>
+            </g>
+            <text class="cls-15" transform="translate(98.81 1215.41)"><tspan x="0" y="0">ミュージック</tspan></text>
+            <g>
+              <rect class="cls-84" x="32" y="1296" width="48" height="48"/>
+              <g>
+                <polyline class="cls-3" points="44.57 1327.14 53.14 1318.57 44.57 1310"/>
+                <line class="cls-3" x1="56" y1="1330" x2="67.43" y2="1330"/>
+              </g>
+            </g>
+            <text class="cls-15" transform="translate(98.81 1327.41)"><tspan x="0" y="0">ターミナル</tspan></text>
+            <g>
+              <rect class="cls-84" x="32" y="1352" width="48" height="48"/>
+              <polygon class="cls-40" points="44.57 1367.43 53.14 1376 44.57 1384.57 44.57 1367.43"/>
+              <polyline class="cls-3" points="51.71 1384.57 60.29 1376 51.71 1367.43"/>
+              <polyline class="cls-3" points="58.86 1384.57 67.43 1376 58.86 1367.43"/>
+            </g>
+            <text class="cls-15" transform="translate(98.81 1383.41)"><tspan x="0" y="0">プロセスマネージャー</tspan></text>
+            <g>
+              <rect class="cls-84" x="32" y="1240" width="48" height="48"/>
+              <g>
+                <rect class="cls-29" x="42" y="1250" width="4" height="24"/>
+                <rect class="cls-39" x="46" y="1250" width="24" height="4"/>
+                <rect class="cls-23" x="66" y="1254" width="4" height="24"/>
+                <rect class="cls-24" x="42" y="1274" width="24" height="4"/>
+              </g>
+            </g>
+            <text class="cls-15" transform="translate(98.81 1271.41)"><tspan x="0" y="0">システム設定</tspan></text>
+          </g>
+          <g>
+            <g>
+              <rect class="cls-83" x="32" y="1984" width="48" height="48"/>
+              <g>
+                <path class="cls-10" d="M63.07,2002.04c3.9,3.91,3.9,10.24,0,14.14-3.91,3.9-10.24,3.9-14.14,0-3.9-3.9-3.9-10.23,0-14.14"/>
+                <line class="cls-10" x1="56.01" y1="1996.89" x2="56.01" y2="2008"/>
+              </g>
+            </g>
+            <g>
+              <rect class="cls-83" x="88" y="1984" width="48" height="48"/>
+              <polyline class="cls-10" points="116 2018 106 2008 116 1998"/>
+            </g>
+            <g>
+              <rect class="cls-83" x="144" y="1984" width="48" height="48"/>
+              <g>
+                <path class="cls-10" d="M164.67,2018h-6.67v-20h6.67"/>
+                <polyline class="cls-10" points="172.44 2013.56 178 2008 172.44 2002.44"/>
+                <line class="cls-10" x1="178" y1="2008" x2="164.67" y2="2008"/>
+              </g>
+            </g>
+          </g>
+          <g>
+            <rect class="cls-116" x="424" y="1048" width="1008" height="1008"/>
+            <text class="cls-31" transform="translate(474 1125.02)"><tspan x="0" y="0">おはようございます</tspan></text>
+            <text class="cls-32" transform="translate(1229.98 1125.02)"><tspan x="0" y="0">8:19 火曜日</tspan></text>
+            <g>
+              <rect class="cls-77" x="474" y="1180" width="108" height="108"/>
+              <g>
+                <path class="cls-57" d="M556.73,1223.47c-1.35-3.24-4.07-6.74-6.22-7.85,1.53,2.96,2.59,6.13,3.14,9.41v.05c-3.5-8.74-9.44-12.27-14.3-19.94-.25-.39-.5-.79-.73-1.19-.12-.21-.23-.42-.34-.64-.2-.39-.36-.8-.46-1.23,0-.04-.03-.08-.07-.08-.02,0-.04,0-.06,0,0,0-.01,0-.02,0s-.02,0-.02.01v-.02c-7.78,4.56-10.42,13-10.66,17.22-3.11.21-6.08,1.36-8.53,3.29-.26-.22-.53-.42-.81-.61-.7-2.47-.74-5.09-.09-7.58-2.86,1.39-5.4,3.35-7.46,5.77h-.02c-1.23-1.56-1.14-6.69-1.07-7.76-.36.14-.71.33-1.03.55-1.08.77-2.1,1.64-3.03,2.6-1.06,1.08-2.03,2.23-2.9,3.47-1.99,2.83-3.41,6.02-4.16,9.39-.02.07-.03.14-.04.21-.06.27-.27,1.64-.31,1.94,0,.02,0,.04,0,.07-.27,1.41-.44,2.84-.5,4.28v.16c0,17.12,13.88,31,31.01,31,15.1,0,28-10.88,30.55-25.76.05-.4.1-.8.14-1.2.64-5.28-.05-10.63-2.01-15.58h0ZM521,1247.73c.15.07.28.14.43.21h.02c-.15-.06-.3-.14-.46-.21h0Z"/>
+                <path class="cls-63" d="M556.73,1223.47c-1.35-3.24-4.07-6.74-6.22-7.85,1.53,2.96,2.59,6.13,3.14,9.41,0,0,0,0,0,.03v.03c2.93,7.93,1.34,16-.96,20.92-3.55,7.63-12.15,15.44-25.62,15.06-14.55-.41-27.36-11.21-29.75-25.34-.43-2.23,0-3.36.22-5.17-.3,1.41-.47,2.84-.5,4.28v.16c0,17.12,13.88,31.01,31.01,31.01,15.1,0,28-10.88,30.56-25.76.05-.4.1-.8.14-1.2.64-5.28-.05-10.63-2.01-15.58h0Z"/>
+                <path class="cls-59" d="M556.73,1223.47c-1.35-3.24-4.07-6.74-6.22-7.85,1.53,2.96,2.59,6.13,3.14,9.41,0,0,0,0,0,.03v.03c2.93,7.93,1.34,16-.96,20.92-3.55,7.63-12.15,15.44-25.62,15.06-14.55-.41-27.36-11.21-29.75-25.34-.43-2.23,0-3.36.22-5.17-.3,1.41-.47,2.84-.5,4.28v.16c0,17.12,13.88,31.01,31.01,31.01,15.1,0,28-10.88,30.56-25.76.05-.4.1-.8.14-1.2.64-5.28-.05-10.63-2.01-15.58h0Z"/>
+                <path class="cls-97" d="M541.66,1227.11c.07.05.13.1.19.14-.78-1.38-1.75-2.65-2.88-3.76-9.64-9.64-2.52-20.89-1.32-21.47v-.02c-7.78,4.56-10.42,13-10.66,17.22.36-.02.72-.05,1.09-.05,5.63.01,10.81,3.04,13.58,7.93h0Z"/>
+                <path class="cls-94" d="M528.1,1229.03c-.05.77-2.77,3.43-3.73,3.43-8.82,0-10.25,5.33-10.25,5.33.39,4.49,3.52,8.19,7.3,10.15.17.09.35.17.52.25.3.13.6.26.91.37,1.3.46,2.66.72,4.03.78,15.45.72,18.45-18.47,7.3-24.05,2.85-.5,5.82.65,7.48,1.81-2.77-4.89-7.96-7.92-13.59-7.93-.37,0-.73.03-1.09.05-3.11.21-6.08,1.36-8.53,3.29.47.4,1.01.93,2.13,2.04,2.1,2.07,7.5,4.22,7.51,4.47h0Z"/>
+                <path class="cls-90" d="M528.1,1229.03c-.05.77-2.77,3.43-3.73,3.43-8.82,0-10.25,5.33-10.25,5.33.39,4.49,3.52,8.19,7.3,10.15.17.09.35.17.52.25.3.13.6.26.91.37,1.3.46,2.66.72,4.03.78,15.45.72,18.45-18.47,7.3-24.05,2.85-.5,5.82.65,7.48,1.81-2.77-4.89-7.96-7.92-13.59-7.93-.37,0-.73.03-1.09.05-3.11.21-6.08,1.36-8.53,3.29.47.4,1.01.93,2.13,2.04,2.1,2.07,7.5,4.22,7.51,4.47h0Z"/>
+                <path class="cls-93" d="M517.01,1221.49c.22.14.43.28.64.43-.7-2.47-.74-5.09-.09-7.58-2.86,1.39-5.4,3.35-7.46,5.77.15,0,4.65-.08,6.91,1.39Z"/>
+                <path class="cls-89" d="M497.32,1235.73c2.39,14.14,15.2,24.93,29.75,25.34,13.46.38,22.07-7.43,25.62-15.06,2.3-4.93,3.89-12.99.97-20.92v-.03s0-.04,0-.03v.05c1.11,7.18-2.54,14.14-8.26,18.85l-.02.04c-11.13,9.06-21.77,5.47-23.93,3.99-.15-.07-.3-.15-.45-.23-6.49-3.1-9.16-9.01-8.59-14.08-3.14.04-6.02-1.76-7.34-4.62,0,0,4.92-3.51,11.4-.46,3.67,1.67,7.85,1.83,11.64.46-.01-.25-5.41-2.4-7.51-4.47-1.12-1.11-1.66-1.64-2.13-2.04-.25-.22-.52-.42-.8-.61-.19-.12-.39-.26-.64-.43-2.26-1.47-6.76-1.39-6.91-1.39h-.02c-1.23-1.56-1.14-6.69-1.07-7.76-.36.14-.71.33-1.03.55-1.08.77-2.1,1.64-3.03,2.6-1.06,1.08-2.03,2.23-2.9,3.47-1.99,2.83-3.41,6.02-4.16,9.39-.02.07-1.12,4.88-.58,7.38h0Z"/>
+                <path class="cls-12" d="M538.98,1223.49c1.13,1.11,2.1,2.38,2.88,3.76.16.12.32.25.47.38,7.03,6.47,3.35,15.64,3.07,16.29,5.71-4.7,9.36-11.66,8.27-18.85-3.51-8.74-9.45-12.26-14.31-19.93-.25-.39-.5-.79-.73-1.19-.12-.21-.23-.42-.34-.64-.2-.39-.36-.8-.46-1.23,0-.04-.03-.08-.07-.08-.02,0-.04,0-.06,0,0,0-.01,0-.02,0s-.02,0-.02.01c-1.2.57-8.31,11.83,1.32,21.47Z"/>
+                <path class="cls-66" d="M542.32,1227.63c-.15-.13-.31-.26-.47-.38-.06-.05-.12-.1-.19-.14-1.66-1.16-4.62-2.31-7.48-1.81,11.15,5.58,8.16,24.78-7.3,24.05-1.38-.06-2.73-.32-4.03-.78-.31-.12-.61-.24-.91-.37-.17-.08-.35-.16-.52-.25h.02c2.15,1.48,12.8,5.08,23.93-3.98l.02-.04c.27-.65,3.96-9.81-3.07-16.29h.01Z"/>
+                <path class="cls-65" d="M514.12,1237.8s1.43-5.33,10.25-5.33c.95,0,3.68-2.66,3.73-3.43-3.79,1.37-7.97,1.21-11.64-.46-6.48-3.05-11.4.46-11.4.46,1.32,2.86,4.2,4.67,7.34,4.62-.58,5.07,2.11,10.98,8.59,14.08.15.07.28.14.43.21-3.79-1.96-6.91-5.66-7.3-10.15Z"/>
+                <path class="cls-60" d="M556.73,1223.47c-1.35-3.24-4.08-6.74-6.22-7.85,1.53,2.96,2.59,6.13,3.14,9.41v.05c-3.5-8.74-9.44-12.27-14.3-19.94-.25-.39-.5-.79-.73-1.19-.12-.21-.23-.42-.34-.64-.2-.39-.36-.8-.46-1.23,0-.04-.03-.08-.07-.08-.02,0-.04,0-.06,0,0,0-.01,0-.02,0s-.02,0-.02.01v-.02c-7.78,4.56-10.42,13-10.66,17.22.36-.02.72-.05,1.09-.05,5.63.01,10.81,3.04,13.58,7.93-1.65-1.16-4.62-2.31-7.48-1.81,11.15,5.58,8.16,24.78-7.3,24.05-1.38-.06-2.73-.32-4.03-.78-.31-.12-.61-.24-.91-.37-.17-.08-.35-.16-.52-.25h.02c-.15-.06-.3-.14-.45-.21.14.07.28.14.43.21-3.79-1.96-6.91-5.66-7.3-10.15,0,0,1.43-5.33,10.25-5.33.95,0,3.68-2.66,3.73-3.43-.01-.25-5.41-2.4-7.51-4.47-1.12-1.11-1.66-1.64-2.13-2.04-.26-.22-.52-.42-.8-.61-.7-2.47-.74-5.09-.09-7.58-2.86,1.39-5.4,3.35-7.46,5.77h-.02c-1.23-1.56-1.14-6.69-1.07-7.76-.36.14-.71.33-1.03.55-1.08.77-2.1,1.64-3.03,2.6-1.06,1.08-2.03,2.23-2.9,3.47-1.99,2.83-3.41,6.02-4.16,9.39-.02.07-.03.14-.04.21-.06.27-.32,1.66-.36,1.96-.24,1.43-.39,2.88-.46,4.32v.16c0,17.12,13.88,31,31.01,31,15.1,0,28-10.88,30.55-25.76.05-.4.1-.8.14-1.2.64-5.28-.05-10.63-2.01-15.58h.01ZM553.65,1225.06v.03h0v-.03h0Z"/>
+              </g>
+              <text class="cls-70" transform="translate(507.68 1307.17)"><tspan x="0" y="0">Fi</tspan><tspan class="cls-104" x="10.29" y="0">r</tspan><tspan x="14.89" y="0">e</tspan><tspan class="cls-105" x="22.04" y="0">f</tspan><tspan class="cls-106" x="26.55" y="0">o</tspan><tspan x="33.67" y="0">x</tspan></text>
+            </g>
+            <g>
+              <rect class="cls-77" x="598" y="1180.34" width="108" height="108"/>
+              <g class="cls-73">
+                <g>
+                  <path class="cls-85" d="M681.91,1209.12l-13.26-6.38c-1.53-.74-3.37-.43-4.57.78l-43.39,39.56c-1.17,1.06-1.17,2.9,0,3.96l3.54,3.22c.96.87,2.39.93,3.42.15l52.25-39.64c1.75-1.33,4.27-.08,4.27,2.12v-.15c0-1.54-.88-2.95-2.28-3.62Z"/>
+                  <path class="cls-101" d="M681.91,1259.56l-13.26,6.38c-1.53.74-3.37.43-4.57-.78l-43.39-39.56c-1.17-1.06-1.17-2.9,0-3.96l3.54-3.22c.96-.87,2.39-.93,3.42-.15l52.25,39.64c1.75,1.33,4.27.08,4.27-2.12v.15c0,1.54-.88,2.95-2.28,3.62Z"/>
+                  <path class="cls-68" d="M668.65,1265.94c-1.53.74-3.37.43-4.57-.78,1.48,1.48,4.02.43,4.02-1.67v-58.32c0-2.1-2.54-3.15-4.02-1.67,1.2-1.2,3.04-1.52,4.57-.78l13.25,6.37c1.39.67,2.28,2.08,2.28,3.62v43.21c0,1.55-.89,2.95-2.28,3.62l-13.25,6.37Z"/>
+                  <g class="cls-55">
+                    <path class="cls-17" d="M665.43,1266.06c1.01.39,2.17.37,3.19-.12l13.24-6.37c1.39-.67,2.28-2.08,2.28-3.62v-43.21c0-1.55-.89-2.95-2.28-3.62l-13.24-6.37c-1.34-.65-2.91-.49-4.09.37-.17.12-.33.26-.48.41l-25.36,23.13-11.04-8.38c-1.03-.78-2.47-.72-3.42.15l-3.54,3.22c-1.17,1.06-1.17,2.9,0,3.96l9.58,8.74-9.58,8.74c-1.17,1.06-1.17,2.9,0,3.96l3.54,3.22c.95.87,2.39.93,3.42.15l11.04-8.38,25.36,23.13c.4.4.87.7,1.38.9ZM668.07,1219.73l-19.24,14.6,19.24,14.6v-29.21Z"/>
+                  </g>
+                </g>
+              </g>
+              <text class="cls-70" transform="translate(596.42 1307.51)"><tspan x="0" y="0">Visual Studio Code</tspan></text>
+            </g>
+            <g>
+              <rect class="cls-77" x="474" y="1774" width="908" height="108"/>
+              <g class="cls-86">
+                <g>
+                  <rect class="cls-98" x="487.5" y="1787.5" width="81" height="81"/>
+                  <g>
+                    <line class="cls-7" x1="624" y1="1828" x2="432" y2="1828"/>
+                    <polyline class="cls-7" points="504 1828 516 1816 540 1840 552 1828"/>
+                    <polyline class="cls-7" points="504 1828 516 1840 540 1816 552 1828"/>
+                    <polyline class="cls-9" points="516 1816 504 1828 516 1840 540 1816 552 1828 540 1840 534 1834"/>
+                  </g>
+                </g>
+              </g>
+              <text class="cls-22" transform="translate(587.31 1816.23)"><tspan x="0" y="0">更新が利用可能です</tspan></text>
+              <text class="cls-46" transform="translate(588 1835.3)"><tspan x="0" y="0">Ne</tspan><tspan class="cls-118" x="16.04" y="0">r</tspan><tspan class="cls-113" x="20.74" y="0">K</tspan><tspan x="28.33" y="0">e</tspan><tspan class="cls-118" x="35.33" y="0">r</tspan><tspan x="40.03" y="0">nel、3個のモジュール、1個のカーネル機能拡張、および4個のパッケージの更新が利用可能です。</tspan><tspan x="0" y="16">今すぐアップデートしますか？</tspan></text>
+              <rect class="cls-100" x="1270" y="1858" width="100" height="24"/>
+              <rect class="cls-116" x="1082" y="1858" width="104" height="24"/>
+              <text class="cls-41" transform="translate(1284 1873.39)"><tspan x="0" y="0">今すぐインストール</tspan></text>
+              <text class="cls-21" transform="translate(1092 1872.92)"><tspan x="0" y="0">このバージョンをスキップ</tspan></text>
+              <rect class="cls-116" x="1188" y="1858" width="80" height="24"/>
+              <text class="cls-21" transform="translate(1200 1872.71)"><tspan x="0" y="0">更新の情報を表示</tspan></text>
+              <text class="cls-53" transform="translate(1310.28 1790.12)"><tspan x="0" y="0">システム・1分前</tspan></text>
+              <rect class="cls-116" x="976" y="1858" width="104" height="24"/>
+              <text class="cls-21" transform="translate(986 1872.71)"><tspan x="0" y="0">「更新」設定パネルを開く</tspan></text>
+            </g>
+            <g>
+              <rect class="cls-77" x="474" y="1898" width="908" height="108"/>
+              <rect class="cls-83" x="487.5" y="1911.5" width="81" height="81"/>
+              <text class="cls-22" transform="translate(587.31 1932.23)"><tspan x="0" y="0">ようこそ、Ne</tspan><tspan class="cls-104" x="101.73" y="0">r</tspan><tspan x="107.85" y="0">coneOSへ</tspan></text>
+              <text class="cls-46" transform="translate(588 1951.3)"><tspan x="0" y="0">Ne</tspan><tspan class="cls-109" x="16.04" y="0">r</tspan><tspan x="20.36" y="0">coneOSは安全性と快適性を第一に設計された、オープンソースのオペレーティングシステムです。</tspan><tspan x="0" y="16">アップデートのタイミングから、アプリの管理、おすすめの頻度まで。あなたのコンピューターは、全てあなたが管理できます。</tspan><tspan x="0" y="32">もっと詳しく知りたいですか？この通知の下部にあるボタンをクリックしてみてください。</tspan></text>
+              <rect class="cls-100" x="1270" y="1982" width="100" height="24"/>
+              <text class="cls-41" transform="translate(1284 1997.12)"><tspan x="0" y="0">「ようこそ」を開く</tspan></text>
+              <text class="cls-53" transform="translate(1308.53 1914.12)"><tspan x="0" y="0">ようこそ・9分前</tspan></text>
+              <g>
+                <rect class="cls-29" x="504" y="1936.73" width="4.36" height="26.18"/>
+                <rect class="cls-39" x="508.36" y="1936.73" width="17.45" height="4.36"/>
+                <rect class="cls-23" x="521.45" y="1941.09" width="4.36" height="26.18"/>
+                <rect class="cls-24" x="504" y="1962.91" width="17.45" height="4.36"/>
+                <rect class="cls-28" x="530.18" y="1936.73" width="4.36" height="17.45"/>
+                <rect class="cls-39" x="534.55" y="1936.73" width="17.45" height="4.36"/>
+                <rect class="cls-26" x="547.64" y="1954.18" width="4.36" height="13.09"/>
+                <rect class="cls-27" x="534.55" y="1949.82" width="17.45" height="4.36"/>
+                <rect class="cls-25" x="530.18" y="1962.91" width="17.45" height="4.36"/>
+              </g>
+            </g>
+            <g>
+              <rect class="cls-77" x="474" y="1650" width="908" height="108"/>
+              <g>
+                <rect class="cls-71" x="487.5" y="1663.5" width="81" height="81"/>
+                <g>
+                  <path class="cls-5" d="M531.5,1716.5v-32.5l8,8"/>
+                  <circle class="cls-5" cx="524" cy="1716.5" r="7.5"/>
+                </g>
+              </g>
+              <text class="cls-43" transform="translate(587.31 1702.23)"><tspan x="0" y="0">今天不是明天 (</tspan><tspan class="cls-110" x="105.68" y="0">f</tspan><tspan class="cls-107" x="111.36" y="0">e</tspan><tspan class="cls-103" x="120.34" y="0">a</tspan><tspan class="cls-111" x="129.39" y="0">t</tspan><tspan class="cls-99" x="135.92" y="0">. 兰</tspan><tspan class="cls-76" x="160.75" y="0">音</tspan><tspan class="cls-110" x="180.75" y="0">R</tspan><tspan x="191.39" y="0">eine)</tspan></text>
+              <text class="cls-45" transform="translate(588 1717.3)"><tspan x="0" y="0">ソース: </tspan><tspan class="cls-102" x="35.69" y="0">Y</tspan><tspan x="41.71" y="0">outube</tspan></text>
+              <text class="cls-53" transform="translate(1233.72 1666.12)"><tspan x="0" y="0">ミュージック・ライブアクティビティ</tspan></text>
+              <rect class="cls-116" x="1202" y="1676" width="168" height="82"/>
+              <rect class="cls-115" x="1270" y="1701" width="32" height="32" rx="16" ry="16"/>
+              <polygon class="cls-14" points="1281.28 1709 1293.72 1717 1281.28 1725 1281.28 1709"/>
+              <polygon class="cls-14" points="1244.57 1723 1236.86 1717 1244.57 1711 1244.57 1723"/>
+              <polygon class="cls-14" points="1254 1723 1246.29 1717 1254 1711 1254 1723"/>
+              <polygon class="cls-14" points="1327.43 1723 1335.14 1717 1327.43 1711 1327.43 1723"/>
+              <polygon class="cls-14" points="1318 1723 1325.71 1717 1318 1711 1318 1723"/>
+              <rect class="cls-84" x="1202" y="1754" width="168" height="4"/>
+              <rect class="cls-71" x="1202" y="1754" width="23.72" height="4"/>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g id="_タスクバー" data-name="タスクバー">
+        <g>
+          <rect class="cls-116" x="-1" y="2063" width="3842" height="98"/>
+          <path class="cls-77" d="M3840,2064v96H0v-96h3840M3842,2062H-2v100h3844v-100h0Z"/>
+        </g>
+        <rect class="cls-83" y="2064" width="96" height="96"/>
+        <g>
+          <g>
+            <circle class="cls-5" cx="142.03" cy="2109.77" r="15.77"/>
+            <line class="cls-8" x1="161.74" y1="2130" x2="153.16" y2="2121.43"/>
+          </g>
+          <g>
+            <path class="cls-56" d="M261.55,2104.1c-1.01-2.43-3.06-5.06-4.67-5.89,1.14,2.22,1.94,4.6,2.36,7.06v.04c-2.62-6.56-7.08-9.2-10.72-14.95-.19-.29-.37-.59-.55-.89-.09-.16-.18-.32-.26-.48-.15-.29-.27-.6-.35-.92,0-.03-.02-.06-.05-.06-.02,0-.03,0-.05,0,0,0,0,0-.01,0s-.01,0-.02,0h0c-5.84,3.41-7.82,9.74-8.01,12.9-2.33.16-4.56,1.02-6.4,2.47-.19-.16-.4-.31-.6-.46-.53-1.85-.55-3.82-.07-5.68-2.14,1.04-4.05,2.51-5.6,4.32h-.01c-.92-1.17-.86-5.02-.8-5.82-.27.11-.53.25-.78.41-.81.58-1.57,1.23-2.27,1.95-.79.81-1.52,1.68-2.17,2.6-1.49,2.12-2.55,4.51-3.12,7.05-.01.05-.02.1-.03.15-.04.21-.2,1.23-.23,1.45,0,.02,0,.03,0,.05-.2,1.06-.33,2.13-.38,3.21v.12c0,12.84,10.41,23.25,23.25,23.25,11.33,0,21-8.16,22.92-19.32.04-.3.07-.6.11-.9.48-3.96-.04-7.98-1.51-11.68h0ZM234.75,2122.3c.11.05.21.11.32.16h.02c-.11-.05-.23-.1-.34-.16h0Z"/>
+            <path class="cls-62" d="M261.55,2104.1c-1.01-2.43-3.06-5.06-4.67-5.89,1.14,2.22,1.94,4.6,2.36,7.06,0,0,0,0,0,.02v.02c2.2,5.95,1,12-.72,15.69-2.66,5.72-9.11,11.58-19.21,11.3-10.91-.31-20.52-8.4-22.32-19.01-.33-1.67,0-2.52.16-3.88-.23,1.05-.35,2.13-.38,3.21v.12c0,12.84,10.41,23.25,23.25,23.25,11.33,0,21-8.16,22.92-19.32.04-.3.07-.6.11-.9.48-3.96-.04-7.98-1.51-11.68h0Z"/>
+            <path class="cls-58" d="M261.55,2104.1c-1.01-2.43-3.06-5.06-4.67-5.89,1.14,2.22,1.94,4.6,2.36,7.06,0,0,0,0,0,.02v.02c2.2,5.95,1,12-.72,15.69-2.66,5.72-9.11,11.58-19.21,11.3-10.91-.31-20.52-8.4-22.32-19.01-.33-1.67,0-2.52.16-3.88-.23,1.05-.35,2.13-.38,3.21v.12c0,12.84,10.41,23.25,23.25,23.25,11.33,0,21-8.16,22.92-19.32.04-.3.07-.6.11-.9.48-3.96-.04-7.98-1.51-11.68h0Z"/>
+            <path class="cls-96" d="M250.25,2106.83c.05.04.1.07.15.11-.58-1.04-1.31-1.98-2.16-2.82-7.23-7.23-1.89-15.67-.99-16.1h0c-5.84,3.41-7.82,9.74-8.01,12.9.27-.02.54-.04.82-.04,4.22,0,8.11,2.28,10.19,5.95h0Z"/>
+            <path class="cls-95" d="M240.07,2108.28c-.04.58-2.08,2.57-2.8,2.57-6.61,0-7.69,4-7.69,4,.29,3.37,2.64,6.14,5.48,7.61.13.07.26.13.39.19.22.1.45.19.68.28.97.34,1.99.54,3.03.58,11.59.54,13.83-13.86,5.47-18.04,2.14-.37,4.36.49,5.61,1.36-2.08-3.67-5.97-5.94-10.19-5.95-.27,0-.55.02-.82.04-2.33.16-4.56,1.02-6.4,2.47.35.3.76.7,1.6,1.53,1.58,1.56,5.62,3.17,5.63,3.36h0Z"/>
+            <path class="cls-91" d="M240.07,2108.28c-.04.58-2.08,2.57-2.8,2.57-6.61,0-7.69,4-7.69,4,.29,3.37,2.64,6.14,5.48,7.61.13.07.26.13.39.19.22.1.45.19.68.28.97.34,1.99.54,3.03.58,11.59.54,13.83-13.86,5.47-18.04,2.14-.37,4.36.49,5.61,1.36-2.08-3.67-5.97-5.94-10.19-5.95-.27,0-.55.02-.82.04-2.33.16-4.56,1.02-6.4,2.47.35.3.76.7,1.6,1.53,1.58,1.56,5.62,3.17,5.63,3.36h0Z"/>
+            <path class="cls-92" d="M231.76,2102.62c.16.1.32.21.48.32-.53-1.85-.55-3.82-.07-5.68-2.14,1.04-4.05,2.51-5.6,4.32.11,0,3.49-.06,5.18,1.04Z"/>
+            <path class="cls-88" d="M216.99,2113.3c1.79,10.6,11.4,18.7,22.32,19.01,10.1.29,16.55-5.58,19.21-11.29,1.72-3.7,2.92-9.75.72-15.69v-.02s0-.03,0-.02v.04c.83,5.39-1.91,10.6-6.19,14.13v.03c-8.36,6.8-16.34,4.1-17.96,3-.11-.05-.23-.11-.34-.17-4.87-2.33-6.87-6.76-6.44-10.56-2.36.03-4.52-1.32-5.51-3.46,0,0,3.69-2.63,8.55-.34,2.75,1.25,5.89,1.37,8.73.34,0-.19-4.06-1.8-5.63-3.36-.84-.83-1.24-1.23-1.6-1.53-.19-.16-.39-.31-.6-.46-.14-.09-.29-.2-.48-.32-1.7-1.1-5.07-1.04-5.18-1.04h-.01c-.92-1.17-.86-5.02-.8-5.82-.27.11-.53.25-.78.41-.81.58-1.57,1.23-2.27,1.95-.79.81-1.52,1.68-2.17,2.6-1.49,2.12-2.55,4.51-3.12,7.05-.01.05-.84,3.66-.43,5.54h0Z"/>
+            <path class="cls-87" d="M248.23,2104.12c.85.83,1.58,1.78,2.16,2.82.12.09.24.18.35.29,5.27,4.86,2.51,11.73,2.3,12.22,4.28-3.53,7.02-8.75,6.2-14.13-2.63-6.55-7.09-9.2-10.73-14.95-.19-.29-.37-.59-.55-.89-.09-.16-.18-.32-.26-.48-.15-.29-.27-.6-.35-.92,0-.03-.02-.06-.05-.06-.02,0-.03,0-.05,0,0,0,0,0-.01,0s-.01,0-.02,0c-.9.43-6.23,8.87.99,16.1Z"/>
+            <path class="cls-67" d="M250.74,2107.22c-.11-.1-.23-.2-.35-.29-.05-.04-.09-.07-.14-.11-1.24-.87-3.46-1.73-5.61-1.36,8.36,4.18,6.12,18.58-5.47,18.04-1.03-.04-2.05-.24-3.03-.58-.23-.09-.46-.18-.68-.28-.13-.06-.26-.12-.39-.19h.02c1.62,1.11,9.6,3.81,17.95-2.99v-.03c.22-.49,2.98-7.36-2.29-12.22h0Z"/>
+            <path class="cls-64" d="M229.59,2114.85s1.07-4,7.69-4c.72,0,2.76-2,2.8-2.57-2.84,1.03-5.98.91-8.73-.34-4.86-2.29-8.55.34-8.55.34.99,2.14,3.15,3.5,5.51,3.46-.43,3.8,1.58,8.24,6.44,10.56.11.05.21.11.32.16-2.84-1.47-5.19-4.24-5.48-7.61Z"/>
+            <path class="cls-61" d="M261.55,2104.1c-1.01-2.43-3.06-5.06-4.67-5.89,1.14,2.22,1.94,4.6,2.36,7.06v.04c-2.62-6.56-7.08-9.2-10.72-14.95-.19-.29-.37-.59-.55-.89-.09-.16-.18-.32-.26-.48-.15-.29-.27-.6-.35-.92,0-.03-.02-.06-.05-.06-.02,0-.03,0-.05,0,0,0,0,0-.01,0s-.01,0-.02,0h0c-5.84,3.41-7.82,9.74-8.01,12.9.27-.02.54-.04.82-.04,4.22,0,8.11,2.28,10.19,5.95-1.24-.87-3.46-1.73-5.61-1.36,8.36,4.18,6.12,18.58-5.47,18.04-1.03-.04-2.05-.24-3.03-.58-.23-.09-.46-.18-.68-.28-.13-.06-.26-.12-.39-.19h.02c-.11-.05-.23-.1-.34-.16.11.05.21.11.32.16-2.84-1.47-5.19-4.24-5.48-7.61,0,0,1.07-4,7.69-4,.72,0,2.76-2,2.8-2.57,0-.19-4.06-1.8-5.63-3.36-.84-.83-1.24-1.23-1.6-1.53-.19-.16-.39-.32-.6-.46-.53-1.85-.55-3.82-.07-5.68-2.14,1.04-4.05,2.51-5.6,4.32h-.01c-.92-1.17-.86-5.02-.8-5.82-.27.11-.53.25-.78.41-.81.58-1.57,1.23-2.27,1.95-.79.81-1.52,1.68-2.17,2.6-1.49,2.12-2.55,4.52-3.12,7.05-.01.05-.02.1-.03.15-.04.21-.24,1.24-.27,1.47-.18,1.08-.29,2.16-.34,3.24v.12c0,12.84,10.41,23.25,23.25,23.25,11.33,0,21-8.16,22.92-19.32.04-.3.07-.6.11-.9.48-3.96-.04-7.98-1.51-11.68h0ZM259.24,2105.29v.02h0v-.02h0Z"/>
+          </g>
+          <g class="cls-74">
+            <g>
+              <path class="cls-85" d="M358.43,2093.08l-9.94-4.79c-1.15-.55-2.53-.32-3.43.58l-32.54,29.67c-.88.8-.87,2.18,0,2.97l2.66,2.42c.72.65,1.8.7,2.57.11l39.19-29.73c1.31-1,3.2-.06,3.2,1.59v-.12c0-1.16-.66-2.21-1.71-2.72Z"/>
+              <path class="cls-101" d="M358.43,2130.92l-9.94,4.79c-1.15.55-2.53.32-3.43-.58l-32.54-29.67c-.88-.8-.87-2.18,0-2.97l2.66-2.42c.72-.65,1.8-.7,2.57-.11l39.19,29.73c1.31,1,3.2.06,3.2-1.59v.12c0,1.16-.66,2.21-1.71,2.72Z"/>
+              <path class="cls-68" d="M348.49,2135.7c-1.15.55-2.53.32-3.43-.58,1.11,1.11,3.02.32,3.02-1.25v-43.74c0-1.57-1.9-2.36-3.02-1.25.9-.9,2.28-1.14,3.43-.58l9.94,4.78c1.04.5,1.71,1.56,1.71,2.72v32.41c0,1.16-.66,2.22-1.71,2.72l-9.94,4.78Z"/>
+              <g class="cls-55">
+                <path class="cls-19" d="M346.08,2135.79c.76.3,1.63.28,2.39-.09l9.93-4.78c1.04-.5,1.71-1.56,1.71-2.72v-32.41c0-1.16-.66-2.22-1.71-2.72l-9.93-4.78c-1.01-.48-2.18-.37-3.07.28-.13.09-.25.19-.36.31l-19.02,17.35-8.28-6.29c-.77-.59-1.85-.54-2.57.11l-2.66,2.42c-.88.8-.88,2.18,0,2.97l7.18,6.55-7.18,6.55c-.87.8-.87,2.18,0,2.97l2.66,2.42c.72.65,1.79.7,2.57.11l8.28-6.29,19.02,17.35c.3.3.65.53,1.03.68ZM348.05,2101.05l-14.43,10.95,14.43,10.95v-21.91Z"/>
+              </g>
+            </g>
+          </g>
+          <g>
+            <g>
+              <rect class="cls-115" x="415.03" y="2095.03" width="33.94" height="33.94" transform="translate(-1366.88 924.06) rotate(-45)"/>
+              <g>
+                <polygon class="cls-14" points="436.8 2118.4 436.8 2120 424 2120 424 2104 425.6 2104 425.6 2118.4 436.8 2118.4"/>
+                <rect class="cls-14" x="438.4" y="2104" width="1.6" height="16"/>
+              </g>
+            </g>
+            <rect class="cls-39" x="400" y="2156" width="64" height="4"/>
+          </g>
+        </g>
+        <polyline class="cls-2" points="76 2116.73 20 2098 20 2126 48 2126 76 2098 76 2126 61.42 2126"/>
+      </g>
+      <text class="cls-34" transform="translate(3728.98 2127.28)"><tspan x="0" y="0">8:19</tspan></text>
     </g>
   </g>
 </svg>

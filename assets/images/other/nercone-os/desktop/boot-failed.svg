@@ -52,11 +52,15 @@
         stroke-width: 4px;
       }
 
+      .cls-22 {
+        fill: #272727;
+      }
+
       .cls-6, .cls-16 {
         letter-spacing: .02em;
       }
 
-      .cls-22 {
+      .cls-23 {
         fill: #fff;
       }
 
@@ -81,12 +85,8 @@
         letter-spacing: -.04em;
       }
 
-      .cls-23 {
-        letter-spacing: -.02em;
-      }
-
       .cls-24 {
-        letter-spacing: -.03em;
+        letter-spacing: -.02em;
       }
 
       .cls-25 {
@@ -94,6 +94,10 @@
       }
 
       .cls-26 {
+        letter-spacing: -.03em;
+      }
+
+      .cls-27 {
         fill: #1a1a1a;
       }
 
@@ -106,18 +110,18 @@
       }
     </style>
   </defs>
-  <rect width="1920" height="1080"/>
+  <rect class="cls-27" width="1920" height="1080"/>
   <g>
     <line class="cls-21" x1="832" y1="1048" x2="1088" y2="1048"/>
     <line class="cls-20" x1="832" y1="1048" x2="960" y2="1048"/>
   </g>
   <g>
     <polygon class="cls-19" points="136 56.43 160 98 136 139.57 88 139.57 64 98 88 56.43 136 56.43"/>
-    <path class="cls-22" d="M112.01,115.61c-.88,0-1.62-.31-2.24-.93s-.93-1.36-.93-2.21.31-1.62.93-2.24,1.36-.93,2.24-.93,1.62.31,2.23.93.91,1.36.91,2.24-.3,1.6-.91,2.21-1.35.93-2.23.93ZM109.88,104.08l-.28-23.7h4.78l-.3,23.7h-4.2Z"/>
+    <path class="cls-23" d="M112.01,115.61c-.88,0-1.62-.31-2.24-.93s-.93-1.36-.93-2.21.31-1.62.93-2.24,1.36-.93,2.24-.93,1.62.31,2.23.93.91,1.36.91,2.24-.3,1.6-.91,2.21-1.35.93-2.23.93ZM109.88,104.08l-.28-23.7h4.78l-.3,23.7h-4.2Z"/>
   </g>
   <text class="cls-11" transform="translate(198.5 86.48)"><tspan x="0" y="0">起動に失敗しました</tspan></text>
-  <rect class="cls-26" x="64" y="196" width="1792" height="820"/>
-  <text class="cls-8" transform="translate(197.96 117.69)"><tspan x="0" y="0">Ne</tspan><tspan class="cls-9" x="21.38" y="0">r</tspan><tspan x="27.14" y="0">coneOSの起動に失敗しました。下に表示されているログには、原因に関する情報が含まれている可能性があります。ログは /boot/firstboot/logs/</tspan><tspan class="cls-23" x="1076.38" y="0">f</tspan><tspan x="1082.05" y="0">ailed-52004bf5-6d4</tspan><tspan class="cls-25" x="1237.67" y="0">f</tspan><tspan x="1243.14" y="0">-4</tspan><tspan class="cls-23" x="1260.84" y="0">2</tspan><tspan x="1270.34" y="0">4e-bf3b</tspan><tspan class="cls-24" x="1332.77" y="0">-</tspan><tspan class="cls-23" x="1339.59" y="0">2</tspan><tspan x="1349.09" y="0">49b4bdbf83a.log に保存されています。</tspan><tspan x="0" y="18">Rキーを押すか、電源ボタンを4回連打することで、復旧環境から起動することができます。復旧環境は通常の用途には使用できませんが、コミュニティに相談したり、この問題を修正するために必要なツールが使用可能です。</tspan></text>
+  <rect class="cls-22" x="64" y="196" width="1792" height="820"/>
+  <text class="cls-8" transform="translate(197.96 117.69)"><tspan x="0" y="0">Ne</tspan><tspan class="cls-9" x="21.38" y="0">r</tspan><tspan x="27.14" y="0">coneOSの起動に失敗しました。下に表示されているログには、原因に関する情報が含まれている可能性があります。ログは /boot/firstboot/logs/</tspan><tspan class="cls-24" x="1076.38" y="0">f</tspan><tspan x="1082.05" y="0">ailed-52004bf5-6d4</tspan><tspan class="cls-26" x="1237.67" y="0">f</tspan><tspan x="1243.14" y="0">-4</tspan><tspan class="cls-24" x="1260.84" y="0">2</tspan><tspan x="1270.34" y="0">4e-bf3b</tspan><tspan class="cls-25" x="1332.77" y="0">-</tspan><tspan class="cls-24" x="1339.59" y="0">2</tspan><tspan x="1349.09" y="0">49b4bdbf83a.log に保存されています。</tspan><tspan x="0" y="18">Rキーを押すか、電源ボタンを4回連打することで、復旧環境から起動することができます。復旧環境は通常の用途には使用できませんが、コミュニティに相談したり、この問題を修正するために必要なツールが使用可能です。</tspan></text>
   <text class="cls-10" transform="translate(64 1055.15)"><tspan class="cls-15" x="0" y="0">F </tspan><tspan class="cls-3" x="16.47" y="0">R</tspan><tspan class="cls-7" x="29.05" y="0">eboot </tspan><tspan class="cls-5" x="89.11" y="0">t</tspan><tspan class="cls-7" x="95.46" y="0">o Fi</tspan><tspan class="cls-6" x="129.73" y="0">r</tspan><tspan class="cls-7" x="137.57" y="0">mwa</tspan><tspan class="cls-4" x="182.69" y="0">r</tspan><tspan class="cls-7" x="189.88" y="0" xml:space="preserve">e Settings   </tspan><tspan class="cls-15" x="301.1" y="0" xml:space="preserve"> R</tspan><tspan class="cls-7" x="318.97" y="0"> </tspan><tspan class="cls-3" x="324.6" y="0">R</tspan><tspan class="cls-7" x="337.18" y="0">eboot </tspan><tspan class="cls-5" x="397.24" y="0">t</tspan><tspan class="cls-7" x="403.58" y="0">o </tspan><tspan class="cls-3" x="421.2" y="0">R</tspan><tspan class="cls-7" x="433.78" y="0">ec</tspan><tspan class="cls-2" x="456.87" y="0">ov</tspan><tspan class="cls-7" x="479.32" y="0">e</tspan><tspan class="cls-6" x="490.98" y="0">r</tspan><tspan class="cls-7" x="498.82" y="0">y E</tspan><tspan class="cls-3" x="527.71" y="0">n</tspan><tspan class="cls-7" x="539.23" y="0">vi</tspan><tspan class="cls-4" x="555.31" y="0">r</tspan><tspan class="cls-7" x="562.51" y="0">onment</tspan></text>
   <text class="cls-10" transform="translate(1342.41 1056.15)"><tspan class="cls-15" x="0" y="0">FiR</tspan><tspan class="cls-18" x="30.29" y="0">S</tspan><tspan class="cls-15" x="43.24" y="0">TBO</tspan><tspan class="cls-17" x="85.23" y="0">O</tspan><tspan class="cls-15" x="100.01" y="0">T </tspan><tspan class="cls-7" x="118.1" y="0">1</tspan><tspan class="cls-1" x="126.23" y="0">.0.</tspan><tspan class="cls-7" x="148.85" y="0" xml:space="preserve">0    </tspan><tspan class="cls-15" x="183.96" y="0">Ne</tspan><tspan class="cls-13" x="211.12" y="0">r</tspan><tspan class="cls-15" x="218.78" y="0">coneOS </tspan><tspan class="cls-7" x="300.42" y="0">1</tspan><tspan class="cls-1" x="308.55" y="0">.0.</tspan><tspan class="cls-7" x="331.17" y="0" xml:space="preserve">0    </tspan><tspan class="cls-15" x="366.29" y="0">Ne</tspan><tspan class="cls-16" x="393.45" y="0">r</tspan><tspan class="cls-14" x="401.9" y="0">K</tspan><tspan class="cls-15" x="415.5" y="0">e</tspan><tspan class="cls-12" x="427.41" y="0">r</tspan><tspan class="cls-15" x="435.7" y="0">nel </tspan><tspan class="cls-7" x="470.22" y="0">1</tspan><tspan class="cls-1" x="478.36" y="0">.0.</tspan><tspan class="cls-7" x="500.98" y="0">0</tspan></text>
 </svg>
