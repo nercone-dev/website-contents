@@ -16,6 +16,8 @@
     </style>
   </defs>
   <rect class="cls-3" x="0" y="0" width="1024" height="1024"/>
-  <rect class="cls-2" x="256" y="64" width="64" height="896"/>
-  <polygon class="cls-1" points="768 64 768 704 320 704 320 640 704 640 704 64 768 64"/>
+  <g>
+    <rect class="cls-2" x="-16" y="464" width="672" height="96" transform="translate(-192 832) rotate(-90)"/>
+    <polygon class="cls-1" points="752 176 752 656 368 656 368 560 656 560 656 176 752 176"/>
+  </g>
 </svg>
