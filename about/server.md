@@ -7,7 +7,7 @@ header_desc: このサーバーの詳細情報
 description: nercone.devのサーバーの詳細情報
 ---
 
-# nercone.dev ({{ server_version }}+{{ contents_version }})
+# nercone.dev ({{ Repositories.Server.version }}+{{ Repositories.Contents.version }})
 nercone.devへのHTTP(S)リクエストは、Python+Uvicorn+FastAPIで構築されたWebサーバーによって処理されています。
 
 TLS対応などの理由で間に噛ませているNginxに関するものや、機密情報、サードパーティのソフトウェアなどの公開ができない、または難しい箇所を除く、ほとんどの箇所はGitHubで公開しています。
@@ -28,11 +28,11 @@ SSLの全バージョンを含む、TLS 1.1以前のSSL/TLSは無効化してい
 
 ## リポジトリ
 
-### サーバー ([github.com:nercone-dev/website](https://github.com/nercone-dev/website/)@[{{ server_version }}]({{ "https://github.com/nercone-dev/website/commit/" + server_version }}))
+### サーバー ([github.com:nercone-dev/website](https://github.com/nercone-dev/website/)@[{{ Repositories.Server.version }}]({{ "https://github.com/nercone-dev/website/commit/" + Repositories.Server.version }}))
 途中でGiteaに移動したり戻したり~~ラジバンダリ~~しましたが、現時点でサーバーのソースコードはここで管理しています。
 やっぱりGitHubが一番落ち着くんです。
 
-### コンテンツ ([github.com:nercone-dev/website-contents](https://github.com/nercone-dev/website-contents/)@[{{ contents_version }}]({{ "https://github.com/nercone-dev/website-contents/commit/" + contents_version }}))
+### コンテンツ ([github.com:nercone-dev/website-contents](https://github.com/nercone-dev/website-contents/)@[{{ Repositories.Contents.version }}]({{ "https://github.com/nercone-dev/website-contents/commit/" + Repositories.Contents.version }}))
 `2026-05-07T11:20:07Z`に作成したコミット`5d34750f671af4a2e2682d20affa0e94af8b664e`から、このWebサイトのページやアセットなどのほとんどのコンテンツはこちらで管理しています。
 
 以前はサーバーの`/public`にそのまま配置していましたが、現在は`git submodule`を使用してリポジトリを分離しています。
