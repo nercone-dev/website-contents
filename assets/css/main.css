@@ -34,7 +34,7 @@ header {
 @supports (-webkit-backdrop-filter: blur(1px)) {
     header {
         background-color: transparent;
-        background-image: linear-gradient(to bottom, var(--color-theme-background), transparent);
+        background-image: linear-gradient(to bottom, var(--theme-color-background), transparent);
     }
 }
 
