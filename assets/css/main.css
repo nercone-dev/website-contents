@@ -32,6 +32,12 @@ header {
     gap: 16px;
     z-index: 10;
 }
+@supports (-webkit-backdrop-filter: blur(1px)) {
+    header {
+        background-color: transparent;
+        background-image: linear-gradient(to bottom, var(--theme-color-background), color-mix(in srgb, var(--theme-color-background) 75%, transparent));
+    }
+}
 
 main {
     padding: 24px;
