@@ -11,6 +11,8 @@
     --theme-color-background-pre: var(--color-white);
     --theme-color-background-alt: transparent;
 
+    --theme-color-border-header-bottom: var(--color-bright-light-grey);
+
     --theme-color-background-table-top: var(--color-light-grey);
     --theme-color-background-table-row: var(--color-light-grey-alt);
     --theme-color-background-table-row-hover: var(--color-bright-light-grey);

@@ -19,8 +19,9 @@ body {
 
 header {
     will-change: transform;
-    background-color: color-mix(in srgb, var(--theme-color-background) 60%, transparent);
-    backdrop-filter: blur(14px);
+    background-color: color-mix(in srgb, var(--theme-color-background) 75%, transparent);
+    backdrop-filter: blur(16px);
+    border-bottom: 1px solid var(--theme-color-border-header);
     position: fixed;
     top: 0;
     left: 0;
@@ -31,26 +32,23 @@ header {
     gap: 16px;
     z-index: 10;
 }
-@supports (-webkit-backdrop-filter: blur(1px)) {
-    header {
-        background-color: transparent;
-        background-image: linear-gradient(to bottom, var(--theme-color-background), transparent);
-    }
-}
 
 main {
     padding: 24px;
-    padding-top: 60px;
+    padding-top: 75px;
     flex: 1;
 }
 main > *:first-child {
     margin-top: 16px;
 }
+main > *:last-child {
+    margin-bottom: 0;
+}
 
 footer {
     background-color: var(--theme-color-background);
+    border-top: 1px solid var(--theme-color-border-footer);
     padding: 24px;
-    padding-top: 0px;
     display: flex;
     align-items: center;
     gap: 16px;

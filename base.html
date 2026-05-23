@@ -66,7 +66,7 @@
         <header class="flex">
             <div class="flex-1 flex">
                 <a href="/" class="text-no-decoration text-stark" translate="no">{% block header_title_prefix %}{% endblock %}{% block header_title_prefix_separator %} {% endblock %}<span class="font-bold">{% block header_title_infix %}Nercone{% endblock %}</span>{% block header_title_suffix_separator %} {% endblock %}{% block header_title_suffix %}{% endblock %}</a>
-                <p class="hide medium:show large:show">{% block header_desc %}<a href="/daily-quote/" class="text-no-decoration">{{ get_daily_quote() }}</a>{% endblock %}</p>
+                <p class="small:hide">{% block header_desc %}<a href="/daily-quote/" class="text-no-decoration">{{ get_daily_quote() }}</a>{% endblock %}</p>
             </div>
             <div class="flex">
                 <a href="/access-counter/" class="text-no-decoration small:font-bold">#{{ access_counter.get() }}</a>
@@ -77,15 +77,13 @@
         {% block footer %}
         <footer class="flex text-alt">
             <div class="flex-1 flex">
-                <a href="/" class="text-no-decoration hide medium:show large:show font-bold" translate="no">{% block footer_domain_prefix %}{% endblock %}nercone.dev{% block footer_domain_suffix %}{% endblock %}</a>
+                <a href="/" class="text-no-decoration small:hide font-bold" translate="no">{% block footer_domain_prefix %}{% endblock %}nercone.dev{% block footer_domain_suffix %}{% endblock %}</a>
                 {% block footer_links %}
                 <a href="/about/" class="text-no-decoration small:font-bold">about</a>
                 <a href="/links/" class="text-no-decoration small:font-bold">links</a>
                 <a href="/projects/" class="text-no-decoration small:font-bold">projects</a>
-                <a href="{{ onion_site_url }}" class="text-no-decoration hide large:show">onion</a>
                 <a href="mailto:nercone@nercone.dev" class="text-no-decoration hide large:show">email</a>
                 <a href="/public-key/" class="text-no-decoration hide large:show">public-key</a>
-                <a href="/vulnerability-reporters/" class="text-no-decoration hide large:show">vulnerability-reporters</a>
                 {% block extra_footer_links %}{% endblock %}
                 {% endblock %}
             </div>
@@ -96,7 +94,6 @@
                 <a href="https://nercone.dev/qiita/"><img alt="qiita" src="https://assets.nercone.dev/images/3rd-party/icons/qiita.svg" class="small-icon"></a>
                 <a href="https://nercone.dev/zenn/"><img alt="zenn" src="https://assets.nercone.dev/images/3rd-party/icons/zenn.svg" class="small-icon"></a>
                 <!--                         qiita            kotonai -->
-                <a href="/about/server/" class="font-bold text-no-decoration hide medium:show large:show" translate="no">{{ Repositories.Contents.version }}</a>
             </div>
         </footer>
         {% endblock %}
