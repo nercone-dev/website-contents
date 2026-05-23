@@ -3,7 +3,7 @@
   <defs>
     <style>
       .cls-1 {
-        font-family: NotoMesloJP-Regular, 'Noto Meslo JP';
+        font-family: NerconeSansJP-Regular, 'Nercone Sans JP';
         font-size: 16px;
       }
 
@@ -12,7 +12,7 @@
       }
 
       .cls-2 {
-        font-family: NotoMesloJP-Bold, 'Noto Meslo JP';
+        font-family: NerconeSansJP-Bold, 'Nercone Sans JP';
         font-size: 24px;
         font-weight: 700;
       }
@@ -22,13 +22,73 @@
       }
 
       .cls-4 {
+        letter-spacing: 0em;
+      }
+
+      .cls-5 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-6 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-7 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-8 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-9 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-10 {
+        letter-spacing: -.03em;
+      }
+
+      .cls-11 {
+        letter-spacing: -.01em;
+      }
+
+      .cls-12 {
+        letter-spacing: -.01em;
+      }
+
+      .cls-13 {
+        letter-spacing: 0em;
+      }
+
+      .cls-14 {
+        letter-spacing: -.01em;
+      }
+
+      .cls-15 {
+        letter-spacing: 0em;
+      }
+
+      .cls-16 {
         fill: #1a1a1a;
+      }
+
+      .cls-17 {
+        letter-spacing: .02em;
+      }
+
+      .cls-18 {
+        letter-spacing: 0em;
+      }
+
+      .cls-19 {
+        letter-spacing: 0em;
       }
     </style>
   </defs>
-  <rect class="cls-4" width="1920" height="1080"/>
-  <text class="cls-1" transform="translate(834.77 992.53)"><tspan x="0" y="0">Copyright (c) 2026 Nercone</tspan></text>
-  <text class="cls-2" transform="translate(345.91 963.79)"><tspan x="0" y="0">NerconeOS: New and Modern Open-source Operating System, Made by Nercone for Everyone.</tspan></text>
+  <rect class="cls-16" width="1920" height="1080"/>
+  <text class="cls-1" transform="translate(855.75 992.53)"><tspan x="0" y="0">Co</tspan><tspan class="cls-7" x="21.07" y="0">p</tspan><tspan x="30.39" y="0">y</tspan><tspan class="cls-19" x="39.2" y="0">r</tspan><tspan x="45.16" y="0">ight </tspan><tspan class="cls-14" x="77.42" y="0">(c</tspan><tspan x="91.63" y="0">) 2026 Ne</tspan><tspan class="cls-9" x="166.08" y="0">r</tspan><tspan x="171.66" y="0">cone</tspan></text>
+  <text class="cls-2" transform="translate(413.71 963.79)"><tspan x="0" y="0">Ne</tspan><tspan class="cls-6" x="32.2" y="0">r</tspan><tspan x="41.32" y="0">coneOS: N</tspan><tspan class="cls-12" x="163.92" y="0">e</tspan><tspan x="177.7" y="0">w and Mode</tspan><tspan class="cls-18" x="318.3" y="0">r</tspan><tspan x="328.08" y="0">n Open-sou</tspan><tspan class="cls-6" x="464.18" y="0">r</tspan><tspan x="473.3" y="0">ce Ope</tspan><tspan class="cls-11" x="554.34" y="0">r</tspan><tspan x="563.65" y="0">ating S</tspan><tspan class="cls-15" x="643.59" y="0">y</tspan><tspan class="cls-4" x="657.74" y="0">s</tspan><tspan class="cls-13" x="671.02" y="0">t</tspan><tspan x="679.59" y="0">em</tspan><tspan class="cls-10" x="715.44" y="0">,</tspan><tspan x="722.24" y="0" xml:space="preserve"> Made </tspan><tspan class="cls-5" x="798.38" y="0">b</tspan><tspan x="812.89" y="0">y Ne</tspan><tspan class="cls-6" x="864.86" y="0">r</tspan><tspan x="873.97" y="0">cone </tspan><tspan class="cls-8" x="936.88" y="0">f</tspan><tspan x="945.83" y="0">or E</tspan><tspan class="cls-5" x="990.12" y="0">v</tspan><tspan x="1003.83" y="0">e</tspan><tspan class="cls-17" x="1017.94" y="0">r</tspan><tspan class="cls-5" x="1027.9" y="0">y</tspan><tspan x="1041.66" y="0">one</tspan><tspan class="cls-10" x="1085.05" y="0">.</tspan></text>
   <g>
     <path class="cls-3" d="M923.71,652.04h-115.38v-24.72h90.66v-44.26l-83.43-27.9-96.88,96.88h-215.28v-227.32l305.49,102.15,114.82-114.82v240ZM528.13,627.32h180.31l80.92-80.92-261.23-87.35v168.26ZM835.09,535.63l63.9,21.37v-85.26l-63.9,63.9Z"/>
     <g>
