@@ -77,9 +77,19 @@ blockquote {
     margin-bottom: 0px;
 }
 
+.show {
+    display: block;
+}
 .hide {
     display: none;
 }
-.show {
-    display: block;
+
+.overflow-show {
+    overflow: visible;
+}
+.overflow-hide {
+    overflow: hidden;
+}
+.overflow-scroll {
+    overflow: scroll;
 }
