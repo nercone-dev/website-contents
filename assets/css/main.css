@@ -52,7 +52,6 @@ main > *:last-child {
 }
 
 footer {
-    background-color: var(--theme-color-background);
     padding: 24px;
     gap: 16px;
     z-index: 10;

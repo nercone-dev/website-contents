@@ -1,6 +1,17 @@
+body {
+    background-image: url('https://assets.nercone.dev/images/dotgirl/icon-transparent.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
 main {
     flex: 1;
     display: flex;
+}
+
+footer {
+    background-image: linear-gradient(to bottom, transparent, color-mix(in srgb, var(--theme-color-background) 50%, transparent));
 }
 
 .inner {

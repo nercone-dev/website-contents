@@ -66,7 +66,7 @@
         <header class="flex">
             <div class="flex-1 flex">
                 <a href="/" class="text-no-decoration text-stark" translate="no">{% block header_title_prefix %}{% endblock %}{% block header_title_prefix_separator %} {% endblock %}<span class="font-bold">{% block header_title_infix %}Nercone{% endblock %}</span>{% block header_title_suffix_separator %} {% endblock %}{% block header_title_suffix %}{% endblock %}</a>
-                <p class="small:hide">{% block header_desc %}<a href="/daily-quote/" class="text-no-decoration">{{ get_daily_quote() }}</a>{% endblock %}</p>
+                <p class="small:hide">{% block header_desc %}<a href="/daily-quote/" class="text-no-decoration small:hide medium:hide">{{ get_daily_quote() }}</a>{% endblock %}</p>
             </div>
             <div class="flex">
                 <a href="/access-counter/" class="text-no-decoration small:font-bold">#{{ access_counter.get() }}</a>
