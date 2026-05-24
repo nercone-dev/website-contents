@@ -16,9 +16,6 @@ main {
     align-items: center;
     justify-content: center;
     font-size: 64pt;
-}
-
-#big-text, #welcome-text {
     padding-top: 0px;
     padding-bottom: 0px;
     margin-top: 0px;
@@ -29,8 +26,5 @@ main {
 @media (max-width: 512px) {
     #big-text {
         font-size: 48pt;
-    }
-    #welcome-text {
-        font-size: 10pt;
     }
 }
