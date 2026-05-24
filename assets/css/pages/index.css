@@ -15,20 +15,6 @@ main {
     display: flex;
 }
 
-footer {
-    position: relative;
-    isolation: isolate;
-}
-
-footer::before {
-    content: '';
-    position: fixed;
-    inset: 0;
-    background-image: linear-gradient(to bottom, transparent, color-mix(in srgb, var(--theme-color-background) 50%, transparent));
-    z-index: -1;
-    pointer-events: none;
-}
-
 .inner {
     flex: 1;
     display: flex;
