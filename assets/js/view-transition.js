@@ -3,15 +3,19 @@
 
     function preloadAssets(newDoc) {
         const curStyleHrefs = new Set(
-            [...document.head.querySelectorAll('link[rel="stylesheet"]')].map(l => l.href)
+            [...document.querySelectorAll('link[rel="stylesheet"]')].map(l => l.href)
         );
         const curScriptSrcs = new Set(
-            [...document.head.querySelectorAll('script[src]')].map(s => s.src)
+            [...document.querySelectorAll('script[src]')].map(s => s.src)
         );
 
         const tasks = [];
 
-        [...newDoc.head.querySelectorAll('link[rel="stylesheet"]')]
+        const newStyles = [
+            ...newDoc.head.querySelectorAll('link[rel="stylesheet"]'),
+            ...newDoc.body.querySelectorAll(':scope > link[rel="stylesheet"]'),
+        ];
+        newStyles
             .filter(l => !curStyleHrefs.has(new URL(l.href, location.href).href))
             .forEach(link => tasks.push(new Promise(resolve => {
                 const l = link.cloneNode(true);
@@ -20,7 +24,11 @@
                 document.head.appendChild(l);
             })));
 
-        [...newDoc.head.querySelectorAll('script[src]')]
+        const newScripts = [
+            ...newDoc.head.querySelectorAll('script[src]'),
+            ...newDoc.body.querySelectorAll(':scope > script[src]'),
+        ];
+        newScripts
             .filter(s => !curScriptSrcs.has(new URL(s.src, location.href).href))
             .forEach(script => tasks.push(new Promise(resolve => {
                 const s = document.createElement('script');
@@ -58,19 +66,25 @@
         const cc = head.querySelector('link[rel="canonical"]');
         if (nc && cc) cc.href = nc.href;
 
-        const newStyleHrefs = new Set(
-            [...newHead.querySelectorAll('link[rel="stylesheet"]')]
-                .map(l => new URL(l.href, location.href).href)
-        );
+        const newStyleHrefs = new Set([
+            ...newHead.querySelectorAll('link[rel="stylesheet"]'),
+            ...newDoc.body.querySelectorAll(':scope > link[rel="stylesheet"]'),
+        ].map(l => new URL(l.href, location.href).href));
         head.querySelectorAll('link[rel="stylesheet"]').forEach(l => {
             if (!newStyleHrefs.has(l.href)) l.remove();
         });
+        document.body.querySelectorAll(':scope > link[rel="stylesheet"]').forEach(l => {
+            if (!newStyleHrefs.has(l.href)) l.remove();
+        });
 
-        const newScriptSrcs = new Set(
-            [...newHead.querySelectorAll('script[src]')]
-                .map(s => new URL(s.src, location.href).href)
-        );
+        const newScriptSrcs = new Set([
+            ...newHead.querySelectorAll('script[src]'),
+            ...newDoc.body.querySelectorAll(':scope > script[src]'),
+        ].map(s => new URL(s.src, location.href).href));
         head.querySelectorAll('script[src]').forEach(s => {
+            if (!newScriptSrcs.has(s.src)) s.remove();
+        });
+        document.body.querySelectorAll(':scope > script[src]').forEach(s => {
             if (!newScriptSrcs.has(s.src)) s.remove();
         });
 
