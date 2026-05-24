@@ -24,21 +24,22 @@
                 document.head.appendChild(l);
             })));
 
-        const newScripts = [
+        const newScriptEls = [
             ...newDoc.head.querySelectorAll('script[src]'),
             ...newDoc.body.querySelectorAll(':scope > script[src]'),
-        ];
-        newScripts
-            .filter(s => !curScriptSrcs.has(new URL(s.src, location.href).href))
-            .forEach(script => tasks.push(new Promise(resolve => {
-                const s = document.createElement('script');
-                [...script.attributes].forEach(a => s.setAttribute(a.name, a.value));
-                s.addEventListener('load',  resolve, { once: true });
-                s.addEventListener('error', resolve, { once: true });
-                document.head.appendChild(s);
-            })));
+        ].filter(s => !curScriptSrcs.has(new URL(s.src, location.href).href));
 
-        return Promise.all(tasks);
+        newScriptEls.forEach(script => tasks.push(new Promise(resolve => {
+            const l = document.createElement('link');
+            l.rel = 'preload';
+            l.as = 'script';
+            l.href = new URL(script.getAttribute('src'), location.href).href;
+            l.addEventListener('load',  resolve, { once: true });
+            l.addEventListener('error', resolve, { once: true });
+            document.head.appendChild(l);
+        })));
+
+        return Promise.all(tasks).then(() => newScriptEls);
     }
 
     function updateHead(newDoc) {
@@ -122,7 +123,7 @@
             }
             window.__sidebarCleanup?.();
 
-            await preloadAssets(doc);
+            const deferredScripts = await preloadAssets(doc);
             updateHead(doc);
 
             for (const tag of ['header', 'main', 'footer']) {
@@ -139,6 +140,12 @@
                     old.replaceWith(s);
                 });
             }
+
+            deferredScripts.forEach(script => {
+                const s = document.createElement('script');
+                [...script.attributes].forEach(a => s.setAttribute(a.name, a.value));
+                document.head.appendChild(s);
+            });
 
             if (pushHistory) history.pushState(null, '', response.url);
 
