@@ -1,10 +1,8 @@
-{% extends "/base.html" %}
-{% block title %}QRコード - Nercone{% endblock %}
-{% block header_title_suffix %}QR Code{% endblock %}
-{% block header_desc %}このサイトのトップページのQRコードです{% endblock %}
-{% block extra_imports %}
-        <link rel="stylesheet" href="https://assets.nercone.dev/css/pages/qr-code.css">
-{% endblock %}
-{% block main %}
-            <img src="https://assets.nercone.dev/images/qr-code.svg" width="256" height="256">
-{% endblock %}
+---
+title: QRコード - Nercone
+header_title_suffix: QR Code
+header_desc: このサイトのトップページのQRコードです
+extra_imports: <link rel="stylesheet" href="https://assets.nercone.dev/css/pages/qr-code.css">
+---
+
+<img src="https://assets.nercone.dev/images/qr-code.svg" width="256" height="256">
