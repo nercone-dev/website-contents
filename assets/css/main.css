@@ -1,13 +1,15 @@
 html {
     color: var(--theme-color-text);
     background-color: var(--theme-color-background);
-    margin: 0;
-    padding: 0;
-    font-family: "Nercone Sans JP", "Inter", "Noto Sans JP", "Noto Sans TC", "Noto Sans SC", sans-serif;
-    font-size: 12pt;
+
+    font-family: var(--font-family-sans);
+    font-size: var(--font-size);
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
+
+    margin: 0;
+    padding: 0;
 }
 
 body {
@@ -22,15 +24,17 @@ header {
     background-color: color-mix(in srgb, var(--theme-color-background) 75%, transparent);
     backdrop-filter: blur(16px);
     border-bottom: 1px solid var(--theme-color-border-header);
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    padding: 24px;
+
     display: flex;
     align-items: center;
     gap: 16px;
+
+    position: fixed;
+    padding: 24px;
     z-index: 10;
+    top: 0;
+    left: 0;
+    right: 0;
 }
 @supports (-webkit-backdrop-filter: blur(1px)) {
     header {
@@ -68,23 +72,25 @@ h1, h2 {
 /* Code */
 pre {
     background-color: var(--theme-color-background-pre);
+
+    font-family: var(--font-family-mono);
+    font-optical-sizing: auto;
+    font-style: normal;
+
     padding: 8px;
     overflow-x: auto;
     white-space: pre;
-    font-size: smaller;
-    font-family: "Nercone Mono JP", "MesloLGS Nerd Font", "Noto Sans JP", monospace;
-    font-optical-sizing: auto;
-    font-style: normal;
 }
 .block pre {
     background-color: var(--theme-color-background);
 }
 
 code {
-    padding: 2px;
-    font-family: "Nercone Mono JP", "MesloLGS Nerd Font", "Noto Sans JP", monospace;
+    font-family: var(--font-family-mono);
     font-optical-sizing: auto;
     font-style: normal;
+
+    padding: 2px;
     overflow-wrap: break-word;
 }
 
@@ -102,14 +108,16 @@ thead tr {
 }
 th {
     color: var(--theme-color-stark);
-    font-weight: 600;
-    padding: 8px 12px;
-    text-align: left;
     border-bottom: 2px solid var(--theme-color-border-table-top);
+
+    font-weight: 600;
+    text-align: left;
+
+    padding: 8px 12px;
 }
 td {
-    padding: 8px 12px;
     border-bottom: 1px solid var(--theme-color-border-table-row);
+    padding: 8px 12px;
 }
 tbody tr:last-child td {
     border-bottom: none;

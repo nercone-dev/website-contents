@@ -143,6 +143,13 @@
     font-display: swap;
 }
 
+:root {
+    --font-family-noto: "Noto Sans JP", "Noto Sans SC", "Noto Sans TC", "Noto Sans KR";
+    --font-family-sans: "Nercone Sans JP", "Inter", var(--font-family-noto), sans-serif;
+    --font-family-mono: "Nercone Mono JP", "Meslo", var(--font-family-noto), monospace;
+    --font-size: 12pt;
+}
+
 a {
     text-decoration: underline;
     color: inherit;
