@@ -37,6 +37,19 @@ header {
     left: 0;
     right: 0;
 }
+header .flex-1 {
+    min-width: 0;
+}
+
+#header-title {
+    overflow-x: auto;
+    white-space: nowrap;
+    scrollbar-width: none;
+}
+#header-title::-webkit-scrollbar {
+    display: none;
+}
+
 @supports (-webkit-backdrop-filter: blur(1px)) {
     header {
         background-color: transparent;
