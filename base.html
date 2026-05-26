@@ -65,7 +65,7 @@
         {% block header %}
         <header class="flex">
             <div class="flex-1 flex">
-                <p class="text-no-decoration text-stark" translate="no">{% block header_title_prefix %}{% endblock %}{% block header_title_prefix_separator %} {% endblock %}<a href="/"><span class="font-bold">{% block header_title_infix %}nercone.dev{% endblock %}</span></a>{% block header_title_suffix %}{% if request.url.path != '/' %}{% set _ns = namespace(path='') %}{% for _seg in request.url.path.strip('/').split('/') %}{% if _seg %}{% set _ns.path = _ns.path + '/' + _seg %} / <a href="{{ _ns.path }}/" class="text-no-decoration text-stark">{{ _seg }}</a>{% endif %}{% endfor %}{% endif %}{% endblock %}</p>
+                <p class="text-stark" translate="no">{% block header_title_prefix %}{% endblock %}{% block header_title_prefix_separator %} {% endblock %}<a href="/" class="text-no-decoration"><span class="font-bold">{% block header_title_infix %}nercone.dev{% endblock %}</span></a>{% block header_title_suffix %}{% if request.url.path != '/' %}{% set _ns = namespace(path='') %}{% for _seg in request.url.path.strip('/').split('/') %}{% if _seg %}{% set _ns.path = _ns.path + '/' + _seg %} / <a href="{{ _ns.path }}/" class="text-no-decoration text-stark">{{ _seg }}</a>{% endif %}{% endfor %}{% endif %}{% endblock %}</p>
                 <p class="small:hide">{% block header_desc %}<a href="/daily-quote/" class="text-no-decoration small:hide medium:hide">{{ get_daily_quote() }}</a>{% endblock %}</p>
             </div>
             <div class="flex">
