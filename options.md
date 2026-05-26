@@ -1,6 +1,5 @@
 ---
 title: nercone.devの設定
-header_title_suffix: Options
 header_desc: このウェブサイトの設定
 ---
 

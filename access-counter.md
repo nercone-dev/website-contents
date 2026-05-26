@@ -1,6 +1,5 @@
 ---
 title: アクセスカウンタ - Nercone
-header_title_suffix: Access Counter
 header_desc: ただのアクセスカウンタ
 ---
 

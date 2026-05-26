@@ -1,6 +1,5 @@
 ---
 title: About Nercone
-header_title_prefix: About
 description: Nerconeについて
 ---
 

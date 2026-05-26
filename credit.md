@@ -1,6 +1,5 @@
 ---
 title: Nercone Credit
-header_title_suffix: Credit
 ---
 
 # Nercone Credit
