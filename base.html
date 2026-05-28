@@ -72,7 +72,7 @@
                     <a href="/" class="text-no-decoration text-stark{% if segments | length == 0 %} font-bold{% endif %}">nercone.dev</a>
                     {% for segment in segments %}
                     {% set href = '/' + segments[:loop.index] | join('/') %}
-                    <a href="{{ href }}" class="text-no-decoration text-stark{% if loop.last %} font-bold{% endif %}">{{ segment }}</a>
+                    / <a href="{{ href }}" class="text-no-decoration text-stark{% if loop.last %} font-bold{% endif %}">{{ segment }}</a>
                     {% endfor %}
                 </p>
                 <p class="small:hide">{% block header_desc %}<a href="/daily-quote/" class="text-no-decoration small:hide medium:hide">{{ get_daily_quote() }}</a>{% endblock %}</p>
