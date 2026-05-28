@@ -245,8 +245,103 @@ s {
     font-weight: 1000;
 }
 
-.font-number {
-  font-variant-numeric: tabular-nums;
+.font-variant-normal {
+    font-variant: normal;
+}
+
+.font-variant-caps-normal {
+    font-variant-caps: normal;
+}
+.font-variant-caps-small {
+    font-variant-caps: small-caps;
+}
+.font-variant-caps-all-small {
+    font-variant-caps: all-small-caps;
+}
+.font-variant-caps-petite {
+    font-variant-caps: petite-caps;
+}
+.font-variant-caps-all-petite {
+    font-variant-caps: all-petite-caps;
+}
+.font-variant-caps-unicase {
+    font-variant-caps: unicase;
+}
+.font-variant-caps-titling {
+    font-variant-caps: titling-caps;
+}
+
+.font-variant-ligatures-normal {
+    font-variant-ligatures: normal;
+}
+.font-variant-ligatures-none {
+    font-variant-ligatures: none;
+}
+.font-variant-ligatures-contextual {
+    font-variant-ligatures: contextual;
+}
+.font-variant-ligatures-no-contextual {
+    font-variant-ligatures: no-contextual;
+}
+.font-variant-ligatures-common {
+    font-variant-ligatures: common-ligatures;
+}
+.font-variant-ligatures-no-common {
+    font-variant-ligatures: no-common-ligatures;
+}
+.font-variant-ligatures-discretionary {
+    font-variant-ligatures: discretionary-ligatures;
+}
+.font-variant-ligatures-no-discretionary {
+    font-variant-ligatures: no-discretionary-ligatures;
+}
+.font-variant-ligatures-historical {
+    font-variant-ligatures: historical-ligatures;
+}
+.font-variant-ligatures-no-historical {
+    font-variant-ligatures: no-historical-ligatures;
+}
+
+.font-variant-numeric-normal {
+    font-variant-numeric: normal;
+}
+.font-variant-numeric-ordinal {
+    font-variant-numeric: ordinal;
+}
+.font-variant-numeric-slashed-zero {
+    font-variant-numeric: slashed-zero;
+}
+.font-variant-numeric-lining {
+    font-variant-numeric: lining-nums;
+}
+.font-variant-numeric-oldstyle {
+    font-variant-numeric: oldstyle-nums;
+}
+.font-variant-numeric-proportional {
+    font-variant-numeric: proportional-nums;
+}
+.font-variant-numeric-tabular {
+    font-variant-numeric: tabular-nums;
+}
+.font-variant-numeric-diagonal-fractions {
+    font-variant-numeric: diagonal-fractions;
+}
+.font-variant-numeric-stacked-fractions {
+    font-variant-numeric: stacked-fractions;
+}
+
+.font-variant-position-normal {
+    font-variant-position: normal;
+}
+.font-variant-position-sub {
+    font-variant-position: sub;
+}
+.font-variant-position-sub {
+    font-variant-position: super;
+}
+
+.font-variant-historical-forms {
+    font-variant-alternates: historical-forms;
 }
 
 .text-no-decoration {

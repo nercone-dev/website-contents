@@ -69,7 +69,7 @@
                 <p class="small:hide">{% block header_desc %}<a href="/daily-quote/" class="text-no-decoration small:hide medium:hide">{{ get_daily_quote() }}</a>{% endblock %}</p>
             </div>
             <div class="flex">
-                <a href="/access-counter/" class="text-no-decoration small:font-bold">#{{ access_counter.get() }}</a>
+                <a href="/access-counter/" class="text-no-decoration font-variant-numeric-tabular small:text-stark small:font-bold">#{{ access_counter.get() }}</a>
             </div>
         </header>
         {% endblock %}
