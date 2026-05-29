@@ -65,17 +65,21 @@
         {% block header %}
         <header class="flex">
             <div class="flex-1 flex">
-                <p id="header-title" class="text-stark" translate="no">
+                <p id="header-title" translate="no">
+                    {% block header_title %}
                     {% block header_title_prefix %}{% endblock %}
                     {% block header_title_prefix_separator %} {% endblock %}
                     {% set segments = request.url.path.strip('/').split('/') | select | list %}
-                    <a href="/" class="text-no-decoration text-stark{% if segments | length == 0 %} font-bold{% endif %}">nercone.dev</a>
+                    <a href="/" class="text-no-decoration text-stark">nercone.dev</a>
                     {% for segment in segments %}
                     {% set href = '/' + segments[:loop.index] | join('/') %}
-                    / <a href="{{ href }}" class="text-no-decoration text-stark{% if loop.last %} font-bold{% endif %}">{{ segment }}</a>
+                    / <a href="{{ href }}" class="text-no-decoration">{{ segment }}</a>
                     {% endfor %}
+                    {% block header_title_suffix %}{% endblock %}
+                    {% block header_title_suffix_separator %} {% endblock %}
+                    {% endblock %}
                 </p>
-                <p class="small:hide">{% block header_desc %}<a href="/daily-quote/" class="text-no-decoration small:hide medium:hide">{{ get_daily_quote() }}</a>{% endblock %}</p>
+                <p class="text-alt small:hide">{% block header_desc %}<a href="/daily-quote/" class="text-no-decoration small:hide medium:hide">{{ get_daily_quote() }}</a>{% endblock %}</p>
             </div>
             <div class="flex">
                 <a href="/access-counter/" class="text-no-decoration font-variant-numeric-tabular small:text-stark small:font-bold">{{ access_counter.get() }}</a>
