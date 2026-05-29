@@ -70,7 +70,7 @@
                     {% block header_title_prefix %}{% endblock %}
                     {% block header_title_prefix_separator %} {% endblock %}
                     {% set segments = request.url.path.strip('/').split('/') | select | list %}
-                    <a href="/" class="text-no-decoration text-stark">nercone.dev</a>
+                    <a href="/" class="text-no-decoration text-stark small:font-bold">nercone.dev</a>
                     {% for segment in segments %}
                     {% set href = '/' + segments[:loop.index] | join('/') %}
                     / <a href="{{ href }}" class="text-no-decoration">{{ segment }}</a>
@@ -96,8 +96,8 @@
                     <a href="/about/" class="text-no-decoration small:font-bold">about</a>
                     <a href="/links/" class="text-no-decoration small:font-bold">links</a>
                     <a href="/projects/" class="text-no-decoration small:font-bold">projects</a>
-                    <a href="mailto:nercone@nercone.dev" class="text-no-decoration hide large:show">email</a>
-                    <a href="/public-key/" class="text-no-decoration hide large:show">public-key</a>
+                    <a href="mailto:nercone@nercone.dev" class="text-no-decoration small:hide">email</a>
+                    <a href="/public-key/" class="text-no-decoration small:hide">public-key</a>
                     {% block extra_footer_links %}{% endblock %}
                     {% endblock %}
                 </div>
