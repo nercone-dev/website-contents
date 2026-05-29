@@ -1,13 +1,7 @@
-html::after {
-    background-image: url('https://assets.nercone.dev/images/dotgirl/icon-transparent.svg');
-    background-size: contain;
+html {
+    background-image: url('https://assets.nercone.dev/images/wallpaper/question.png');
+    background-size: cover;
     background-repeat: no-repeat;
-    background-position: bottom;
-    inset: 0;
-    z-index: -1;
-    content: '';
-    position: fixed;
-    pointer-events: none;
 }
 
 main {
