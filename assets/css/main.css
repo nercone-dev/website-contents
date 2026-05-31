@@ -59,11 +59,8 @@ header .flex-1 {
 
 main {
     padding: 24px;
-    padding-top: 75px;
+    padding-top: 90px;
     flex: 1;
-}
-main > *:first-child {
-    margin-top: 16px;
 }
 main > *:last-child {
     margin-bottom: 0;
