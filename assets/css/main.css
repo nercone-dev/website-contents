@@ -63,6 +63,9 @@ main {
     padding-bottom: 0;
     flex: 1;
 }
+main > *:first-child {
+    margin-top: 0;
+}
 main > *:last-child {
     margin-bottom: 0;
 }
