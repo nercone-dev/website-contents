@@ -1,9 +1,3 @@
-html {
-    background-image: url('https://assets.nercone.dev/images/wallpaper/question.png');
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
 main {
     flex: 1;
     display: flex;
