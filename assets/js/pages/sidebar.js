@@ -24,7 +24,7 @@
         sidebar.querySelectorAll('li').forEach(function (li) {
             if (li.dataset.sidebarInit) return;
             li.dataset.sidebarInit = '1';
-            if (li.classList.contains('sidebar-section') || li.classList.contains('sidebar-item-end')) return;
+            if (li.classList.contains('section')) return;
             var nested = li.querySelector(':scope > ul');
             if (!nested) return;
             var title = li.querySelector(':scope > span');

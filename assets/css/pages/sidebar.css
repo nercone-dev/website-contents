@@ -28,7 +28,8 @@
     margin: 0;
 }
 
-#sidebar li.sidebar-section {
+#sidebar li.section > span {
+    display: block;
     padding: 8px 12px 4px;
     font-size: 0.75em;
     color: var(--theme-color-text-alt);
@@ -93,13 +94,13 @@
     display: none;
 }
 
-#sidebar li.sidebar-item-end {
-    margin-top: auto;
-    padding-bottom: 8px;
+#sidebar li.section > ul {
+    padding-left: 0;
 }
 
-#sidebar li.sidebar-item-end > ul {
-    padding-left: 0;
+#sidebar li.section-end {
+    margin-top: auto;
+    padding-bottom: 8px;
 }
 
 footer {

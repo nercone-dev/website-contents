@@ -3,29 +3,39 @@ base: sidebar
 title: Sidebar Test Page - Nercone
 description: nercone.devのサイドバーレイアウトのテストページです。
 sidebar: <ul>
-             <li class="sidebar-section">Section A</li>
-             <li><a href="#">Item 1</a></li>
-             <li><a href="#">Item 2</a></li>
-             <li>
-                 <span>Folder</span>
+             <li class="section">
+                 <span>Section A</span>
                  <ul>
-                     <li><a href="#">Nested Item 1</a></li>
-                     <li><a href="#">Nested Item 2</a></li>
+                     <li><a href="#">Item 1</a></li>
+                     <li><a href="#">Item 2</a></li>
                      <li>
-                         <span>Nested Folder</span>
+                         <span>Folder</span>
                          <ul>
-                             <li><a href="#">Deep Item 1</a></li>
-                             <li><a href="#">Deep Item 2</a></li>
+                             <li><a href="#">Nested Item 1</a></li>
+                             <li><a href="#">Nested Item 2</a></li>
+                             <li>
+                                 <span>Nested Folder</span>
+                                 <ul>
+                                     <li><a href="#">Deep Item 1</a></li>
+                                     <li><a href="#">Deep Item 2</a></li>
+                                 </ul>
+                             </li>
                          </ul>
                      </li>
                  </ul>
              </li>
-             <li class="sidebar-section">Section B</li>
-             <li><a href="#">Item 3</a></li>
-             <li><a href="#">Item 4</a></li>
-             <li class="sidebar-item-end">
+             <li class="section">
+                 <span>Section B</span>
                  <ul>
-                     <li><a href="#">Bottom Item</a></li>
+                     <li><a href="#">Item 3</a></li>
+                     <li><a href="#">Item 4</a></li>
+                 </ul>
+             </li>
+             <li class="section section-end">
+                 <span>Section C (Bottom)</span>
+                 <ul>
+                     <li><a href="#">Item 5</a></li>
+                     <li><a href="#">Item 6</a></li>
                  </ul>
              </li>
          </ul>
