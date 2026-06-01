@@ -1,6 +1,6 @@
 #sidebar-layout {
     align-items: stretch;
-    height: calc(100vh - 90px);
+    height: 100vh;
 }
 
 #sidebar {
@@ -9,6 +9,7 @@
     overflow-y: auto;
     overflow-x: hidden;
     border-right: 1px solid var(--theme-color-border-header);
+    padding-top: 90px;
 }
 
 #sidebar > ul {
