@@ -152,7 +152,7 @@
             if (typeof window.__cursorReinit === 'function') {
                 window.__cursorReinit();
             }
-            window.__sidebarReinit?.();
+            window.__sidebarReinit?.(doc);
         });
     }
 

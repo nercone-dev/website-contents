@@ -39,8 +39,8 @@
         });
     }
 
-    if (sidebar) {
-        sidebar.addEventListener('click', function (e) {
+    function attachClickListener(el) {
+        el.addEventListener('click', function (e) {
             var btn = e.target.closest('.sidebar-folder-toggle');
             if (!btn) return;
             var li = btn.parentElement;
@@ -54,7 +54,64 @@
         });
     }
 
+    if (sidebar) {
+        attachClickListener(sidebar);
+    }
+
     window.__sidebarCleanup = function () {};
-    window.__sidebarReinit = init;
+
+    window.__sidebarReinit = function (doc) {
+        if (doc) {
+            var newLayout = doc.querySelector('#sidebar-layout');
+            var curLayout = document.querySelector('#sidebar-layout');
+            var main, footer, newSidebarEl, newContentEl, curSidebarEl, layout, sidebarEl, contentEl;
+
+            if (curLayout && !newLayout) {
+                main = document.querySelector('main');
+                footer = document.querySelector('footer');
+                document.querySelector('header').after(main);
+                main.after(footer);
+                curLayout.remove();
+            } else if (!curLayout && newLayout) {
+                main = document.querySelector('main');
+                footer = document.querySelector('footer');
+                newSidebarEl = newLayout.querySelector('#sidebar');
+                newContentEl = newLayout.querySelector('#sidebar-content');
+                layout = document.createElement('div');
+                Array.from(newLayout.attributes).forEach(function (a) { layout.setAttribute(a.name, a.value); });
+                sidebarEl = document.createElement('div');
+                if (newSidebarEl) {
+                    Array.from(newSidebarEl.attributes).forEach(function (a) { sidebarEl.setAttribute(a.name, a.value); });
+                    sidebarEl.innerHTML = newSidebarEl.innerHTML;
+                }
+                contentEl = document.createElement('div');
+                if (newContentEl) {
+                    Array.from(newContentEl.attributes).forEach(function (a) { contentEl.setAttribute(a.name, a.value); });
+                }
+                contentEl.appendChild(main);
+                contentEl.appendChild(footer);
+                layout.appendChild(sidebarEl);
+                layout.appendChild(contentEl);
+                document.querySelector('header').after(layout);
+            } else if (curLayout && newLayout) {
+                newSidebarEl = newLayout.querySelector('#sidebar');
+                curSidebarEl = curLayout.querySelector('#sidebar');
+                if (newSidebarEl && curSidebarEl) {
+                    Array.from(curSidebarEl.attributes).forEach(function (a) { curSidebarEl.removeAttribute(a.name); });
+                    Array.from(newSidebarEl.attributes).forEach(function (a) { curSidebarEl.setAttribute(a.name, a.value); });
+                    curSidebarEl.innerHTML = newSidebarEl.innerHTML;
+                }
+            }
+
+            var newSidebar = document.getElementById('sidebar');
+            if (newSidebar !== sidebar) {
+                sidebar = newSidebar;
+                if (sidebar) attachClickListener(sidebar);
+            }
+        }
+
+        init();
+    };
+
     init();
 })();
