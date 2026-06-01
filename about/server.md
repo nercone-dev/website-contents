@@ -11,7 +11,7 @@ TLS対応などの理由で間に噛ませているNginxに関するものや、
 
 ## Nginxについて
 前述した通り、Nginxをリバースプロキシとして使用し、TLSに対応しています。
-証明書はCertbotを使用してLet's Encrypt様に発行してもらっています。証明書のプロファイルはshortlivedです。
+証明書はCertbotを使用してLet's Encrypt様に発行してもらっています。プロファイルはtlsserverです。
 
 ### HTTP
 HTTP/1.1/2/3(QUIC)に対応しています。
