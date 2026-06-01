@@ -9,7 +9,7 @@
     overflow-y: auto;
     overflow-x: hidden;
     border-right: 1px solid var(--theme-color-border-header);
-    padding-top: 90px;
+    padding-top: 70px;
 }
 
 #sidebar > ul {
@@ -91,8 +91,7 @@
 
 #sidebar li.sidebar-item-end {
     margin-top: auto;
-    padding-top: 4px;
-    border-top: 1px solid var(--theme-color-border-header);
+    padding-bottom: 8px;
 }
 
 #sidebar li.sidebar-item-end > ul {
