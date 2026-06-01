@@ -23,6 +23,7 @@ nercone.devの動作を変更できます。
             <button class="dropdown-item">{{ options.get('dev.nercone.options.apperance.theme') }} ▾</button>
             <div class="dropdown-menu">
                 <a class="dropdown-item{% if options.get('dev.nercone.options.apperance.theme') == 'dark' %} is-active{% endif %}" href="?dev.nercone.options.apperance.theme=dark">dark</a>
+                <a class="dropdown-item{% if options.get('dev.nercone.options.apperance.theme') == 'black' %} is-active{% endif %}" href="?dev.nercone.options.apperance.theme=black">black</a>
                 <a class="dropdown-item{% if options.get('dev.nercone.options.apperance.theme') == 'light' %} is-active{% endif %}" href="?dev.nercone.options.apperance.theme=light">light</a>
             </div>
         </div>
