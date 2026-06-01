@@ -1,6 +1,7 @@
 #sidebar-layout {
     align-items: stretch;
     height: 100vh;
+    gap: 0;
 }
 
 #sidebar {
