@@ -72,7 +72,7 @@
 }
 
 #sidebar li.sidebar-folder > button.sidebar-folder-toggle::after {
-    content: '›';
+    content: '>';
     margin-left: auto;
     padding-left: 8px;
     display: inline-block;
