@@ -89,6 +89,10 @@
     flex-direction: column;
 }
 
+#sidebar li > ul[hidden] {
+    display: none;
+}
+
 #sidebar li.sidebar-item-end {
     margin-top: auto;
     padding-bottom: 8px;
