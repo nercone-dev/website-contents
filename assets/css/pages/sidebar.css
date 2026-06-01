@@ -85,6 +85,8 @@
 
 #sidebar li > ul {
     padding-left: 12px;
+    display: flex;
+    flex-direction: column;
 }
 
 #sidebar li.sidebar-item-end {
