@@ -20,7 +20,7 @@ nercone.devの動作を変更できます。
     <div class="flex">
         <b>テーマ</b>
         <div class="dropdown">
-            <button class="dropdown-item">{{ options.get('dev.nercone.options.apperance.theme') }} ▾</button>
+            <button class="dropdown-item">{{ options.get('dev.nercone.options.apperance.theme') }}</button>
             <div class="dropdown-menu">
                 <a class="dropdown-item{% if options.get('dev.nercone.options.apperance.theme') == 'dark' %} is-active{% endif %}" href="?dev.nercone.options.apperance.theme=dark">dark</a>
                 <a class="dropdown-item{% if options.get('dev.nercone.options.apperance.theme') == 'black' %} is-active{% endif %}" href="?dev.nercone.options.apperance.theme=black">black</a>

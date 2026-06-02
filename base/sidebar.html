@@ -44,14 +44,8 @@
         <link rel="icon" type="image/png" href="https://assets.nercone.dev/images/favicon.png" sizes="384x384">
         <link rel="icon" type="image/svg+xml" href="https://assets.nercone.dev/images/favicon.svg" sizes="384x384">
         <!-- Stylesheets / Scripts -->
-        <script src="https://assets.nercone.dev/js/main.js" defer></script>
-        <script src="https://assets.nercone.dev/js/loading-overlay.js" defer></script>
-        <script src="https://assets.nercone.dev/js/view-transition.js" defer></script>
-        <link rel="stylesheet" href="https://assets.nercone.dev/css/main.css">
-        <link rel="stylesheet" href="https://assets.nercone.dev/css/colors.css">
-        <link rel="stylesheet" href="https://assets.nercone.dev/css/loading-overlay.css">
-        <link rel="stylesheet" href="https://assets.nercone.dev/css/view-transition.css">
-        <link rel="stylesheet" href="https://assets.nercone.dev/css/themes/{{ options.get('dev.nercone.options.apperance.theme') }}.css">
+        <script src="https://assets.nercone.dev/js/merge/?path=main,loading-overlay,view-transition" defer></script>
+        <link rel="stylesheet" href="https://assets.nercone.dev/css/merge/?path=main,colors,loading-overlay,view-transition,themes/{{ options.get('dev.nercone.options.apperance.theme') }}">
         {% block extra_head %}{% endblock %}
     </head>
     <body>
@@ -117,16 +111,8 @@
             </div>
         </div>
         <!-- Stylesheets / Scripts -->
-        <script src="https://assets.nercone.dev/js/cursor.js" defer></script>
-        <script src="https://assets.nercone.dev/js/components.js" defer></script>
-        <script src="https://assets.nercone.dev/js/class-prefix.js" defer></script>
-        <script src="https://assets.nercone.dev/js/pages/sidebar.js" defer></script>
-        <link rel="stylesheet" href="https://assets.nercone.dev/css/fonts.css">
-        <link rel="stylesheet" href="https://assets.nercone.dev/css/cursor.css">
-        <link rel="stylesheet" href="https://assets.nercone.dev/css/layout.css">
-        <link rel="stylesheet" href="https://assets.nercone.dev/css/components.css">
-        <link rel="stylesheet" href="https://assets.nercone.dev/css/miscellaneous.css">
-        <link rel="stylesheet" href="https://assets.nercone.dev/css/pages/sidebar.css">
+        <script src="https://assets.nercone.dev/js/merge/?path=cursor,class-prefix,pages/sidebar,components/dropdown" defer></script>
+        <link rel="stylesheet" href="https://assets.nercone.dev/css/merge/?path=fonts,cursor,layout,miscellaneous,pages/sidebar,components/button,components/dropdown">
         {% block extra_imports %}{% endblock %}
     </body>
 </html>

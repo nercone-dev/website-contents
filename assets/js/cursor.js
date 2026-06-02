@@ -1,18 +1,20 @@
 (() => {
-    const linkSelectors = 'a, button, [role="button"], input[type="submit"], input[type="button"]';
-    const padding = 6;
+    const LINK_SELECTORS = 'a, button, [role="button"], input[type="submit"], input[type="button"]';
+    const PADDING = 6;
+    const TOUCH_MOUSE_GUARD_MS = 800;
+    const TEXT_GAP_PX = 4;
+    const LINK_GAP_PX = 4;
 
     let ac = null;
     let sig = null;
-
-    let mouseX = 0, mouseY = 0;
+    let mouseX = 0;
+    let mouseY = 0;
     let currentLinkEl = null;
     let rafId = null;
     let cursor = null;
     let cursorVisible = false;
     let lastTouchTime = 0;
     let isMouseDown = false;
-    const TOUCH_MOUSE_GUARD_MS = 800;
 
     window.__cursorCleanup = () => {
         if (ac) ac.abort();
@@ -45,7 +47,25 @@
         return Date.now() - lastTouchTime < TOUCH_MOUSE_GUARD_MS;
     }
 
-    const TEXT_GAP_PX = 4;
+    function findNearbyLink(x, y) {
+        const el = document.elementFromPoint(x, y);
+        const exact = el ? el.closest(LINK_SELECTORS) : null;
+        if (exact) return exact;
+
+        let best = null;
+        let bestDist = Infinity;
+        for (const link of document.querySelectorAll(LINK_SELECTORS)) {
+            const r = link.getBoundingClientRect();
+            const dx = Math.max(0, r.left - x, x - r.right);
+            const dy = Math.max(0, r.top  - y, y - r.bottom);
+            const dist = Math.max(dx, dy);
+            if (dist <= LINK_GAP_PX && dist < bestDist) {
+                bestDist = dist;
+                best = link;
+            }
+        }
+        return best;
+    }
 
     function isOverRenderedText(x, y) {
         let node, offset;
@@ -98,10 +118,10 @@
         cursor.classList.remove('on-text');
         cursor.classList.add('on-link');
         cursor.style.transform = 'none';
-        cursor.style.left   = (rect.left - padding) + 'px';
-        cursor.style.top    = (rect.top  - padding) + 'px';
-        cursor.style.width  = (rect.width  + padding * 2) + 'px';
-        cursor.style.height = (rect.height + padding * 2) + 'px';
+        cursor.style.left   = (rect.left - PADDING) + 'px';
+        cursor.style.top    = (rect.top  - PADDING) + 'px';
+        cursor.style.width  = (rect.width  + PADDING * 2) + 'px';
+        cursor.style.height = (rect.height + PADDING * 2) + 'px';
 
         function parseRadius(val, wRef) {
             if (!val) return 0;
@@ -126,7 +146,7 @@
             cs.borderTopRightRadius,
             cs.borderBottomRightRadius,
             cs.borderBottomLeftRadius,
-        ].map(v => `${parseRadius(v, w) + padding}px`).join(' ');
+        ].map(v => `${parseRadius(v, w) + PADDING}px`).join(' ');
     }
 
     function trackLink() {
@@ -158,8 +178,7 @@
 
             showCursor();
 
-            const el = document.elementFromPoint(mouseX, mouseY);
-            const linkEl = el ? el.closest(linkSelectors) : null;
+            const linkEl = findNearbyLink(mouseX, mouseY);
 
             if (linkEl) {
                 if (currentLinkEl !== linkEl) {
@@ -216,8 +235,7 @@
         cursor.style.width = '';
         cursor.style.height = '';
 
-        const el = document.elementFromPoint(mouseX, mouseY);
-        const newLinkEl = el ? el.closest(linkSelectors) : null;
+        const newLinkEl = findNearbyLink(mouseX, mouseY);
         if (newLinkEl) {
             currentLinkEl = newLinkEl;
             rafId = requestAnimationFrame(trackLink);
@@ -229,7 +247,7 @@
     }
 
     window.__cursorReinit = reinit;
-    window.__cursorGetState = () => ({ mouseX, mouseY, currentLinkEl, rafId, trackLink, linkSelectors });
+    window.__cursorGetState = () => ({ mouseX, mouseY, currentLinkEl, rafId, trackLink, linkSelectors: LINK_SELECTORS });
 
     if (document.readyState === 'loading') {
         document.addEventListener('DOMContentLoaded', init, { once: true });

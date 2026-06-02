@@ -1,6 +1,8 @@
 (() => {
     if (!document.startViewTransition) return;
 
+    let abortController = null;
+
     function preloadAssets(newDoc) {
         const curStyleHrefs = new Set(
             [...document.querySelectorAll('link[rel="stylesheet"]')].map(l => l.href)
@@ -50,7 +52,7 @@
         if (t) document.title = t.textContent;
 
         const META_KEEP = new Set(['charset', 'viewport', 'color-scheme', 'theme-color']);
-        head.querySelectorAll('meta').forEach(m => {
+        head.querySelectorAll('meta').forEach((m) => {
             const key = m.getAttribute('name') || m.getAttribute('property');
             if (!key || META_KEEP.has(key)) return;
             m.remove();
@@ -58,7 +60,7 @@
         const insertRef = head.querySelector(
             'link[rel="preconnect"], link[rel="stylesheet"], link[rel="manifest"], link[rel="icon"], script'
         );
-        newHead.querySelectorAll('meta[name], meta[property]').forEach(m => {
+        newHead.querySelectorAll('meta[name], meta[property]').forEach((m) => {
             const key = m.getAttribute('name') || m.getAttribute('property');
             if (!META_KEEP.has(key)) head.insertBefore(m.cloneNode(true), insertRef);
         });
@@ -71,10 +73,10 @@
             ...newHead.querySelectorAll('link[rel="stylesheet"]'),
             ...newDoc.body.querySelectorAll(':scope > link[rel="stylesheet"]'),
         ].map(l => new URL(l.href, location.href).href));
-        head.querySelectorAll('link[rel="stylesheet"]').forEach(l => {
+        head.querySelectorAll('link[rel="stylesheet"]').forEach((l) => {
             if (!newStyleHrefs.has(l.href)) l.remove();
         });
-        document.body.querySelectorAll(':scope > link[rel="stylesheet"]').forEach(l => {
+        document.body.querySelectorAll(':scope > link[rel="stylesheet"]').forEach((l) => {
             if (!newStyleHrefs.has(l.href)) l.remove();
         });
 
@@ -82,18 +84,16 @@
             ...newHead.querySelectorAll('script[src]'),
             ...newDoc.body.querySelectorAll(':scope > script[src]'),
         ].map(s => new URL(s.src, location.href).href));
-        head.querySelectorAll('script[src]').forEach(s => {
+        head.querySelectorAll('script[src]').forEach((s) => {
             if (!newScriptSrcs.has(s.src)) s.remove();
         });
-        document.body.querySelectorAll(':scope > script[src]').forEach(s => {
+        document.body.querySelectorAll(':scope > script[src]').forEach((s) => {
             if (!newScriptSrcs.has(s.src)) s.remove();
         });
 
         head.querySelectorAll('style').forEach(s => s.remove());
         newHead.querySelectorAll('style').forEach(s => head.appendChild(s.cloneNode(true)));
     }
-
-    let abortController = null;
 
     async function navigate(url, pushHistory = true) {
         if (abortController) abortController.abort();
@@ -133,7 +133,7 @@
                 [...curEl.attributes].forEach(a => curEl.removeAttribute(a.name));
                 [...newEl.attributes].forEach(a => curEl.setAttribute(a.name, a.value));
                 curEl.innerHTML = newEl.innerHTML;
-                curEl.querySelectorAll('script').forEach(old => {
+                curEl.querySelectorAll('script').forEach((old) => {
                     const s = document.createElement('script');
                     [...old.attributes].forEach(a => s.setAttribute(a.name, a.value));
                     s.textContent = old.textContent;
@@ -141,7 +141,7 @@
                 });
             }
 
-            deferredScripts.forEach(script => {
+            deferredScripts.forEach((script) => {
                 const s = document.createElement('script');
                 [...script.attributes].forEach(a => s.setAttribute(a.name, a.value));
                 document.head.appendChild(s);
@@ -153,10 +153,11 @@
                 window.__cursorReinit();
             }
             window.__sidebarReinit?.(doc);
+            window.__dropdownReinit?.();
         });
     }
 
-    window.__navigate = function (href) {
+    window.__navigate = (href) => {
         let url;
         try { url = new URL(href, location.href); } catch (_) { location.href = href; return; }
         if (url.origin !== location.origin) { location.href = href; return; }
