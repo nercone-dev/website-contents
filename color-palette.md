@@ -2,7 +2,7 @@
 title: Nercone's Color Palette
 header_desc: ただのカラーパレット
 description: Nerconeが制作したカラーパレット
-extra_head: <link rel="stylesheet" href="https://assets.nercone.dev/css/pages/color-palette.css">
+extra_imports: <link rel="stylesheet" href="https://assets.nercone.dev/css/pages/color-palette.css">
 ---
 
 <div class="flex flex-wrap">
