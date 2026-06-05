@@ -5,19 +5,19 @@ description: nercone.devのサーバーの詳細情報
 ---
 
 # nercone.dev ({{ Repositories.Server.version }}+{{ Repositories.Contents.version }})
-nercone.devへのHTTP(S)リクエストは、Python+Uvicorn+FastAPIで構築されたWebサーバーによって処理されています。
+nercone.devへのHTTP(S)リクエストは、Python+Hypercorn+FastAPIで構築されたWebサーバーによって処理されています。
 
-TLS対応などの理由で間に噛ませているNginxに関するものや、機密情報、サードパーティのソフトウェアなどの公開ができない、または難しい箇所を除く、ほとんどの箇所はGitHubで公開しています。
-
-## Nginxについて
-前述した通り、Nginxをリバースプロキシとして使用し、TLSに対応しています。
-証明書はCertbotを使用してLet's Encrypt様に発行してもらっています。プロファイルはtlsserverです。
+サードパーティのソフトウェアや機密情報などの公開ができない/難しい箇所を除く、ほとんどの箇所はGitHubで公開しています。
 
 ### HTTP
 HTTP/1.1/2/3(QUIC)に対応しています。
 
-### SSL
+### TLS
+HypercornでTLSに対応しています。
+
 SSLの全バージョンを含む、TLS 1.1以前のSSL/TLSは無効化しています。TLS 1.2/1.3でのみアクセス可能です。
+
+証明書はCertbotを使用してLet's Encrypt様に発行してもらっています。プロファイルはtlsserverです。
 
 ### PQC (ポスト量子暗号)
 `X25519MLKEM768`などのハイブリッドPQCでの鍵交換に対応済みです。

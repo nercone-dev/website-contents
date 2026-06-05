@@ -56,10 +56,6 @@ title: Nercone Credit
 
 ## ソフトウェア
 
-### Nginx
-TLSやQUICなどに対応するためにリバースプロキシとして使用しています。
-[nginx: Linux packages](https://nginx.org/en/linux_packages.html#RHEL)に記載されている手順でパッケージリポジトリを追加しインストールしました。
-
 ### uv
 Pythonのインストール・バージョン管理やパッケージの管理・ビルドに使用しています。
 [Installing uv](https://docs.astral.sh/uv/getting-started/installation/)に記載されている手順でインストールしました。
@@ -69,4 +65,5 @@ Pythonのインストール・バージョン管理やパッケージの管理�
 ほとんどの場合、uvでCPython 3.12.xをインストールし使用しています。
 
 ## ライブラリ/フレームワーク
+- [Hypercorn](https://pypi.org/project/hypercorn/)
 - [FastAPI](https://pypi.org/project/fastapi/)
