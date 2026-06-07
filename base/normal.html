@@ -10,7 +10,7 @@
     ■  ■■ ■     ■  ■  ■     ■   ■ ■  ■■ ■
     ■   ■ ■■■■■ ■   ■  ■■■■  ■■■  ■   ■ ■■■■■
 
-    nercone.dev ({{ Repositories.Server.version }}+{{ Repositories.Contents.version }})
+    nercone.dev ({{ repositories.Server.version }}+{{ repositories.Contents.version }})
     welcome to nercone.dev!
 -->
 <!DOCTYPE html>
@@ -27,7 +27,7 @@
         <meta name="author" content="Nercone a.k.a. DiamondGotCat">
         <meta name="theme-color" content="#1A1A1A">
         <!-- Thumbnail -->
-        {% set thumbnail_final_url %}{% block thumbnail_url %}https://assets.nercone.dev/images/thumbnail/template/{% block thumbnail_template %}normal{% endblock %}{% endblock %}?path={{ request.url.path.strip('/') or 'index' | urlencode }}&title={% block thumbnail_title %}{{ self.title() | re_sub(' - Nercone.*$', '') | urlencode }}{% endblock %}&description={% block thumbnail_description %}{{ self.description() | urlencode }}{% endblock %}{% endset %}
+        {% set thumbnail_final_url %}{% block thumbnail_url %}https://assets.nercone.dev/images/thumbnail/template/{% block thumbnail_template %}normal{% endblock %}{% endblock %}?path={{ request.url.path.strip('/') or 'index' | urlencode }}&title={% block thumbnail_title %}{{ re_sub(self.title(), ' - Nercone.*$', '') | urlencode }}{% endblock %}&description={% block thumbnail_description %}{{ self.description() | urlencode }}{% endblock %}{% endset %}
         <meta property="og:site_name" content="nercone's website">
         <meta property="og:title" content="{{ self.title() }}">
         <meta property="og:description" content="{{ self.description() }}">
@@ -76,7 +76,7 @@
                 <p class="text-alt small:hide">{% block header_desc %}<a href="/daily-quote/" class="text-no-decoration small:hide medium:hide">{{ get_daily_quote() }}</a>{% endblock %}</p>
             </div>
             <div class="flex">
-                <a href="/access-counter/" class="text-no-decoration font-variant-numeric-tabular small:text-stark small:font-bold">{{ access_counter.get() }}</a>
+                <a href="/access-counter/" class="text-no-decoration font-variant-numeric-tabular small:text-stark small:font-bold">{{ accesscounter.get() }}</a>
             </div>
         </header>
         {% endblock %}
@@ -96,13 +96,13 @@
                     {% endblock %}
                 </div>
                 <div class="flex">
-                    <a href="https://nercone.dev/github/"><img alt="github" src="https://assets.nercone.dev/images/3rd-party/icons/github.svg" class="small-icon"></a>
-                    <a href="https://nercone.dev/twitter/"><img alt="twitter" src="https://assets.nercone.dev/images/3rd-party/icons/twitter.svg" class="small-icon"></a>
-                    <a href="https://nercone.dev/orcid/"><img alt="orcid" src="https://assets.nercone.dev/images/3rd-party/icons/orcid.svg" class="small-icon"></a>
-                    <a href="https://nercone.dev/qiita/"><img alt="qiita" src="https://assets.nercone.dev/images/3rd-party/icons/qiita.svg" class="small-icon"></a>
-                    <a href="https://nercone.dev/zenn/"><img alt="zenn" src="https://assets.nercone.dev/images/3rd-party/icons/zenn.svg" class="small-icon"></a>
+                    <a href="/github/"><img alt="github" src="https://assets.nercone.dev/images/3rd-party/icons/github.svg" class="small-icon"></a>
+                    <a href="/twitter/"><img alt="twitter" src="https://assets.nercone.dev/images/3rd-party/icons/twitter.svg" class="small-icon"></a>
+                    <a href="/orcid/"><img alt="orcid" src="https://assets.nercone.dev/images/3rd-party/icons/orcid.svg" class="small-icon"></a>
+                    <a href="/qiita/"><img alt="qiita" src="https://assets.nercone.dev/images/3rd-party/icons/qiita.svg" class="small-icon"></a>
+                    <a href="/zenn/"><img alt="zenn" src="https://assets.nercone.dev/images/3rd-party/icons/zenn.svg" class="small-icon"></a>
                     <!--                         qiita            kotonai -->
-                    <a href="https://nercone.dev/about/server/" class="text-no-decoration font-bold small:hide">{{ Repositories.Contents.version }}</a>
+                    <a href="/about/server/" class="text-no-decoration font-bold small:hide">{{ repositories.Contents.version }}</a>
                 </div>
             </div>
             {% block extra_footer_sections %}{% endblock %}
