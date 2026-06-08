@@ -72,7 +72,7 @@
                     {% block header_title_suffix_separator %} {% endblock %}
                     {% endblock %}
                 </p>
-                <p class="text-alt small:hide">{% block header_desc %}<a href="/daily-quote/" class="text-no-decoration small:hide medium:hide">{{ get_daily_quote() }}</a>{% endblock %}</p>
+                <p class="text-alt small:hide">{% block header_desc %}<a href="/daily-quote/" class="text-no-decoration small:hide medium:hide">{{ daily_quote }}</a>{% endblock %}</p>
             </div>
             <div class="flex">
                 <a href="/access-counter/" class="text-no-decoration font-variant-numeric-tabular small:text-stark small:font-bold">{{ accesscounter.get() }}</a>
